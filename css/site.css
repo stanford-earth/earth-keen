@@ -1,49 +1,64 @@
 /* http://www.stanford.edu/group/webdev/color/ */
+/* -----  Override default logo from Stanford Framework ----- */
+/* line 4, ../sass/partials/_objects.scss */
+#header #logo {
+  border-right: none;
+}
+/* line 6, ../sass/partials/_objects.scss */
+#header #logo img {
+  max-width: 349px;
+}
+
+/* line 11, ../sass/partials/_objects.scss */
+#name-and-slogan {
+  display: none;
+}
+
 /* -----  Articles  ----- */
-/* line 5, ../sass/partials/_objects.scss */
+/* line 17, ../sass/partials/_objects.scss */
 .article {
   border-top: 1px dotted #e9e6df;
   padding: 10px 0;
 }
-/* line 8, ../sass/partials/_objects.scss */
+/* line 20, ../sass/partials/_objects.scss */
 .article .views-field-title {
   font-size: 140%;
 }
 
 /* -----  Media Block  ----- */
-/* line 15, ../sass/partials/_objects.scss */
+/* line 27, ../sass/partials/_objects.scss */
 .media {
   margin: 10px;
 }
 
-/* line 16, ../sass/partials/_objects.scss */
+/* line 28, ../sass/partials/_objects.scss */
 .media, .bd {
   overflow: hidden;
   _overflow: visible;
   zoom: 1;
 }
 
-/* line 17, ../sass/partials/_objects.scss */
+/* line 29, ../sass/partials/_objects.scss */
 .media .img {
   float: left;
   margin-right: 10px;
 }
 
-/* line 18, ../sass/partials/_objects.scss */
+/* line 30, ../sass/partials/_objects.scss */
 .media .img img {
   display: block;
   border: 1px solid #e9e6df;
   padding: 5px;
 }
 
-/* line 19, ../sass/partials/_objects.scss */
+/* line 31, ../sass/partials/_objects.scss */
 .media .imgExt {
   float: right;
   margin-left: 10px;
 }
 
 /* ------ Photos ------ */
-/* line 24, ../sass/partials/_objects.scss */
+/* line 36, ../sass/partials/_objects.scss */
 .img img,
 .node-profile img {
   background-color: #fbfbf9;
@@ -55,17 +70,17 @@
 }
 
 /* ----- Slideshows  ----- */
-/* line 32, ../sass/partials/_objects.scss */
+/* line 44, ../sass/partials/_objects.scss */
 .skin-default {
   position: relative;
 }
-/* line 35, ../sass/partials/_objects.scss */
+/* line 47, ../sass/partials/_objects.scss */
 .skin-default:hover .views-slideshow-controls-bottom {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
 
-/* line 43, ../sass/partials/_objects.scss */
+/* line 55, ../sass/partials/_objects.scss */
 .views-slideshow-controls-bottom {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
   opacity: 0.6;
@@ -73,13 +88,13 @@
   z-index: 20;
 }
 
-/* line 50, ../sass/partials/_objects.scss */
+/* line 62, ../sass/partials/_objects.scss */
 .views-slideshow-controls-text a {
   font: 0/0 serif;
   text-shadow: none;
   color: transparent;
 }
-/* line 54, ../sass/partials/_objects.scss */
+/* line 66, ../sass/partials/_objects.scss */
 .views-slideshow-controls-text span {
   display: block;
   background-color: #e9e6df;
@@ -99,33 +114,33 @@
   padding: 3px;
   width: 20px;
 }
-/* line 65, ../sass/partials/_objects.scss */
+/* line 77, ../sass/partials/_objects.scss */
 .views-slideshow-controls-text span:hover {
   cursor: pointer;
   text-decoration: none;
 }
-/* line 69, ../sass/partials/_objects.scss */
+/* line 81, ../sass/partials/_objects.scss */
 .views-slideshow-controls-text span.views-slideshow-controls-text-previous {
   float: left;
 }
-/* line 70, ../sass/partials/_objects.scss */
+/* line 82, ../sass/partials/_objects.scss */
 .views-slideshow-controls-text span.views-slideshow-controls-text-previous:after {
   content: '<';
 }
-/* line 75, ../sass/partials/_objects.scss */
+/* line 87, ../sass/partials/_objects.scss */
 .views-slideshow-controls-text span.views-slideshow-controls-text-pause {
   display: none;
 }
-/* line 78, ../sass/partials/_objects.scss */
+/* line 90, ../sass/partials/_objects.scss */
 .views-slideshow-controls-text span.views-slideshow-controls-text-next {
   float: right;
 }
-/* line 79, ../sass/partials/_objects.scss */
+/* line 91, ../sass/partials/_objects.scss */
 .views-slideshow-controls-text span.views-slideshow-controls-text-next:after {
   content: '>';
 }
 
-/* line 88, ../sass/partials/_objects.scss */
+/* line 100, ../sass/partials/_objects.scss */
 .views-slideshow-pager-fields {
   display: inline-block;
   cursor: pointer;
@@ -133,7 +148,7 @@
   top: 30px;
 }
 
-/* line 95, ../sass/partials/_objects.scss */
+/* line 107, ../sass/partials/_objects.scss */
 .views-slideshow-pager-field-item {
   background-color: #e9e6df;
   border: 1px solid #3f3c30;
@@ -156,13 +171,13 @@
   height: 8px;
   text-align: center;
 }
-/* line 107, ../sass/partials/_objects.scss */
+/* line 119, ../sass/partials/_objects.scss */
 .views-slideshow-pager-field-item.active {
   background-color: #8c1515;
 }
 
 /* -----  Sidebar Blocks  ----- */
-/* line 113, ../sass/partials/_objects.scss */
+/* line 125, ../sass/partials/_objects.scss */
 #sidebar-second .block {
   background-color: #f2f1eb;
   border: 1px solid #e9e6df;

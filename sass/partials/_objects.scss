@@ -1,5 +1,17 @@
 @import "compass/typography";
 
+/* -----  Override default logo from Stanford Framework ----- */
+#header #logo {
+  border-right: none;
+  img {
+    max-width: 349px;
+  }
+}
+
+#name-and-slogan {
+  display: none;
+}
+
 /* -----  Articles  ----- */
 
 .article {
