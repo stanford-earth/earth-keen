@@ -24,21 +24,10 @@
 
 /* -----  Media Block  ----- */
 // http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/
-.media {margin:10px;}
-.media, .bd {overflow:hidden; _overflow:visible; zoom:1;}
-.media .img {float:left; margin-right: 10px;}
-.media .img img {display:block; border: 1px solid $grey; padding: 5px;}
-.media .imgExt {float:right; margin-left: 10px;}
-
-/* ------ Photos ------ */
-
-.img img,
-.node-profile img {
-  background-color: $white;
-  border: 1px solid $grey;
-  @include box-shadow();
-  padding: 5px;
-}
+.media-block {margin:10px;}
+.media-block, .bd {overflow:hidden; _overflow:visible; zoom:1;}
+.media-block .img {float:left; margin-right: 10px;}
+.media-block .imgExt {float:right; margin-left: 10px;}
 
 /* ----- Slideshows  ----- */
 .skin-default {

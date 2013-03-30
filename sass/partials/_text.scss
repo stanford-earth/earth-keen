@@ -7,3 +7,13 @@ a {
   font-weight: normal;
 
 }
+
+.byline a {
+  color: $grey;
+  font-style: italic;
+}
+
+.grid .views-row {
+  clear: none;
+  min-height: 350px;
+}
