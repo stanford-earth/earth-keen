@@ -13,7 +13,11 @@ a {
   font-style: italic;
 }
 
-.grid .views-row {
-  clear: none;
-  min-height: 350px;
+.grid {
+  .views-row {
+    clear: none;
+    .article {    
+      min-height: 350px;
+    }
+  }
 }

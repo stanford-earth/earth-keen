@@ -17,8 +17,8 @@
 /* -----  Articles  ----- */
 /* line 17, ../sass/partials/_objects.scss */
 .article {
-  border-top: 1px dotted #3f3c30;
-  padding: 10px 0;
+  xborder-top: 1px dotted #3f3c30;
+  xpadding: 10px 0;
 }
 /* line 20, ../sass/partials/_objects.scss */
 .article .views-field-title {
@@ -182,9 +182,12 @@ a {
   font-style: italic;
 }
 
-/* line 16, ../sass/partials/_text.scss */
+/* line 17, ../sass/partials/_text.scss */
 .grid .views-row {
   clear: none;
+}
+/* line 19, ../sass/partials/_text.scss */
+.grid .views-row .article {
   min-height: 350px;
 }
 
