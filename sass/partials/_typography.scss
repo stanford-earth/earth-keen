@@ -13,11 +13,6 @@ a {
   font-style: italic;
 }
 
-.grid {
-  .views-row {
-    clear: none;
-    .article {    
-      min-height: 350px;
-    }
-  }
+.highlight {
+  background-color: $beige;
 }

@@ -12,22 +12,12 @@
   display: none;
 }
 
-/* -----  Articles  ----- */
-
-.article {
-  xborder-top: 1px dotted $grey;
-  xpadding: 10px 0;
-  .views-field-title {
-    font-size: 140%; 
-  }
-}
-
 /* -----  Media Block  ----- */
 // http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/
-.media-block {margin:10px;}
-.media-block, .bd {overflow:hidden; _overflow:visible; zoom:1;}
-.media-block .img {float:left; margin-right: 10px;}
-.media-block .imgExt {float:right; margin-left: 10px;}
+.media {margin:10px;}
+.media, .bd {overflow:hidden; _overflow:visible; zoom:1;}
+.media .img {float:left; margin-right: 10px;}
+.media .imgExt {float:right; margin-left: 10px;}
 
 /* ----- Slideshows  ----- */
 .skin-default {
