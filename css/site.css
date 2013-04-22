@@ -171,8 +171,8 @@ a {
 /* line 20, ../sass/partials/_typography.scss */
 #name-and-slogan a {
   /* display: none; */
-  color: #fff;
-  text-shadow: #3f3c30 0 1px;
+  /*color: #fff;*/
+  /*text-shadow: $black 0 1px;*/
 }
 
 /* line 26, ../sass/partials/_typography.scss */
@@ -181,12 +181,12 @@ a {
   font-style: italic;
 }
 
-/* line 31, ../sass/partials/_typography.scss */
+/* line 30, ../sass/partials/_typography.scss */
 .highlight .content {
   background-color: #f2f1eb;
 }
 
-/* line 35, ../sass/partials/_typography.scss */
+/* line 34, ../sass/partials/_typography.scss */
 .cta a {
   white-space: nowrap;
 }
@@ -220,39 +220,34 @@ a {
   clear: both;
 }
 
-/* line 27, ../sass/partials/_layout.scss */
+/* line 28, ../sass/partials/_layout.scss */
 .front .tabs {
   display: none;
 }
 
-/* line 31, ../sass/partials/_layout.scss */
-.header {
-  margin: 0;
-  padding: 25px 0 30px;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #28558c), color-stop(100%, #ffffff));
-  background-image: -webkit-linear-gradient(#28558c, #ffffff);
-  background-image: -moz-linear-gradient(#28558c, #ffffff);
-  background-image: -o-linear-gradient(#28558c, #ffffff);
-  background-image: -ms-linear-gradient(#28558c, #ffffff);
-  background-image: linear-gradient(#28558c, #ffffff);
-}
-
-/* line 37, ../sass/partials/_layout.scss */
+/* line 32, ../sass/partials/_layout.scss */
 .region-main-top {
-  background: pink url("../../earth-keen/earth.png") no-repeat right top;
-  padding-right: 325px;
+  background: transparent url("../../earth-keen/iceflow.jpg") no-repeat right top;
   min-height: 350px;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 2em;
 }
 
-/* line 43, ../sass/partials/_layout.scss */
-body {
-  background-color: green;
+/* line 40, ../sass/partials/_layout.scss */
+.navbar {
+  border-bottom: 1px solid #f2f1eb;
+  padding-bottom: 10px;
 }
 
-/* line 48, ../sass/partials/_layout.scss */
-.columns .content {
-  -webkit-column-count: 4;
-  -moz-column-count: 4;
-  -o-column-count: 4;
-  column-count: 4;
+@media screen and (max-width:767px) {
+  /* line 46, ../sass/partials/_layout.scss */
+  .region-sidebar-first {
+    display: none;
+  }
+
+  /* line 50, ../sass/partials/_layout.scss */
+  .navbar {
+    border-bottom: none;
+  }
 }

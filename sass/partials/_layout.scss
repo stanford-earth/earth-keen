@@ -24,27 +24,30 @@
   }
 }
 
+// To hide the View/Edit tabs on the front page
 .front .tabs {
   display: none;
 }
 
-.header {
-  margin: 0;
-  padding: 25px 0 30px;
-  @include background-image(linear-gradient($blue, #fff));
-}
-
 .region-main-top {
-  background: pink url('../../earth-keen/earth.png') no-repeat right top;
-  padding-right: 325px;
+  background: transparent url('../../earth-keen/iceflow.jpg') no-repeat right top;
   min-height: 350px;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 2em;
 }
 
-body {
-  background-color: green;
+.navbar {
+  border-bottom: 1px solid $beige;
+  padding-bottom: 10px;
 }
 
+@media screen and (max-width:767px) {
+  .region-sidebar-first {
+    display: none;
+  }
 
-.columns .content {
-  @include column-count(4)
+  .navbar {
+    border-bottom: none;
+  }
 }

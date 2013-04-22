@@ -19,13 +19,12 @@ a {
 */
 #name-and-slogan a {
   /* display: none; */
-  color: #fff;
-  text-shadow: $black 0 1px;
-}
+  /*color: #fff;*/
+  /*text-shadow: $black 0 1px;*/
+ }
 
 .byline a {
-  color: $grey;
-  font-style: italic;
+  color: $grey; font-style: italic;
 }
 
 .highlight .content {
