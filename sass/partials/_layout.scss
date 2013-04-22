@@ -9,14 +9,42 @@
 }
 
 .grid {
-  columns: 4;
   .views-row {
+    border: 1px solid $beige;
     clear: none;
-    min-height: 320px;
-    margin: 0;
-    overflow: hidden;
+    margin: 0 1em 1em 0;
+    min-height: 280px;
+    padding: 5px;
+    &:hover {
+      background-color: $beige;
+    }
   }
   .pager {
     clear: both;
   }
+}
+
+.front .tabs {
+  display: none;
+}
+
+.header {
+  margin: 0;
+  padding: 25px 0 30px;
+  @include background-image(linear-gradient($blue, #fff));
+}
+
+.region-main-top {
+  background: pink url('../../earth-keen/earth.png') no-repeat right top;
+  padding-right: 325px;
+  min-height: 350px;
+}
+
+body {
+  background-color: green;
+}
+
+
+.columns .content {
+  @include column-count(4)
 }

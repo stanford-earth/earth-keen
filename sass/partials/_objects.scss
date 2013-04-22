@@ -1,17 +1,5 @@
 @import "compass/typography";
 
-/* -----  Override default logo from Stanford Framework ----- */
-#header #logo {
-  border-right: none;
-  img {
-    max-width: 349px;
-  }
-}
-
-#name-and-slogan {
-  display: none;
-}
-
 /* -----  Media Block  ----- */
 // http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/
 .media {margin:10px;}
@@ -100,9 +88,16 @@
     }
 }
 
-/* -----  Sidebar Blocks  ----- */
-#sidebar-second .block {
-  background-color: $beige;
-  border: 1px solid $grey;
-  padding: 5px;
+.xbtn {
+  background-color: $cardinal;
+  background-image: none;
+  color: $beige;
+  &:hover {
+    background-color: $cardinal;
+    color: $white;
+  }
+}
+
+.field-name-field-page-image {
+  border: 1px solid #ccc;
 }

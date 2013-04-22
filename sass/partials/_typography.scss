@@ -8,11 +8,30 @@ a {
 
 }
 
+/* -----  Override default logo from Stanford Framework ----- */
+/*
+#header #logo {
+  border-right: none;
+  img {
+    max-width: 349px;
+  }
+}
+*/
+#name-and-slogan a {
+  /* display: none; */
+  color: #fff;
+  text-shadow: $black 0 1px;
+}
+
 .byline a {
   color: $grey;
   font-style: italic;
 }
 
-.highlight {
+.highlight .content {
   background-color: $beige;
+}
+
+.cta a {
+  white-space: nowrap;
 }
