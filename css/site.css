@@ -210,22 +210,24 @@ a {
   margin: 0 1em 1em 0;
   min-height: 280px;
   padding: 5px;
+  transition-duration: .25s;
 }
-/* line 18, ../sass/partials/_layout.scss */
-.grid .views-row:hover {
+/* line 20, ../sass/partials/_layout.scss */
+.grid .views-row:hover, .grid .views-row:focus {
+  border-color: #8c1515;
   background-color: #f2f1eb;
 }
-/* line 22, ../sass/partials/_layout.scss */
+/* line 25, ../sass/partials/_layout.scss */
 .grid .pager {
   clear: both;
 }
 
-/* line 28, ../sass/partials/_layout.scss */
+/* line 31, ../sass/partials/_layout.scss */
 .front .tabs {
   display: none;
 }
 
-/* line 32, ../sass/partials/_layout.scss */
+/* line 35, ../sass/partials/_layout.scss */
 .region-main-top {
   background: transparent url("../../earth-keen/iceflow.jpg") no-repeat right top;
   min-height: 350px;
@@ -234,19 +236,19 @@ a {
   margin-bottom: 2em;
 }
 
-/* line 40, ../sass/partials/_layout.scss */
+/* line 43, ../sass/partials/_layout.scss */
 .navbar {
   border-bottom: 1px solid #f2f1eb;
   padding-bottom: 10px;
 }
 
 @media screen and (max-width:767px) {
-  /* line 46, ../sass/partials/_layout.scss */
+  /* line 49, ../sass/partials/_layout.scss */
   .region-sidebar-first {
     display: none;
   }
 
-  /* line 50, ../sass/partials/_layout.scss */
+  /* line 53, ../sass/partials/_layout.scss */
   .navbar {
     border-bottom: none;
   }

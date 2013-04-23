@@ -15,7 +15,10 @@
     margin: 0 1em 1em 0;
     min-height: 280px;
     padding: 5px;
-    &:hover {
+    transition-duration: .25s;
+    &:hover,
+    &:focus {
+      border-color: $cardinal;
       background-color: $beige;
     }
   }
