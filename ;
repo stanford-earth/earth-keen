@@ -10,16 +10,16 @@
 
 .grid {
   .views-row {
-    background-color: $beige;
     border: 1px solid $beige;
     clear: none;
     margin: 0 1em 1em 0;
     min-height: 280px;
     padding: 5px;
-    @include transition-duration(.5s);
+    transition-duration: .25s;
     &:hover,
     &:focus {
       border-color: $cardinal;
+      background-color: $beige;
     }
   }
   .pager {
@@ -33,23 +33,19 @@
 }
 
 .region-main-top {
-  @include background(linear-gradient(bottom, $grey, transparent 30%));
   position: relative;
-  color: $white;
-  text-shadow: 0 1px $black;
+  color: $beige;
+  @include background(image-url("../../earth-keen/iceflow.jpg'),
+                      linear-gradient(bottom, black,white)
+  );
   min-height: 350px;
   padding: 10px;
   border-radius: 15px;
+  margin-bottom: 2em;
   .content {
     position: absolute;
     bottom: 0;
   }
-}
-
-.main-top {
-  @include background(image-url("iceflow.jpg"));
-  margin-bottom: 2em;
-  border-radius: 15px;
 }
 
 .navbar {

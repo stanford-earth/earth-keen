@@ -205,17 +205,21 @@ a {
 
 /* line 12, ../sass/partials/_layout.scss */
 .grid .views-row {
+  background-color: #f2f1eb;
   border: 1px solid #f2f1eb;
   clear: none;
   margin: 0 1em 1em 0;
   min-height: 280px;
   padding: 5px;
-  transition-duration: .25s;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -ms-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
 }
-/* line 20, ../sass/partials/_layout.scss */
+/* line 21, ../sass/partials/_layout.scss */
 .grid .views-row:hover, .grid .views-row:focus {
   border-color: #8c1515;
-  background-color: #f2f1eb;
 }
 /* line 25, ../sass/partials/_layout.scss */
 .grid .pager {
@@ -229,26 +233,45 @@ a {
 
 /* line 35, ../sass/partials/_layout.scss */
 .region-main-top {
-  background: transparent url("../../earth-keen/iceflow.jpg") no-repeat right top;
+  background: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #3f3c30), color-stop(30%, transparent));
+  background: -webkit-linear-gradient(bottom, #3f3c30, transparent 30%);
+  background: -moz-linear-gradient(bottom, #3f3c30, transparent 30%);
+  background: -o-linear-gradient(bottom, #3f3c30, transparent 30%);
+  background: -ms-linear-gradient(bottom, #3f3c30, transparent 30%);
+  background: linear-gradient(bottom, #3f3c30, transparent 30%);
+  position: relative;
+  color: #fbfbf9;
+  text-shadow: 0 1px #3f3c30;
   min-height: 350px;
   padding: 10px;
   border-radius: 15px;
-  margin-bottom: 2em;
+}
+/* line 43, ../sass/partials/_layout.scss */
+.region-main-top .content {
+  position: absolute;
+  bottom: 0;
 }
 
-/* line 43, ../sass/partials/_layout.scss */
+/* line 49, ../sass/partials/_layout.scss */
+.main-top {
+  background: url('../images/iceflow.jpg?1366655640');
+  margin-bottom: 2em;
+  border-radius: 15px;
+}
+
+/* line 55, ../sass/partials/_layout.scss */
 .navbar {
   border-bottom: 1px solid #f2f1eb;
   padding-bottom: 10px;
 }
 
 @media screen and (max-width:767px) {
-  /* line 49, ../sass/partials/_layout.scss */
+  /* line 61, ../sass/partials/_layout.scss */
   .region-sidebar-first {
-    display: none;
+    /*display: none;*/
   }
 
-  /* line 53, ../sass/partials/_layout.scss */
+  /* line 65, ../sass/partials/_layout.scss */
   .navbar {
     border-bottom: none;
   }
