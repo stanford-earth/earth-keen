@@ -1,3 +1,16 @@
+//Override logo treatment
+#header {
+  #logo {
+    border-right: none;
+    img {
+      max-width: 100%;
+    }
+  }  
+  #name-and-slogan {
+    @include off-screen;
+  }
+}
+
 .left {
   float: left;
   margin: 0 1em 0 0;
