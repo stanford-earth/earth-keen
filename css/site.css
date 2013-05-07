@@ -191,6 +191,13 @@ a {
   white-space: nowrap;
 }
 
+/* line 38, ../sass/partials/_typography.scss */
+.caption {
+  background-color: #f2f1eb;
+  text-align: center;
+  padding: 5px;
+}
+
 /* line 3, ../sass/partials/_layout.scss */
 #header #logo {
   border-right: none;
@@ -222,75 +229,108 @@ a {
 }
 
 /* line 25, ../sass/partials/_layout.scss */
+.grid .ds-media {
+  border: 1px solid #ccc;
+}
+/* line 28, ../sass/partials/_layout.scss */
+.grid .ds-text {
+  padding: 10px;
+}
+/* line 31, ../sass/partials/_layout.scss */
 .grid .views-row {
-  background-color: #f2f1eb;
-  border: 1px solid #f2f1eb;
+  /*border: 1px solid $beige;*/
   clear: none;
   margin: 0 1em 1em 0;
-  min-height: 280px;
-  padding: 5px;
+  min-height: 350px;
   -webkit-transition-duration: 0.5s;
   -moz-transition-duration: 0.5s;
   -ms-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
   transition-duration: 0.5s;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cccccc), color-stop(60%, #fbfbf9));
+  background: -webkit-linear-gradient(top, #cccccc, #fbfbf9 60%);
+  background: -moz-linear-gradient(top, #cccccc, #fbfbf9 60%);
+  background: -o-linear-gradient(top, #cccccc, #fbfbf9 60%);
+  background: -ms-linear-gradient(top, #cccccc, #fbfbf9 60%);
+  background: linear-gradient(top, #cccccc, #fbfbf9 60%);
 }
-/* line 34, ../sass/partials/_layout.scss */
+/* line 39, ../sass/partials/_layout.scss */
 .grid .views-row:hover, .grid .views-row:focus {
-  border-color: #8c1515;
+  /*border-color: $cardinal;*/
 }
-/* line 38, ../sass/partials/_layout.scss */
+/* line 43, ../sass/partials/_layout.scss */
 .grid .pager {
   clear: both;
 }
 
-/* line 44, ../sass/partials/_layout.scss */
+/* line 49, ../sass/partials/_layout.scss */
 .front .tabs {
   display: none;
 }
 
-/* line 48, ../sass/partials/_layout.scss */
+/* line 53, ../sass/partials/_layout.scss */
 .region-main-top {
-  background: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #3f3c30), color-stop(30%, transparent));
-  background: -webkit-linear-gradient(bottom, #3f3c30, transparent 30%);
-  background: -moz-linear-gradient(bottom, #3f3c30, transparent 30%);
-  background: -o-linear-gradient(bottom, #3f3c30, transparent 30%);
-  background: -ms-linear-gradient(bottom, #3f3c30, transparent 30%);
-  background: linear-gradient(bottom, #3f3c30, transparent 30%);
   position: relative;
   color: #fbfbf9;
   text-shadow: 0 1px #3f3c30;
   min-height: 350px;
   padding: 10px;
-  border-radius: 15px;
+  xborder-radius: 15px;
 }
-/* line 56, ../sass/partials/_layout.scss */
+/* line 60, ../sass/partials/_layout.scss */
 .region-main-top .content {
-  position: absolute;
-  bottom: 0;
+  /*width: 40%*/
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #bfccdd), color-stop(100%, transparent));
+  background: -webkit-linear-gradient(top, #bfccdd, transparent);
+  background: -moz-linear-gradient(top, #bfccdd, transparent);
+  background: -o-linear-gradient(top, #bfccdd, transparent);
+  background: -ms-linear-gradient(top, #bfccdd, transparent);
+  background: linear-gradient(top, #bfccdd, transparent);
+  font-size: 150%;
+  line-height: 1.5em;
+  padding: 10px;
 }
 
-/* line 62, ../sass/partials/_layout.scss */
+/* line 69, ../sass/partials/_layout.scss */
 .main-top {
   background: url('../images/iceflow.jpg?1367426723');
   margin-bottom: 2em;
-  border-radius: 15px;
+  xborder-radius: 15px;
 }
 
-/* line 68, ../sass/partials/_layout.scss */
+/* line 75, ../sass/partials/_layout.scss */
 .navbar {
   border-bottom: 1px solid #f2f1eb;
   padding-bottom: 10px;
 }
 
 @media screen and (max-width:767px) {
-  /* line 74, ../sass/partials/_layout.scss */
+  /* line 81, ../sass/partials/_layout.scss */
   .region-sidebar-first {
     /*display: none;*/
   }
 
-  /* line 78, ../sass/partials/_layout.scss */
+  /* line 85, ../sass/partials/_layout.scss */
   .navbar {
     border-bottom: none;
   }
+}
+/* line 90, ../sass/partials/_layout.scss */
+div[class*='postcard'] {
+  padding: 5px 0;
+  border-top: 1px solid #f2f1eb;
+}
+
+/* line 96, ../sass/partials/_layout.scss */
+.content .figure .field {
+  margin-bottom: 0;
+}
+/* line 99, ../sass/partials/_layout.scss */
+.content .figure .descriptor {
+  text-align: right;
+}
+
+/* line 105, ../sass/partials/_layout.scss */
+.article .figure {
+  max-width: 480px;
 }

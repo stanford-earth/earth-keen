@@ -22,17 +22,22 @@
 }
 
 .grid {
+  .ds-media {
+    border: 1px solid #ccc;
+  }
+  .ds-text {
+    padding: 10px;
+  }
   .views-row {
-    background-color: $beige;
-    border: 1px solid $beige;
+    /*border: 1px solid $beige;*/
     clear: none;
     margin: 0 1em 1em 0;
-    min-height: 280px;
-    padding: 5px;
+    min-height: 350px;
     @include transition-duration(.5s);
+    @include background(linear-gradient(top, #ccc, $white 60%));
     &:hover,
     &:focus {
-      border-color: $cardinal;
+      /*border-color: $cardinal;*/
     }
   }
   .pager {
@@ -46,23 +51,25 @@
 }
 
 .region-main-top {
-  @include background(linear-gradient(bottom, $grey, transparent 30%));
   position: relative;
   color: $white;
   text-shadow: 0 1px $black;
   min-height: 350px;
   padding: 10px;
-  border-radius: 15px;
+  xborder-radius: 15px;
   .content {
-    position: absolute;
-    bottom: 0;
+    /*width: 40%*/;
+    @include background(linear-gradient(top, #bfccdd, transparent));
+    font-size: 150%;
+    line-height: 1.5em;
+    padding: 10px;
   }
 }
 
 .main-top {
   @include background(image-url("iceflow.jpg"));
   margin-bottom: 2em;
-  border-radius: 15px;
+  xborder-radius: 15px;
 }
 
 .navbar {
@@ -77,5 +84,25 @@
 
   .navbar {
     border-bottom: none;
+  }
+}
+
+div[class*='postcard'] {
+  padding: 5px 0;
+  border-top: 1px solid $beige;
+}
+
+.content .figure {
+  .field {
+    margin-bottom: 0;
+  }
+  .descriptor {
+    text-align: right;
+  }
+}
+
+.article {
+  .figure {
+    max-width: 480px;
   }
 }
