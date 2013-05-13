@@ -270,11 +270,15 @@ h2 {
   margin-left: 0;
 }
 /* line 50, ../sass/partials/_layout.scss */
+.grid .node-teaser {
+  margin-bottom: 0;
+}
+/* line 53, ../sass/partials/_layout.scss */
 .grid .pager {
   clear: both;
 }
 
-/* line 55, ../sass/partials/_layout.scss */
+/* line 58, ../sass/partials/_layout.scss */
 .region-main-top {
   position: relative;
   color: #fbfbf9;
@@ -283,7 +287,7 @@ h2 {
   padding: 10px;
   xborder-radius: 15px;
 }
-/* line 62, ../sass/partials/_layout.scss */
+/* line 65, ../sass/partials/_layout.scss */
 .region-main-top .content {
   /*width: 40%*/
   /*@include background(linear-gradient(top, #bfccdd, transparent));*/
@@ -292,45 +296,45 @@ h2 {
   padding: 10px;
 }
 
-/* line 71, ../sass/partials/_layout.scss */
+/* line 74, ../sass/partials/_layout.scss */
 .main-top {
   margin-bottom: 2em;
   xborder-radius: 15px;
 }
 
-/* line 76, ../sass/partials/_layout.scss */
+/* line 79, ../sass/partials/_layout.scss */
 .navbar {
   border-bottom: 1px solid #f2f1eb;
   padding-bottom: 10px;
 }
 
 @media screen and (max-width:767px) {
-  /* line 82, ../sass/partials/_layout.scss */
+  /* line 85, ../sass/partials/_layout.scss */
   .region-sidebar-first {
     /*display: none;*/
   }
 
-  /* line 86, ../sass/partials/_layout.scss */
+  /* line 89, ../sass/partials/_layout.scss */
   .navbar {
     border-bottom: none;
   }
 }
-/* line 91, ../sass/partials/_layout.scss */
+/* line 94, ../sass/partials/_layout.scss */
 div[class*='postcard'] {
   padding: 5px 0;
   border-top: 1px solid #f2f1eb;
 }
 
-/* line 97, ../sass/partials/_layout.scss */
+/* line 100, ../sass/partials/_layout.scss */
 .content .figure .field {
   margin-bottom: 0;
 }
-/* line 100, ../sass/partials/_layout.scss */
+/* line 103, ../sass/partials/_layout.scss */
 .content .figure .descriptor {
   text-align: right;
 }
 
-/* line 106, ../sass/partials/_layout.scss */
+/* line 109, ../sass/partials/_layout.scss */
 .article .figure {
   max-width: 480px;
 }
