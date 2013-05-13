@@ -198,15 +198,33 @@ a {
   padding: 5px;
 }
 
-/* line 3, ../sass/partials/_layout.scss */
+/* ---- Headers ---- */
+/* line 46, ../sass/partials/_typography.scss */
+h2 {
+  border-bottom: 3px solid #8c1515;
+  padding-bottom: 5px;
+}
+
+/* line 2, ../sass/partials/_layout.scss */
+#main-top {
+  background: url('../images/iceflow.jpg?1367426723');
+  background-repeat: repeat-x;
+}
+
+/* line 7, ../sass/partials/_layout.scss */
+#main-menu {
+  margin-bottom: 0;
+}
+
+/* line 13, ../sass/partials/_layout.scss */
 #header #logo {
   border-right: none;
 }
-/* line 5, ../sass/partials/_layout.scss */
+/* line 15, ../sass/partials/_layout.scss */
 #header #logo img {
   max-width: 100%;
 }
-/* line 9, ../sass/partials/_layout.scss */
+/* line 19, ../sass/partials/_layout.scss */
 #header #name-and-slogan {
   text-indent: -9999px;
   overflow: hidden;
@@ -216,59 +234,47 @@ a {
   text-align: start;
 }
 
-/* line 14, ../sass/partials/_layout.scss */
+/* line 24, ../sass/partials/_layout.scss */
 .left {
   float: left;
   margin: 0 1em 0 0;
 }
 
-/* line 19, ../sass/partials/_layout.scss */
+/* line 29, ../sass/partials/_layout.scss */
 .right {
   float: right;
   margin: 0 0 0 1em;
 }
 
-/* line 25, ../sass/partials/_layout.scss */
-.grid .ds-media {
-  border: 1px solid #ccc;
-}
-/* line 28, ../sass/partials/_layout.scss */
+/* line 37, ../sass/partials/_layout.scss */
 .grid .ds-text {
   padding: 10px;
 }
-/* line 31, ../sass/partials/_layout.scss */
+/* line 40, ../sass/partials/_layout.scss */
 .grid .views-row {
-  /*border: 1px solid $beige;*/
+  border: 1px solid #f2f1eb;
   clear: none;
-  margin: 0 1em 1em 0;
-  min-height: 350px;
-  -webkit-transition-duration: 0.5s;
-  -moz-transition-duration: 0.5s;
-  -ms-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cccccc), color-stop(60%, #fbfbf9));
-  background: -webkit-linear-gradient(top, #cccccc, #fbfbf9 60%);
-  background: -moz-linear-gradient(top, #cccccc, #fbfbf9 60%);
-  background: -o-linear-gradient(top, #cccccc, #fbfbf9 60%);
-  background: -ms-linear-gradient(top, #cccccc, #fbfbf9 60%);
-  background: linear-gradient(top, #cccccc, #fbfbf9 60%);
+  background: #f2f1eb;
+  /* For browsers that don't support gradients */
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f2f1eb), color-stop(100%, #fbfbf9));
+  background: -webkit-linear-gradient(top, #f2f1eb, #fbfbf9);
+  background: -moz-linear-gradient(top, #f2f1eb, #fbfbf9);
+  background: -o-linear-gradient(top, #f2f1eb, #fbfbf9);
+  background: -ms-linear-gradient(top, #f2f1eb, #fbfbf9);
+  background: linear-gradient(top, #f2f1eb, #fbfbf9);
+  margin: 0 1em 1em 0\9;
+  /*  IE8 and below */
 }
-/* line 39, ../sass/partials/_layout.scss */
-.grid .views-row:hover, .grid .views-row:focus {
-  /*border-color: $cardinal;*/
+/* line 45, ../sass/partials/_layout.scss */
+.grid .views-row:nth-of-type(4n + 1) {
+  margin-left: 0;
 }
-/* line 43, ../sass/partials/_layout.scss */
+/* line 50, ../sass/partials/_layout.scss */
 .grid .pager {
   clear: both;
 }
 
-/* line 49, ../sass/partials/_layout.scss */
-.front .tabs {
-  display: none;
-}
-
-/* line 53, ../sass/partials/_layout.scss */
+/* line 55, ../sass/partials/_layout.scss */
 .region-main-top {
   position: relative;
   color: #fbfbf9;
@@ -277,60 +283,54 @@ a {
   padding: 10px;
   xborder-radius: 15px;
 }
-/* line 60, ../sass/partials/_layout.scss */
+/* line 62, ../sass/partials/_layout.scss */
 .region-main-top .content {
   /*width: 40%*/
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #bfccdd), color-stop(100%, transparent));
-  background: -webkit-linear-gradient(top, #bfccdd, transparent);
-  background: -moz-linear-gradient(top, #bfccdd, transparent);
-  background: -o-linear-gradient(top, #bfccdd, transparent);
-  background: -ms-linear-gradient(top, #bfccdd, transparent);
-  background: linear-gradient(top, #bfccdd, transparent);
+  /*@include background(linear-gradient(top, #bfccdd, transparent));*/
   font-size: 150%;
   line-height: 1.5em;
   padding: 10px;
 }
 
-/* line 69, ../sass/partials/_layout.scss */
+/* line 71, ../sass/partials/_layout.scss */
 .main-top {
-  background: url('../images/iceflow.jpg?1367426723');
   margin-bottom: 2em;
   xborder-radius: 15px;
 }
 
-/* line 75, ../sass/partials/_layout.scss */
+/* line 76, ../sass/partials/_layout.scss */
 .navbar {
   border-bottom: 1px solid #f2f1eb;
   padding-bottom: 10px;
 }
 
 @media screen and (max-width:767px) {
-  /* line 81, ../sass/partials/_layout.scss */
+  /* line 82, ../sass/partials/_layout.scss */
   .region-sidebar-first {
     /*display: none;*/
   }
 
-  /* line 85, ../sass/partials/_layout.scss */
+  /* line 86, ../sass/partials/_layout.scss */
   .navbar {
     border-bottom: none;
   }
 }
-/* line 90, ../sass/partials/_layout.scss */
+/* line 91, ../sass/partials/_layout.scss */
 div[class*='postcard'] {
   padding: 5px 0;
   border-top: 1px solid #f2f1eb;
 }
 
-/* line 96, ../sass/partials/_layout.scss */
+/* line 97, ../sass/partials/_layout.scss */
 .content .figure .field {
   margin-bottom: 0;
 }
-/* line 99, ../sass/partials/_layout.scss */
+/* line 100, ../sass/partials/_layout.scss */
 .content .figure .descriptor {
   text-align: right;
 }
 
-/* line 105, ../sass/partials/_layout.scss */
+/* line 106, ../sass/partials/_layout.scss */
 .article .figure {
   max-width: 480px;
 }

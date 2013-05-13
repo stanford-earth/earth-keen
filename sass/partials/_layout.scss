@@ -1,3 +1,13 @@
+
+#main-top {
+  @include background(image-url("iceflow.jpg"));
+  background-repeat: repeat-x;
+}
+
+#main-menu {
+  margin-bottom: 0;
+}
+
 //Override logo treatment
 #header {
   #logo {
@@ -23,31 +33,23 @@
 
 .grid {
   .ds-media {
-    border: 1px solid #ccc;
   }
   .ds-text {
     padding: 10px;
   }
   .views-row {
-    /*border: 1px solid $beige;*/
+    border: 1px solid $beige;
     clear: none;
-    margin: 0 1em 1em 0;
-    min-height: 350px;
-    @include transition-duration(.5s);
-    @include background(linear-gradient(top, #ccc, $white 60%));
-    &:hover,
-    &:focus {
-      /*border-color: $cardinal;*/
+    background: $beige; /* For browsers that don't support gradients */
+    @include background(linear-gradient(top, $beige, $white));
+    &:nth-of-type(4n + 1) {
+      margin-left: 0;
     }
+    margin: 0 1em 1em 0\9; /*  IE8 and below */
   }
   .pager {
     clear: both;
   }
-}
-
-// To hide the View/Edit tabs on the front page
-.front .tabs {
-  display: none;
 }
 
 .region-main-top {
@@ -59,7 +61,7 @@
   xborder-radius: 15px;
   .content {
     /*width: 40%*/;
-    @include background(linear-gradient(top, #bfccdd, transparent));
+    /*@include background(linear-gradient(top, #bfccdd, transparent));*/
     font-size: 150%;
     line-height: 1.5em;
     padding: 10px;
@@ -67,7 +69,6 @@
 }
 
 .main-top {
-  @include background(image-url("iceflow.jpg"));
   margin-bottom: 2em;
   xborder-radius: 15px;
 }
