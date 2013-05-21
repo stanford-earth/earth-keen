@@ -205,26 +205,20 @@ h2 {
   padding-bottom: 5px;
 }
 
-/* line 2, ../sass/partials/_layout.scss */
-#main-top {
-  background: url('../images/iceflow.jpg?1367426723');
-  background-repeat: repeat-x;
-}
-
-/* line 7, ../sass/partials/_layout.scss */
+/* line 1, ../sass/partials/_layout.scss */
 #main-menu {
   margin-bottom: 0;
 }
 
-/* line 13, ../sass/partials/_layout.scss */
+/* line 7, ../sass/partials/_layout.scss */
 #header #logo {
   border-right: none;
 }
-/* line 15, ../sass/partials/_layout.scss */
+/* line 9, ../sass/partials/_layout.scss */
 #header #logo img {
   max-width: 100%;
 }
-/* line 19, ../sass/partials/_layout.scss */
+/* line 13, ../sass/partials/_layout.scss */
 #header #name-and-slogan {
   text-indent: -9999px;
   overflow: hidden;
@@ -234,23 +228,28 @@ h2 {
   text-align: start;
 }
 
-/* line 24, ../sass/partials/_layout.scss */
-.left {
+/* line 18, ../sass/partials/_layout.scss */
+.xleft {
   float: left;
   margin: 0 1em 0 0;
 }
 
-/* line 29, ../sass/partials/_layout.scss */
-.right {
+/* line 23, ../sass/partials/_layout.scss */
+.xright {
   float: right;
   margin: 0 0 0 1em;
 }
 
-/* line 37, ../sass/partials/_layout.scss */
+/* line 31, ../sass/partials/_layout.scss */
 .grid .ds-text {
   padding: 10px;
 }
-/* line 40, ../sass/partials/_layout.scss */
+/* line 34, ../sass/partials/_layout.scss */
+.grid .field-item {
+  display: block;
+  float: left;
+}
+/* line 38, ../sass/partials/_layout.scss */
 .grid .views-row {
   border: 1px solid #f2f1eb;
   clear: none;
@@ -265,76 +264,57 @@ h2 {
   margin: 0 1em 1em 0\9;
   /*  IE8 and below */
 }
-/* line 45, ../sass/partials/_layout.scss */
+/* line 43, ../sass/partials/_layout.scss */
 .grid .views-row:nth-of-type(4n + 1) {
   margin-left: 0;
 }
-/* line 50, ../sass/partials/_layout.scss */
+/* line 48, ../sass/partials/_layout.scss */
 .grid .node-teaser {
   margin-bottom: 0;
 }
-/* line 53, ../sass/partials/_layout.scss */
+/* line 51, ../sass/partials/_layout.scss */
 .grid .pager {
   clear: both;
 }
 
-/* line 58, ../sass/partials/_layout.scss */
-.region-main-top {
-  position: relative;
-  color: #fbfbf9;
-  text-shadow: 0 1px #3f3c30;
-  min-height: 350px;
-  padding: 10px;
-  xborder-radius: 15px;
-}
-/* line 65, ../sass/partials/_layout.scss */
-.region-main-top .content {
-  /*width: 40%*/
-  /*@include background(linear-gradient(top, #bfccdd, transparent));*/
-  font-size: 150%;
-  line-height: 1.5em;
-  padding: 10px;
-}
-
-/* line 74, ../sass/partials/_layout.scss */
-.main-top {
-  margin-bottom: 2em;
-  xborder-radius: 15px;
-}
-
-/* line 79, ../sass/partials/_layout.scss */
+/* line 56, ../sass/partials/_layout.scss */
 .navbar {
   border-bottom: 1px solid #f2f1eb;
   padding-bottom: 10px;
 }
 
 @media screen and (max-width:767px) {
-  /* line 85, ../sass/partials/_layout.scss */
+  /* line 62, ../sass/partials/_layout.scss */
   .region-sidebar-first {
     /*display: none;*/
   }
 
-  /* line 89, ../sass/partials/_layout.scss */
+  /* line 66, ../sass/partials/_layout.scss */
   .navbar {
     border-bottom: none;
   }
 }
-/* line 94, ../sass/partials/_layout.scss */
+/* line 71, ../sass/partials/_layout.scss */
 div[class*='postcard'] {
   padding: 5px 0;
   border-top: 1px solid #f2f1eb;
 }
 
-/* line 100, ../sass/partials/_layout.scss */
+/* line 77, ../sass/partials/_layout.scss */
 .content .figure .field {
   margin-bottom: 0;
 }
-/* line 103, ../sass/partials/_layout.scss */
+/* line 80, ../sass/partials/_layout.scss */
 .content .figure .descriptor {
   text-align: right;
 }
 
-/* line 109, ../sass/partials/_layout.scss */
+/* line 86, ../sass/partials/_layout.scss */
 .article .figure {
   max-width: 480px;
+}
+
+/* line 91, ../sass/partials/_layout.scss */
+.main .block {
+  margin-bottom: 0;
 }
