@@ -192,6 +192,28 @@ a {
 }
 
 /* line 38, ../sass/partials/_typography.scss */
+.btn-primary {
+  background-color: #8c1515;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #b81c1c), color-stop(100%, #8c1515));
+  background: -webkit-linear-gradient(#b81c1c, #8c1515);
+  background: -moz-linear-gradient(#b81c1c, #8c1515);
+  background: -o-linear-gradient(#b81c1c, #8c1515);
+  background: -ms-linear-gradient(#b81c1c, #8c1515);
+  background: linear-gradient(#b81c1c, #8c1515);
+  color: #f2f1eb;
+  text-transform: uppercase;
+}
+/* line 43, ../sass/partials/_typography.scss */
+.btn-primary:hover {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8c1515), color-stop(100%, #b81c1c));
+  background: -webkit-linear-gradient(#8c1515, #b81c1c);
+  background: -moz-linear-gradient(#8c1515, #b81c1c);
+  background: -o-linear-gradient(#8c1515, #b81c1c);
+  background: -ms-linear-gradient(#8c1515, #b81c1c);
+  background: linear-gradient(#8c1515, #b81c1c);
+}
+
+/* line 48, ../sass/partials/_typography.scss */
 .caption {
   background-color: #f2f1eb;
   text-align: center;
@@ -199,7 +221,7 @@ a {
 }
 
 /* ---- Headers ---- */
-/* line 46, ../sass/partials/_typography.scss */
+/* line 56, ../sass/partials/_typography.scss */
 h2 {
   border-bottom: 3px solid #8c1515;
   padding-bottom: 5px;
@@ -315,6 +337,12 @@ div[class*='postcard'] {
 }
 
 /* line 91, ../sass/partials/_layout.scss */
-.main .block {
+.carousel {
   margin-bottom: 0;
+}
+/* line 93, ../sass/partials/_layout.scss */
+.carousel .carousel-dots {
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
