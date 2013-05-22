@@ -336,13 +336,42 @@ div[class*='postcard'] {
   max-width: 480px;
 }
 
-/* line 91, ../sass/partials/_layout.scss */
+/* line 1, ../sass/partials/_stanford_carousel.scss */
 .carousel {
   margin-bottom: 0;
 }
-/* line 93, ../sass/partials/_layout.scss */
+/* line 3, ../sass/partials/_stanford_carousel.scss */
 .carousel .carousel-dots {
   position: absolute;
   top: 10px;
   right: 10px;
+}
+
+/* line 21, ../sass/partials/_stanford_carousel.scss */
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+/* line 29, ../sass/partials/_stanford_carousel.scss */
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+/* line 34, ../sass/partials/_stanford_carousel.scss */
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+/* line 41, ../sass/partials/_stanford_carousel.scss */
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+/* line 46, ../sass/partials/_stanford_carousel.scss */
+.carousel-fade .carousel-control {
+  z-index: 2;
 }
