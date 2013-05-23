@@ -1,6 +1,7 @@
 /* ---- Text ---- */
-a {
-  color: $blue;
+
+.more-link {
+  float: right;
 }
 
 #site-title-first-line.site-title-uppercase {
@@ -54,6 +55,15 @@ a {
 /* ---- Headers ---- */
 
 h2 {
-  border-bottom: 3px solid $cardinal;
-  padding-bottom: 5px;
+  //border-bottom: 3px solid $cardinal;
+  //padding-bottom: 5px;
+}
+
+
+/* ---- Lists ---- */
+
+.inline {
+  li {
+    display: inline-block;
+  }
 }
