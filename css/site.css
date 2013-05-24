@@ -1,153 +1,4 @@
 /* http://www.stanford.edu/group/webdev/color/ */
-/* -----  Media Block  ----- */
-/* line 5, ../sass/partials/_objects.scss */
-.media {
-  margin: 10px;
-}
-
-/* line 6, ../sass/partials/_objects.scss */
-.media, .bd {
-  overflow: hidden;
-  _overflow: visible;
-  zoom: 1;
-}
-
-/* line 7, ../sass/partials/_objects.scss */
-.media .img {
-  float: left;
-  margin-right: 10px;
-}
-
-/* line 8, ../sass/partials/_objects.scss */
-.media .imgExt {
-  float: right;
-  margin-left: 10px;
-}
-
-/* ----- Slideshows  ----- */
-/* line 11, ../sass/partials/_objects.scss */
-.skin-default {
-  position: relative;
-}
-/* line 14, ../sass/partials/_objects.scss */
-.skin-default:hover .views-slideshow-controls-bottom {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-  opacity: 1;
-}
-
-/* line 22, ../sass/partials/_objects.scss */
-.views-slideshow-controls-bottom {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
-  opacity: 0.6;
-  text-align: center;
-  z-index: 20;
-}
-
-/* line 29, ../sass/partials/_objects.scss */
-.views-slideshow-controls-text a {
-  font: 0/0 serif;
-  text-shadow: none;
-  color: transparent;
-}
-/* line 33, ../sass/partials/_objects.scss */
-.views-slideshow-controls-text span {
-  display: block;
-  background-color: #3f3c30;
-  border: 1px solid #3f3c30;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  border-radius: 20px;
-  -webkit-box-shadow: 0px 0px 5px #333333;
-  -moz-box-shadow: 0px 0px 5px #333333;
-  box-shadow: 0px 0px 5px #333333;
-  color: #3f3c30;
-  font-size: 20px;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
-  opacity: 0.3;
-  padding: 3px;
-  width: 20px;
-}
-/* line 44, ../sass/partials/_objects.scss */
-.views-slideshow-controls-text span:hover {
-  cursor: pointer;
-  text-decoration: none;
-}
-/* line 48, ../sass/partials/_objects.scss */
-.views-slideshow-controls-text span.views-slideshow-controls-text-previous {
-  float: left;
-}
-/* line 49, ../sass/partials/_objects.scss */
-.views-slideshow-controls-text span.views-slideshow-controls-text-previous:after {
-  content: '<';
-}
-/* line 54, ../sass/partials/_objects.scss */
-.views-slideshow-controls-text span.views-slideshow-controls-text-pause {
-  display: none;
-}
-/* line 57, ../sass/partials/_objects.scss */
-.views-slideshow-controls-text span.views-slideshow-controls-text-next {
-  float: right;
-}
-/* line 58, ../sass/partials/_objects.scss */
-.views-slideshow-controls-text span.views-slideshow-controls-text-next:after {
-  content: '>';
-}
-
-/* line 67, ../sass/partials/_objects.scss */
-.views-slideshow-pager-fields {
-  display: inline-block;
-  cursor: pointer;
-  position: relative;
-  top: 30px;
-}
-
-/* line 74, ../sass/partials/_objects.scss */
-.views-slideshow-pager-field-item {
-  background-color: #3f3c30;
-  border: 1px solid #3f3c30;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px;
-  -webkit-box-shadow: 0px 0px 5px #333333;
-  -moz-box-shadow: 0px 0px 5px #333333;
-  box-shadow: 0px 0px 5px #333333;
-  float: left;
-  margin: 3px;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
-  opacity: 0.5;
-  font: 0/0 serif;
-  text-shadow: none;
-  color: transparent;
-  width: 8px;
-  height: 8px;
-  text-align: center;
-}
-/* line 86, ../sass/partials/_objects.scss */
-.views-slideshow-pager-field-item.active {
-  background-color: #8c1515;
-}
-
-/* line 91, ../sass/partials/_objects.scss */
-.xbtn {
-  background-color: #8c1515;
-  background-image: none;
-  color: #f2f1eb;
-}
-/* line 95, ../sass/partials/_objects.scss */
-.xbtn:hover {
-  background-color: #8c1515;
-  color: #fbfbf9;
-}
-
-/* line 101, ../sass/partials/_objects.scss */
-.field-name-field-page-image {
-  border: 1px solid #ccc;
-}
-
 /* ---- Text ---- */
 /* line 3, ../sass/partials/_typography.scss */
 .more-link {
@@ -232,40 +83,36 @@
   margin-bottom: 0;
 }
 
-/* line 7, ../sass/partials/_layout.scss */
+/* line 8, ../sass/partials/_layout.scss */
 #header #logo {
   border-right: none;
 }
-/* line 9, ../sass/partials/_layout.scss */
+/* line 10, ../sass/partials/_layout.scss */
 #header #logo img {
   max-width: 100%;
 }
-/* line 13, ../sass/partials/_layout.scss */
+/* line 14, ../sass/partials/_layout.scss */
 #header #name-and-slogan {
   text-indent: -9999px;
   overflow: hidden;
   text-decoration: none;
-  display: block;
+  display: none;
   font-size: 0;
   text-align: start;
 }
 
-/* line 19, ../sass/partials/_layout.scss */
-#header-content {
+/* line 20, ../sass/partials/_layout.scss */
+.global {
   position: absolute;
   bottom: 1em;
   right: 0;
 }
-/* line 23, ../sass/partials/_layout.scss */
-#header-content .nav {
-  float: right;
-}
 
-/* line 29, ../sass/partials/_layout.scss */
+/* line 27, ../sass/partials/_layout.scss */
 .navbar {
   position: relative;
 }
-/* line 31, ../sass/partials/_layout.scss */
+/* line 29, ../sass/partials/_layout.scss */
 .navbar .nav-search {
   position: absolute;
   bottom: 10px;
@@ -273,42 +120,30 @@
 }
 
 /* line 38, ../sass/partials/_layout.scss */
-.xleft {
-  float: left;
-  margin: 0 1em 0 0;
-}
-
-/* line 43, ../sass/partials/_layout.scss */
-.xright {
-  float: right;
-  margin: 0 0 0 1em;
-}
-
-/* line 50, ../sass/partials/_layout.scss */
 .grid .ds-media blockquote {
   display: none;
 }
-/* line 54, ../sass/partials/_layout.scss */
+/* line 42, ../sass/partials/_layout.scss */
 .grid .ds-text {
   padding: 10px;
 }
-/* line 58, ../sass/partials/_layout.scss */
+/* line 46, ../sass/partials/_layout.scss */
 .grid .field-item {
   display: inline-block;
   vertical-align: top;
 }
-/* line 64, ../sass/partials/_layout.scss */
+/* line 52, ../sass/partials/_layout.scss */
 .grid.gallery .field-item {
   margin: 0 1em 1em 0;
   background-color: #f2f1eb;
 }
-/* line 67, ../sass/partials/_layout.scss */
+/* line 55, ../sass/partials/_layout.scss */
 .grid.gallery .field-item blockquote {
   margin: 0;
   padding: 5px;
   text-align: center;
 }
-/* line 75, ../sass/partials/_layout.scss */
+/* line 63, ../sass/partials/_layout.scss */
 .grid .views-row {
   border: 1px solid #f2f1eb;
   clear: none;
@@ -323,68 +158,107 @@
   margin: 0 1em 1em 0\9;
   /*  IE8 and below */
 }
-/* line 80, ../sass/partials/_layout.scss */
+/* line 68, ../sass/partials/_layout.scss */
 .grid .views-row:nth-of-type(4n + 1) {
   margin-left: 0;
 }
-/* line 85, ../sass/partials/_layout.scss */
+/* line 73, ../sass/partials/_layout.scss */
 .grid .node-teaser {
   margin-bottom: 0;
 }
-/* line 88, ../sass/partials/_layout.scss */
+/* line 76, ../sass/partials/_layout.scss */
 .grid .pager {
   clear: both;
 }
 
-/* line 93, ../sass/partials/_layout.scss */
+/* line 81, ../sass/partials/_layout.scss */
 .navbar {
   border-bottom: 1px solid #f2f1eb;
   padding-bottom: 10px;
 }
 
 @media screen and (max-width:767px) {
-  /* line 99, ../sass/partials/_layout.scss */
-  #header-content {
+  /* line 87, ../sass/partials/_layout.scss */
+  .global {
     position: relative;
-  }
-  /* line 101, ../sass/partials/_layout.scss */
-  #header-content .nav {
-    float: none;
+    margin-top: 2em;
   }
 
-  /* line 105, ../sass/partials/_layout.scss */
+  /* line 92, ../sass/partials/_layout.scss */
+  #header {
+    margin-bottom: 0;
+  }
+
+  /* line 96, ../sass/partials/_layout.scss */
+  #main-menu {
+    margin-bottom: 0;
+  }
+
+  /* line 100, ../sass/partials/_layout.scss */
   #block-search-form {
     float: none;
   }
 
   /* line 108, ../sass/partials/_layout.scss */
-  .region-sidebar-first {
-    /*display: none;*/
-  }
-
-  /* line 112, ../sass/partials/_layout.scss */
   .navbar {
     border-bottom: none;
   }
 }
-/* line 117, ../sass/partials/_layout.scss */
+/* line 113, ../sass/partials/_layout.scss */
 div[class*='postcard'] {
   padding: 5px 0;
   border-top: 1px solid #f2f1eb;
 }
 
-/* line 123, ../sass/partials/_layout.scss */
+/* line 119, ../sass/partials/_layout.scss */
 .content .figure .field {
   margin-bottom: 0;
 }
-/* line 126, ../sass/partials/_layout.scss */
+/* line 122, ../sass/partials/_layout.scss */
 .content .figure .descriptor {
   text-align: right;
 }
 
-/* line 132, ../sass/partials/_layout.scss */
+/* line 128, ../sass/partials/_layout.scss */
 .article .figure {
   max-width: 480px;
+}
+
+/* line 133, ../sass/partials/_layout.scss */
+.block-menu-block .menu {
+  padding: 5px;
+}
+/* line 135, ../sass/partials/_layout.scss */
+.block-menu-block .menu a {
+  padding: 5px;
+  border-bottom: 1px solid #f2f1eb;
+}
+/* line 138, ../sass/partials/_layout.scss */
+.block-menu-block .menu a .active {
+  border: 1px solid #8c1515;
+}
+
+/* line 145, ../sass/partials/_layout.scss */
+.sidebar {
+  margin-top: 4em;
+}
+/* line 147, ../sass/partials/_layout.scss */
+.sidebar .block {
+  background-color: #fbfbf9;
+  border: 5px solid #f2f1eb;
+  padding: 10px;
+}
+/* line 152, ../sass/partials/_layout.scss */
+.sidebar .block a.active:after {
+  display: block;
+  float: right;
+  content: '<';
+}
+/* line 158, ../sass/partials/_layout.scss */
+.sidebar .block a:hover:after {
+  display: block;
+  float: right;
+  content: '<';
 }
 
 /* line 1, ../sass/partials/_stanford_carousel.scss */

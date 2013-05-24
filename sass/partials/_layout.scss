@@ -4,6 +4,7 @@
 
 //Override logo treatment
 #header {
+
   #logo {
     border-right: none;
     img {
@@ -16,13 +17,10 @@
 }
 
 // Target Audience links
-#header-content {
+.global {
   position: absolute;
   bottom: 1em;
   right: 0;
-  .nav {
-    float: right;
-  }
 }
 
 // Search Form
@@ -33,16 +31,6 @@
     bottom: 10px;
     right: 10px;
   }
-}
-
-.xleft {
-  float: left;
-  margin: 0 1em 0 0;
-}
-
-.xright {
-  float: right;
-  margin: 0 0 0 1em;
 }
 
 .grid {
@@ -88,7 +76,7 @@
   .pager {
     clear: both;
   }
-}
+} // End grid rules
 
 .navbar {
   border-bottom: 1px solid $beige;
@@ -96,17 +84,25 @@
 }
 
 @media screen and (max-width:767px) {
-  #header-content {
+  .global {
     position: relative;
-    .nav {
-      float: none;
-    }
+    margin-top: 2em;
   }
+  
+  #header {
+    margin-bottom: 0;
+  }
+
+  #main-menu {
+    margin-bottom: 0;
+  }
+
   #block-search-form {
     float: none;
   }
+
   .region-sidebar-first {
-    /*display: none;*/
+    //display: none;
   }
 
   .navbar {
@@ -134,3 +130,36 @@ div[class*='postcard'] {
   }
 }
 
+.block-menu-block .menu {
+  padding: 5px;
+  a {
+    padding: 5px;
+    border-bottom: 1px solid $beige;
+    .active {
+      border: 1px solid $cardinal;
+    }
+  }
+
+}
+
+.sidebar {
+  margin-top: 4em;
+  .block {
+    background-color: $white;
+    border: 5px solid $beige;
+    padding: 10px; 
+
+    a.active:after {
+      display: block;
+      float: right;
+      content: '<';
+    }
+
+    a:hover:after {
+      display: block;
+      float: right;
+      content: '<';
+    }
+
+  }
+}
