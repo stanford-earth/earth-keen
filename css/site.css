@@ -1,70 +1,38 @@
 /* http://www.stanford.edu/group/webdev/color/ */
 /* ---- Text ---- */
 /* line 3, ../sass/partials/_typography.scss */
+a {
+  transition-duration: .25s;
+}
+
+/* line 7, ../sass/partials/_typography.scss */
 .more-link {
   float: right;
 }
 
-/* line 7, ../sass/partials/_typography.scss */
-#site-title-first-line.site-title-uppercase {
-  font-weight: normal;
-}
-
-/* -----  Override default logo from Stanford Framework ----- */
-/*
-#header #logo {
-  border-right: none;
-  img {
-    max-width: 349px;
-  }
-}
-*/
-/* line 21, ../sass/partials/_typography.scss */
-#name-and-slogan a {
-  /* display: none; */
-  /*color: #fff;*/
-  /*text-shadow: $black 0 1px;*/
-}
-
-/* line 27, ../sass/partials/_typography.scss */
+/* line 11, ../sass/partials/_typography.scss */
 .byline a {
   color: #3f3c30;
   font-style: italic;
 }
 
-/* line 31, ../sass/partials/_typography.scss */
+/* line 15, ../sass/partials/_typography.scss */
 .highlight .content {
-  background-color: #f2f1eb;
-}
-
-/* line 35, ../sass/partials/_typography.scss */
-.cta a {
-  white-space: nowrap;
-}
-
-/* line 39, ../sass/partials/_typography.scss */
-.btn-primary {
   background-color: #8c1515;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #b81c1c), color-stop(100%, #8c1515));
-  background: -webkit-linear-gradient(#b81c1c, #8c1515);
-  background: -moz-linear-gradient(#b81c1c, #8c1515);
-  background: -o-linear-gradient(#b81c1c, #8c1515);
-  background: -ms-linear-gradient(#b81c1c, #8c1515);
-  background: linear-gradient(#b81c1c, #8c1515);
-  color: #f2f1eb;
-  text-transform: uppercase;
-}
-/* line 44, ../sass/partials/_typography.scss */
-.btn-primary:hover {
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8c1515), color-stop(100%, #b81c1c));
-  background: -webkit-linear-gradient(#8c1515, #b81c1c);
-  background: -moz-linear-gradient(#8c1515, #b81c1c);
-  background: -o-linear-gradient(#8c1515, #b81c1c);
-  background: -ms-linear-gradient(#8c1515, #b81c1c);
-  background: linear-gradient(#8c1515, #b81c1c);
 }
 
-/* line 49, ../sass/partials/_typography.scss */
+/*
+.btn-primary {
+  background-color: $cardinal;
+  @include background(linear-gradient(lighten($cardinal, 10%), $cardinal));
+  color: $beige;
+  text-transform: uppercase;
+  &:hover {
+    @include background(linear-gradient($cardinal, lighten($cardinal, 10%)));
+  }
+}
+*/
+/* line 31, ../sass/partials/_typography.scss */
 .caption {
   background-color: #f2f1eb;
   text-align: center;
@@ -73,25 +41,36 @@
 
 /* ---- Headers ---- */
 /* ---- Lists ---- */
-/* line 66, ../sass/partials/_typography.scss */
+/* line 42, ../sass/partials/_typography.scss */
 .inline li {
   display: inline-block;
 }
 
-/* line 1, ../sass/partials/_layout.scss */
-#main-menu {
-  margin-bottom: 0;
+/* line 48, ../sass/partials/_typography.scss */
+.sidebar .menu li a {
+  padding: 10px;
+  border-bottom: 1px solid #f2f1eb;
+}
+/* line 51, ../sass/partials/_typography.scss */
+.sidebar .menu li a .active {
+  border: 1px solid #8c1515;
+}
+/* line 54, ../sass/partials/_typography.scss */
+.sidebar .menu li a.active:after {
+  display: block;
+  float: right;
+  content: '<';
 }
 
-/* line 8, ../sass/partials/_layout.scss */
+/* line 4, ../sass/partials/_layout.scss */
 #header #logo {
   border-right: none;
 }
-/* line 10, ../sass/partials/_layout.scss */
+/* line 6, ../sass/partials/_layout.scss */
 #header #logo img {
   max-width: 100%;
 }
-/* line 14, ../sass/partials/_layout.scss */
+/* line 10, ../sass/partials/_layout.scss */
 #header #name-and-slogan {
   text-indent: -9999px;
   overflow: hidden;
@@ -101,52 +80,105 @@
   text-align: start;
 }
 
-/* line 20, ../sass/partials/_layout.scss */
+/* line 16, ../sass/partials/_layout.scss */
 .global {
   position: absolute;
   bottom: 1em;
   right: 0;
 }
 
-/* line 27, ../sass/partials/_layout.scss */
+/* line 23, ../sass/partials/_layout.scss */
 .navbar {
   position: relative;
 }
-/* line 29, ../sass/partials/_layout.scss */
+/* line 25, ../sass/partials/_layout.scss */
 .navbar .nav-search {
   position: absolute;
   bottom: 10px;
   right: 10px;
 }
 
-/* line 38, ../sass/partials/_layout.scss */
-.grid .ds-media blockquote {
-  display: none;
-}
-/* line 42, ../sass/partials/_layout.scss */
-.grid .ds-text {
-  padding: 10px;
-}
-/* line 46, ../sass/partials/_layout.scss */
-.grid .field-item {
+/* line 34, ../sass/partials/_layout.scss */
+.grid .views-row, .grid .field-item {
+  clear: none;
   display: inline-block;
   vertical-align: top;
+  margin: 0 1em 1em 0\9;
+  /*  IE8 and below */
 }
-/* line 52, ../sass/partials/_layout.scss */
-.grid.gallery .field-item {
-  margin: 0 1em 1em 0;
-  background-color: #f2f1eb;
+/* line 38, ../sass/partials/_layout.scss */
+.grid .views-row:nth-of-type(4n + 1), .grid .field-item:nth-of-type(4n + 1) {
+  margin-left: 0;
 }
-/* line 55, ../sass/partials/_layout.scss */
-.grid.gallery .field-item blockquote {
-  margin: 0;
+/* line 44, ../sass/partials/_layout.scss */
+.grid .pager {
+  clear: both;
+}
+
+/* line 50, ../sass/partials/_layout.scss */
+.navbar {
+  border-bottom: 1px solid #f2f1eb;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width:767px) {
+  /* line 56, ../sass/partials/_layout.scss */
+  .global {
+    position: relative;
+    margin-top: 2em;
+  }
+
+  /* line 61, ../sass/partials/_layout.scss */
+  #header {
+    margin-bottom: 0;
+  }
+
+  /* line 65, ../sass/partials/_layout.scss */
+  #main-menu {
+    margin-bottom: 0;
+  }
+
+  /* line 69, ../sass/partials/_layout.scss */
+  #block-search-form {
+    float: none;
+  }
+
+  /* line 77, ../sass/partials/_layout.scss */
+  .navbar {
+    border-bottom: none;
+  }
+}
+/*
+div[class*='postcard'] {
+  padding: 5px 0;
+  border-top: 1px solid $beige;
+}
+*/
+/*
+.content .figure {
+  .field {
+    margin-bottom: 0;
+  }
+  .descriptor {
+    text-align: right;
+  }
+}
+*/
+/* line 100, ../sass/partials/_layout.scss */
+.sidebar {
+  margin-top: 4em;
+}
+
+/* line 4, ../sass/partials/_objects.scss */
+.box .hd, .box-highlight .hd, .box-sidebar .hd,
+.sidebar .block .hd, .box .bd, .box-highlight .bd, .box-sidebar .bd,
+.sidebar .block .bd, .box .ft, .box-highlight .ft, .box-sidebar .ft,
+.sidebar .block .ft {
   padding: 5px;
-  text-align: center;
 }
-/* line 63, ../sass/partials/_layout.scss */
-.grid .views-row {
-  border: 1px solid #f2f1eb;
-  clear: none;
+
+/* line 9, ../sass/partials/_objects.scss */
+.box-highlight {
   background: #f2f1eb;
   /* For browsers that don't support gradients */
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f2f1eb), color-stop(100%, #fbfbf9));
@@ -155,129 +187,54 @@
   background: -o-linear-gradient(top, #f2f1eb, #fbfbf9);
   background: -ms-linear-gradient(top, #f2f1eb, #fbfbf9);
   background: linear-gradient(top, #f2f1eb, #fbfbf9);
-  margin: 0 1em 1em 0\9;
-  /*  IE8 and below */
+  border: 1px solid #f2f1eb;
 }
-/* line 68, ../sass/partials/_layout.scss */
-.grid .views-row:nth-of-type(4n + 1) {
-  margin-left: 0;
+/* line 13, ../sass/partials/_objects.scss */
+.box-highlight .hd {
+  padding: 0;
 }
-/* line 73, ../sass/partials/_layout.scss */
-.grid .node-teaser {
-  margin-bottom: 0;
-}
-/* line 76, ../sass/partials/_layout.scss */
-.grid .pager {
-  clear: both;
+/* line 22, ../sass/partials/_objects.scss */
+.box-highlight blockquote {
+  display: none;
 }
 
-/* line 81, ../sass/partials/_layout.scss */
-.navbar {
-  border-bottom: 1px solid #f2f1eb;
-  padding-bottom: 10px;
-}
-
-@media screen and (max-width:767px) {
-  /* line 87, ../sass/partials/_layout.scss */
-  .global {
-    position: relative;
-    margin-top: 2em;
-  }
-
-  /* line 92, ../sass/partials/_layout.scss */
-  #header {
-    margin-bottom: 0;
-  }
-
-  /* line 96, ../sass/partials/_layout.scss */
-  #main-menu {
-    margin-bottom: 0;
-  }
-
-  /* line 100, ../sass/partials/_layout.scss */
-  #block-search-form {
-    float: none;
-  }
-
-  /* line 108, ../sass/partials/_layout.scss */
-  .navbar {
-    border-bottom: none;
-  }
-}
-/* line 113, ../sass/partials/_layout.scss */
-div[class*='postcard'] {
-  padding: 5px 0;
-  border-top: 1px solid #f2f1eb;
-}
-
-/* line 119, ../sass/partials/_layout.scss */
-.content .figure .field {
-  margin-bottom: 0;
-}
-/* line 122, ../sass/partials/_layout.scss */
-.content .figure .descriptor {
-  text-align: right;
-}
-
-/* line 128, ../sass/partials/_layout.scss */
-.article .figure {
-  max-width: 480px;
-}
-
-/* line 133, ../sass/partials/_layout.scss */
-.block-menu-block .menu {
-  padding: 5px;
-}
-/* line 135, ../sass/partials/_layout.scss */
-.block-menu-block .menu a {
-  padding: 5px;
-  border-bottom: 1px solid #f2f1eb;
-}
-/* line 138, ../sass/partials/_layout.scss */
-.block-menu-block .menu a .active {
-  border: 1px solid #8c1515;
-}
-
-/* line 145, ../sass/partials/_layout.scss */
-.sidebar {
-  margin-top: 4em;
-}
-/* line 147, ../sass/partials/_layout.scss */
+/* line 28, ../sass/partials/_objects.scss */
+.box-sidebar,
 .sidebar .block {
   background-color: #fbfbf9;
   border: 5px solid #f2f1eb;
   padding: 10px;
 }
-/* line 152, ../sass/partials/_layout.scss */
-.sidebar .block a.active:after {
-  display: block;
-  float: right;
-  content: '<';
+
+/* line 36, ../sass/partials/_objects.scss */
+.gallery .field-item {
+  margin: 0 1em 1em 0;
+  background-color: #f2f1eb;
 }
-/* line 158, ../sass/partials/_layout.scss */
-.sidebar .block a:hover:after {
-  display: block;
-  float: right;
-  content: '<';
+/* line 39, ../sass/partials/_objects.scss */
+.gallery .field-item blockquote {
+  margin: 0;
+  padding: 5px;
+  text-align: center;
 }
 
-/* line 167, ../sass/partials/_layout.scss */
-a {
-  transition-duration: .25s;
+/* line 49, ../sass/partials/_objects.scss */
+.article .figure {
+  max-width: 480px;
 }
 
-/* line 1, ../sass/partials/_stanford_carousel.scss */
+/* line 2, ../sass/partials/_stanford_carousel.scss */
 .carousel {
   margin-bottom: 0;
 }
-/* line 3, ../sass/partials/_stanford_carousel.scss */
+/* line 4, ../sass/partials/_stanford_carousel.scss */
 .carousel .carousel-dots {
   position: absolute;
   bottom: 20px;
   left: 45%;
 }
 
-/* line 21, ../sass/partials/_stanford_carousel.scss */
+/* line 22, ../sass/partials/_stanford_carousel.scss */
 .carousel-fade .carousel-inner .item {
   opacity: 0;
   -webkit-transition-property: opacity;
@@ -285,23 +242,23 @@ a {
   -o-transition-property: opacity;
   transition-property: opacity;
 }
-/* line 29, ../sass/partials/_stanford_carousel.scss */
+/* line 30, ../sass/partials/_stanford_carousel.scss */
 .carousel-fade .carousel-inner .active {
   opacity: 1;
 }
-/* line 34, ../sass/partials/_stanford_carousel.scss */
+/* line 35, ../sass/partials/_stanford_carousel.scss */
 .carousel-fade .carousel-inner .active.left,
 .carousel-fade .carousel-inner .active.right {
   left: 0;
   opacity: 0;
   z-index: 1;
 }
-/* line 41, ../sass/partials/_stanford_carousel.scss */
+/* line 42, ../sass/partials/_stanford_carousel.scss */
 .carousel-fade .carousel-inner .next.left,
 .carousel-fade .carousel-inner .prev.right {
   opacity: 1;
 }
-/* line 46, ../sass/partials/_stanford_carousel.scss */
+/* line 47, ../sass/partials/_stanford_carousel.scss */
 .carousel-fade .carousel-control {
   z-index: 2;
 }

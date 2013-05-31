@@ -1,7 +1,3 @@
-#main-menu {
-  margin-bottom: 0;
-}
-
 //Override logo treatment
 #header {
 
@@ -34,48 +30,21 @@
 }
 
 .grid {
-  .ds-media {
-    blockquote {
-      display: none;
-    }
-  }
-  .ds-text {
-    padding: 10px;
-  }
 
-  .field-item {
+  .views-row, .field-item {
+    clear: none;
     display: inline-block;
     vertical-align: top;
-  }
-
-  &.gallery {
-    .field-item {
-      margin: 0 1em 1em 0;
-      background-color: $beige;
-      blockquote {
-        margin: 0;
-        padding: 5px;
-        text-align: center;
-      }
-    }
-  }
-
-  .views-row {
-    border: 1px solid $beige;
-    clear: none;
-    background: $beige; /* For browsers that don't support gradients */
-    @include background(linear-gradient(top, $beige, $white));
     &:nth-of-type(4n + 1) {
       margin-left: 0;
     }
     margin: 0 1em 1em 0\9; /*  IE8 and below */
   }
-  .node-teaser {
-    margin-bottom: 0;
-  }
+
   .pager {
     clear: both;
   }
+
 } // End grid rules
 
 .navbar {
@@ -110,11 +79,13 @@
   }
 }
 
+/*
 div[class*='postcard'] {
   padding: 5px 0;
   border-top: 1px solid $beige;
 }
-
+*/
+/*
 .content .figure {
   .field {
     margin-bottom: 0;
@@ -123,47 +94,9 @@ div[class*='postcard'] {
     text-align: right;
   }
 }
+*/
 
-.article {
-  .figure {
-    max-width: 480px;
-  }
-}
-
-.block-menu-block .menu {
-  padding: 5px;
-  a {
-    padding: 5px;
-    border-bottom: 1px solid $beige;
-    .active {
-      border: 1px solid $cardinal;
-    }
-  }
-
-}
-
+// Sidebar blocks
 .sidebar {
   margin-top: 4em;
-  .block {
-    background-color: $white;
-    border: 5px solid $beige;
-    padding: 10px; 
-
-    a.active:after {
-      display: block;
-      float: right;
-      content: '<';
-    }
-
-    a:hover:after {
-      display: block;
-      float: right;
-      content: '<';
-    }
-
-  }
-}
-
-a {
-  transition-duration: .25s;
 }

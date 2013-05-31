@@ -26,11 +26,11 @@
     <?php print render($title_suffix['contextual_links']); ?>
   <?php endif; ?>
 
-    <<?php print $media_wrapper; ?> class="ds-media<?php print $media_classes; ?>">
+    <<?php print $media_wrapper; ?> class="ds-media hd<?php print $media_classes; ?>">
       <?php print $media; ?>
     </<?php print $media_wrapper; ?>>
 
-    <<?php print $text_wrapper; ?> class="ds-text<?php print $text_classes; ?>">
+    <<?php print $text_wrapper; ?> class="ds-text bd<?php print $text_classes; ?>">
       <?php print $text; ?>
     </<?php print $text_wrapper; ?>>
 

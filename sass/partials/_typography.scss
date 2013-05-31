@@ -1,41 +1,22 @@
 /* ---- Text ---- */
 
+a {
+  transition-duration: .25s;
+}
+
 .more-link {
   float: right;
 }
-
-#site-title-first-line.site-title-uppercase {
-  font-weight: normal;
-
-}
-
-/* -----  Override default logo from Stanford Framework ----- */
-/*
-#header #logo {
-  border-right: none;
-  img {
-    max-width: 349px;
-  }
-}
-*/
-#name-and-slogan a {
-  /* display: none; */
-  /*color: #fff;*/
-  /*text-shadow: $black 0 1px;*/
- }
 
 .byline a {
   color: $grey; font-style: italic;
 }
 
 .highlight .content {
-  background-color: $beige;
+  background-color: $cardinal;
 }
 
-.cta a {
-  white-space: nowrap;
-}
-
+/*
 .btn-primary {
   background-color: $cardinal;
   @include background(linear-gradient(lighten($cardinal, 10%), $cardinal));
@@ -45,6 +26,7 @@
     @include background(linear-gradient($cardinal, lighten($cardinal, 10%)));
   }
 }
+*/
 
 .caption {
   background-color: $beige;
@@ -54,16 +36,29 @@
 
 /* ---- Headers ---- */
 
-h2 {
-  //border-bottom: 3px solid $cardinal;
-  //padding-bottom: 5px;
-}
-
 
 /* ---- Lists ---- */
 
-.inline {
-  li {
-    display: inline-block;
-  }
+.inline li {
+  display: inline-block;
 }
+
+// Subnav menu block
+.sidebar .menu li {
+  a {
+    padding: 10px;
+    border-bottom: 1px solid $beige;
+    .active {
+      border: 1px solid $cardinal;
+    }
+    &.active:after {
+      display: block;
+      float: right;
+      content: '<';
+    }
+  }
+
+
+}
+
+

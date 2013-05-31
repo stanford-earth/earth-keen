@@ -1,0 +1,54 @@
+// Boxes
+
+.box {
+  .hd, .bd, .ft {
+    padding: 5px;
+  } 
+}
+
+.box-highlight {
+
+  @extend .box;
+
+  .hd {
+    padding: 0;
+  }
+
+  background: $beige; /* For browsers that don't support gradients */
+  @include background(linear-gradient(top, $beige, $white));
+  border: 1px solid $beige;
+
+  // Hack to hide captions from gallery thumnails
+  blockquote {
+    display: none;
+  }
+}
+
+.box-sidebar,
+.sidebar .block {
+  @extend .box;
+  background-color: $white;
+  border: 5px solid $beige;
+  padding: 10px;
+}
+
+.gallery {
+    .field-item {
+      margin: 0 1em 1em 0;
+      background-color: $beige;
+      blockquote {
+        margin: 0;
+        padding: 5px;
+        text-align: center;
+      }
+    }
+  }
+
+// Article image
+.article {
+  .figure {
+    max-width: 480px;
+  }
+}
+
+
