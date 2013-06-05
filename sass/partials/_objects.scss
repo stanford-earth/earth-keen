@@ -28,8 +28,14 @@
 .sidebar .block {
   @extend .box;
   background-color: $white;
-  border: 5px solid $beige;
+  border: 3px solid $beige;
   padding: 10px;
+  .dropdown-menu {
+    background-color: transparent;
+  }
+  .menu a {
+    padding: 5px;
+  }
 }
 
 .gallery {
