@@ -46,15 +46,16 @@ a {
 // Subnav menu block
 .sidebar .menu li {
   a {
+    background-color: transparent;
     padding: 10px;
-    border-bottom: 1px solid $beige;
-    .active {
-      border: 1px solid $cardinal;
-    }
-    &.active:after {
+    border-top: 1px solid $beige;
+    &:before {
       display: block;
-      float: right;
-      content: '<';
+      float: left;
+      margin-right: 1em;
+      content: '-'; }
+    &.active:before {
+      content: '>';
     }
   }
 
