@@ -41,25 +41,25 @@ a {
 
 /* ---- Headers ---- */
 /* ---- Lists ---- */
-/* line 42, ../sass/partials/_typography.scss */
+/* line 41, ../sass/partials/_typography.scss */
 .inline li {
   display: inline-block;
 }
 
-/* line 48, ../sass/partials/_typography.scss */
+/* line 47, ../sass/partials/_typography.scss */
 .sidebar .menu li a {
   background-color: transparent;
   padding: 10px;
   border-top: 1px solid #f2f1eb;
 }
-/* line 52, ../sass/partials/_typography.scss */
+/* line 51, ../sass/partials/_typography.scss */
 .sidebar .menu li a:before {
   display: block;
   float: left;
   margin-right: 1em;
   content: '-';
 }
-/* line 57, ../sass/partials/_typography.scss */
+/* line 56, ../sass/partials/_typography.scss */
 .sidebar .menu li a.active:before {
   content: '>';
 }
