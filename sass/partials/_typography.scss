@@ -1,4 +1,7 @@
 /* ---- Text ---- */
+body {
+  font-size: 16px;
+}
 
 a {
   transition-duration: .25s;
@@ -16,17 +19,15 @@ a {
   background-color: $cardinal;
 }
 
-/*
 .btn-primary {
   background-color: $cardinal;
   @include background(linear-gradient(lighten($cardinal, 10%), $cardinal));
-  color: $beige;
   text-transform: uppercase;
+  color: $beige;
   &:hover {
     @include background(linear-gradient($cardinal, lighten($cardinal, 10%)));
   }
 }
-*/
 
 .caption {
   background-color: $beige;
@@ -42,19 +43,42 @@ a {
   display: inline-block;
 }
 
-// Subnav menu block
+.stacked {
+  a {
+    display: block;
+    margin-bottom: 1em;
+    text-align: left;
+    &:after {
+      display: block;
+      float: right;
+      content: '>';
+    }
+  }
+  li {
+    display: inline;
+  }
+}
+
+.sidebar .block {
+  border: 1px solid $beige;
+}
+
 .sidebar .menu li {
   a {
     background-color: transparent;
     padding: 10px;
     border-top: 1px solid $beige;
-    &:before {
+    white-space: wrap;
+    &:after {
       display: block;
-      float: left;
+      float: right;
       margin-right: 1em;
-      content: '-'; }
-    &.active:before {
-      content: '>';
+      content: '>'; }
+    &.active:after {
+      content: '*';
+    }
+    &.active {
+      color: $black;
     }
   }
 

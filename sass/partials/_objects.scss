@@ -27,9 +27,6 @@
 .box-sidebar,
 .sidebar .block {
   @extend .box;
-  background-color: $white;
-  border: 3px solid $beige;
-  padding: 10px;
   .dropdown-menu {
     background-color: transparent;
   }
