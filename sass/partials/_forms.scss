@@ -1,0 +1,8 @@
+.field-label-inline {
+  padding: .25em 0;
+  border-bottom: 1px solid $beige;
+  .field-label {
+    width: 25%;
+    white-space: nowrap;
+  }
+}
