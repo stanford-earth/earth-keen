@@ -317,3 +317,8 @@ div[class*='postcard'] {
   width: 12em;
   white-space: nowrap;
 }
+
+/* line 10, ../sass/partials/_forms.scss */
+.field-label-above {
+  margin-top: 1em;
+}
