@@ -314,6 +314,6 @@ div[class*='postcard'] {
 }
 /* line 4, ../sass/partials/_forms.scss */
 .field-label-inline .field-label {
-  width: 25%;
+  width: 12em;
   white-space: nowrap;
 }
