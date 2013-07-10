@@ -59,26 +59,20 @@ a {
   }
 }
 
-.sidebar .block {
-  border: 1px solid $beige;
-}
-
 .sidebar .menu li {
   a {
     background-color: transparent;
-    padding: 10px;
-    border-top: 1px solid $beige;
+    border-bottom: 1px solid $beige;
     white-space: wrap;
     &:after {
       display: block;
+      color: $grey;
       float: right;
       margin-right: 1em;
-      content: '>'; }
-    &.active:after {
-      content: '*';
+      content: '>';
     }
-    &.active {
-      color: $black;
+    &.active:after {
+      content: ' ';
     }
   }
 

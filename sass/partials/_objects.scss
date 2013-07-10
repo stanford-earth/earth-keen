@@ -1,6 +1,7 @@
 // Boxes
 
 .box {
+  padding: 1em;
   .hd, .bd, .ft {
     padding: 5px;
   } 
@@ -27,6 +28,8 @@
 .box-sidebar,
 .sidebar .block {
   @extend .box;
+  border: 1px solid $beige;
+  padding: 1em;
   .dropdown-menu {
     background-color: transparent;
   }

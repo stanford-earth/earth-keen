@@ -75,32 +75,23 @@ a {
   display: inline;
 }
 
-/* line 62, ../sass/partials/_typography.scss */
-.sidebar .block {
-  border: 1px solid #f2f1eb;
-}
-
-/* line 67, ../sass/partials/_typography.scss */
+/* line 63, ../sass/partials/_typography.scss */
 .sidebar .menu li a {
   background-color: transparent;
-  padding: 10px;
-  border-top: 1px solid #f2f1eb;
+  border-bottom: 1px solid #f2f1eb;
   white-space: wrap;
 }
-/* line 72, ../sass/partials/_typography.scss */
+/* line 67, ../sass/partials/_typography.scss */
 .sidebar .menu li a:after {
   display: block;
+  color: #3f3c30;
   float: right;
   margin-right: 1em;
   content: '>';
 }
-/* line 77, ../sass/partials/_typography.scss */
+/* line 74, ../sass/partials/_typography.scss */
 .sidebar .menu li a.active:after {
-  content: '*';
-}
-/* line 80, ../sass/partials/_typography.scss */
-.sidebar .menu li a.active {
-  color: #3f3c30;
+  content: ' ';
 }
 
 /* line 4, ../sass/partials/_layout.scss */
@@ -212,7 +203,12 @@ div[class*='postcard'] {
   margin-top: 4em;
 }
 
-/* line 4, ../sass/partials/_objects.scss */
+/* line 3, ../sass/partials/_objects.scss */
+.box, .box-highlight, .box-sidebar,
+.sidebar .block {
+  padding: 1em;
+}
+/* line 5, ../sass/partials/_objects.scss */
 .box .hd, .box-highlight .hd, .box-sidebar .hd,
 .sidebar .block .hd, .box .bd, .box-highlight .bd, .box-sidebar .bd,
 .sidebar .block .bd, .box .ft, .box-highlight .ft, .box-sidebar .ft,
@@ -220,7 +216,7 @@ div[class*='postcard'] {
   padding: 5px;
 }
 
-/* line 9, ../sass/partials/_objects.scss */
+/* line 10, ../sass/partials/_objects.scss */
 .box-highlight {
   background: #f2f1eb;
   /* For browsers that don't support gradients */
@@ -230,39 +226,45 @@ div[class*='postcard'] {
   background: linear-gradient(to bottom, #f2f1eb, #fbfbf9);
   border: 1px solid #f2f1eb;
 }
-/* line 13, ../sass/partials/_objects.scss */
+/* line 14, ../sass/partials/_objects.scss */
 .box-highlight .hd {
   padding: 0;
 }
-/* line 22, ../sass/partials/_objects.scss */
+/* line 23, ../sass/partials/_objects.scss */
 .box-highlight blockquote {
   display: none;
 }
 
-/* line 30, ../sass/partials/_objects.scss */
+/* line 29, ../sass/partials/_objects.scss */
+.box-sidebar,
+.sidebar .block {
+  border: 1px solid #f2f1eb;
+  padding: 1em;
+}
+/* line 33, ../sass/partials/_objects.scss */
 .box-sidebar .dropdown-menu,
 .sidebar .block .dropdown-menu {
   background-color: transparent;
 }
-/* line 33, ../sass/partials/_objects.scss */
+/* line 36, ../sass/partials/_objects.scss */
 .box-sidebar .menu a,
 .sidebar .block .menu a {
   padding: 5px;
 }
 
-/* line 39, ../sass/partials/_objects.scss */
+/* line 42, ../sass/partials/_objects.scss */
 .gallery .field-item {
   margin: 0 1em 1em 0;
   background-color: #f2f1eb;
 }
-/* line 42, ../sass/partials/_objects.scss */
+/* line 45, ../sass/partials/_objects.scss */
 .gallery .field-item blockquote {
   margin: 0;
   padding: 5px;
   text-align: center;
 }
 
-/* line 52, ../sass/partials/_objects.scss */
+/* line 55, ../sass/partials/_objects.scss */
 .article .figure {
   max-width: 480px;
 }
