@@ -198,11 +198,6 @@ div[class*='postcard'] {
   }
 }
 */
-/* line 101, ../sass/partials/_layout.scss */
-.sidebar {
-  margin-top: 4em;
-}
-
 /* line 3, ../sass/partials/_objects.scss */
 .box, .box-highlight, .box-sidebar,
 .sidebar .block {
