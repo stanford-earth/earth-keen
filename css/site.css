@@ -198,6 +198,75 @@ div[class*='postcard'] {
   }
 }
 */
+@media (max-width: 640px) {
+  /* Views Table */
+  /* line 102, ../sass/partials/_layout.scss */
+  table.views-table, table.sticky-header {
+    display: block;
+    position: relative;
+    width: 100%;
+  }
+
+  /* line 104, ../sass/partials/_layout.scss */
+  table.views-table thead, table.sticky-header thead {
+    display: block;
+    position: absolute;
+    left: 0px;
+    width: 25%;
+    border-radius: 5px;
+  }
+
+  /* line 106, ../sass/partials/_layout.scss */
+  table.views-table thead tr, table.sticky-header thead tr {
+    display: block;
+  }
+
+  /* line 107, ../sass/partials/_layout.scss */
+  table.views-table thead th, table.sticky-header thead th {
+    display: block;
+    padding: 5px;
+    font-size: 0.9em;
+    text-transform: none;
+  }
+
+  /* line 109, ../sass/partials/_layout.scss */
+  table.views-table tbody {
+    display: block;
+    width: auto;
+    position: relative;
+    margin: 0 0 0 28%;
+  }
+
+  /* line 111, ../sass/partials/_layout.scss */
+  table.views-table tbody tr {
+    display: block;
+    vertical-align: top;
+    margin: 0 0 1em 0;
+    border: 1px solid #bab19e !important;
+    border-radius: 5px;
+  }
+
+  /* line 113, ../sass/partials/_layout.scss */
+  table.views-table tbody tr.odd {
+    background: #f2f1eb;
+  }
+
+  /* line 114, ../sass/partials/_layout.scss */
+  table.views-table tbody tr.even {
+    background: #f2f1eb;
+  }
+
+  /* line 115, ../sass/partials/_layout.scss */
+  table.views-table tbody td {
+    display: block;
+    padding: 5px;
+  }
+
+  /* line 116, ../sass/partials/_layout.scss */
+  table.views-table tbody td p {
+    margin: 0px;
+  }
+}
 /* line 3, ../sass/partials/_objects.scss */
 .box, .box-highlight, .box-sidebar,
 .sidebar .block {

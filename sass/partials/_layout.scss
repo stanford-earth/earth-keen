@@ -97,3 +97,21 @@ div[class*='postcard'] {
 }
 */
 
+@media (max-width: 640px) {
+/* Views Table */
+table.views-table, table.sticky-header {display: block; position:
+relative; width: 100%;}
+table.views-table thead, table.sticky-header thead {display: block;
+position: absolute; left: 0px; width: 25%; border-radius: 5px;}
+table.views-table thead tr, table.sticky-header thead tr {display: block;}
+table.views-table thead th, table.sticky-header thead th {display: block;
+padding: 5px; font-size: 0.9em; text-transform: none;}
+table.views-table tbody {display: block; width: auto; position: relative;
+margin: 0 0 0 28%;}
+table.views-table tbody tr {display: block; vertical-align: top; margin: 0
+0 1em 0; border: 1px solid #bab19e !important; border-radius: 5px;}
+table.views-table tbody tr.odd {background: #f2f1eb;}
+table.views-table tbody tr.even {background: #f2f1eb;}
+table.views-table tbody td {display: block; padding: 5px;}
+table.views-table tbody td p {margin: 0px;}
+}
