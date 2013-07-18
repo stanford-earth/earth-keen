@@ -150,7 +150,7 @@ a {
 }
 
 /* line 52, ../sass/partials/_layout.scss */
-.sectioned-items .section-title > h3 {
+.sectioned-items .view-content > h3 {
   float: left;
   width: 25%;
 }
