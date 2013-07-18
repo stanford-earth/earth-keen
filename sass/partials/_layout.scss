@@ -48,6 +48,15 @@
 
 } // End grid rules
 
+.sectioned-items {
+  .section-title {
+    float: left;
+  }
+  .article {
+    margin: 0 0 1em 25%;
+  }
+}
+
 .navbar {
   border-bottom: 1px solid $beige;
   padding-bottom: 10px;
