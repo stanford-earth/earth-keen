@@ -49,8 +49,10 @@
 } // End grid rules
 
 .sectioned-items {
-  .section-title {
+  .section-title,
+  h3 {
     float: left;
+    width: 25%;
   }
   .article {
     margin: 0 0 1em 25%;
