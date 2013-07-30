@@ -126,25 +126,18 @@ a {
   right: 0;
 }
 
-/* line 23, ../sass/partials/_layout.scss */
+/* line 24, ../sass/partials/_layout.scss */
 .navbar {
   position: relative;
 }
-/* line 25, ../sass/partials/_layout.scss */
+/* line 26, ../sass/partials/_layout.scss */
 .navbar .nav-search {
   position: absolute;
   bottom: 10px;
   right: 10px;
 }
 
-/* line 32, ../sass/partials/_layout.scss */
-.region-main-top {
-  background: transparent url("/d7_ses/sites/default/files/earth.png") no-repeat top right;
-  padding-right: 300px;
-  min-height: 315px;
-}
-
-/* line 41, ../sass/partials/_layout.scss */
+/* line 36, ../sass/partials/_layout.scss */
 .grid .views-row,
 .grid .field-item {
   clear: none;
@@ -153,56 +146,56 @@ a {
   margin: 0 1em 1em 0\9;
   /*  IE8 and below */
 }
-/* line 45, ../sass/partials/_layout.scss */
+/* line 40, ../sass/partials/_layout.scss */
 .grid .views-row:nth-of-type(4n + 1),
 .grid .field-item:nth-of-type(4n + 1) {
   margin-left: 0;
 }
-/* line 51, ../sass/partials/_layout.scss */
+/* line 46, ../sass/partials/_layout.scss */
 .grid .pager {
   clear: both;
 }
 
-/* line 58, ../sass/partials/_layout.scss */
+/* line 53, ../sass/partials/_layout.scss */
 .sectioned-items .view-content > h3 {
   float: left;
   width: 25%;
 }
-/* line 62, ../sass/partials/_layout.scss */
+/* line 57, ../sass/partials/_layout.scss */
 .sectioned-items .article {
   clear: none;
   margin: 0 0 1em 25%;
 }
 
-/* line 68, ../sass/partials/_layout.scss */
+/* line 63, ../sass/partials/_layout.scss */
 .navbar {
   border-bottom: 1px solid #f2f1eb;
   padding-bottom: 10px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 74, ../sass/partials/_layout.scss */
+  /* line 69, ../sass/partials/_layout.scss */
   .global {
     position: relative;
     margin-top: 2em;
   }
 
-  /* line 79, ../sass/partials/_layout.scss */
+  /* line 74, ../sass/partials/_layout.scss */
   #header {
     margin-bottom: 0;
   }
 
-  /* line 83, ../sass/partials/_layout.scss */
+  /* line 78, ../sass/partials/_layout.scss */
   #main-menu {
     margin-bottom: 0;
   }
 
-  /* line 87, ../sass/partials/_layout.scss */
+  /* line 82, ../sass/partials/_layout.scss */
   #block-search-form {
     float: none;
   }
 
-  /* line 95, ../sass/partials/_layout.scss */
+  /* line 90, ../sass/partials/_layout.scss */
   .navbar {
     border-bottom: none;
   }
@@ -225,14 +218,14 @@ div[class*='postcard'] {
 */
 @media (max-width: 640px) {
   /* Views Table */
-  /* line 119, ../sass/partials/_layout.scss */
+  /* line 114, ../sass/partials/_layout.scss */
   table.views-table, table.sticky-header {
     display: block;
     position: relative;
     width: 100%;
   }
 
-  /* line 121, ../sass/partials/_layout.scss */
+  /* line 116, ../sass/partials/_layout.scss */
   table.views-table thead, table.sticky-header thead {
     display: block;
     position: absolute;
@@ -241,12 +234,12 @@ div[class*='postcard'] {
     border-radius: 5px;
   }
 
-  /* line 123, ../sass/partials/_layout.scss */
+  /* line 118, ../sass/partials/_layout.scss */
   table.views-table thead tr, table.sticky-header thead tr {
     display: block;
   }
 
-  /* line 124, ../sass/partials/_layout.scss */
+  /* line 119, ../sass/partials/_layout.scss */
   table.views-table thead th, table.sticky-header thead th {
     display: block;
     padding: 5px;
@@ -254,7 +247,7 @@ div[class*='postcard'] {
     text-transform: none;
   }
 
-  /* line 126, ../sass/partials/_layout.scss */
+  /* line 121, ../sass/partials/_layout.scss */
   table.views-table tbody {
     display: block;
     width: auto;
@@ -262,7 +255,7 @@ div[class*='postcard'] {
     margin: 0 0 0 28%;
   }
 
-  /* line 128, ../sass/partials/_layout.scss */
+  /* line 123, ../sass/partials/_layout.scss */
   table.views-table tbody tr {
     display: block;
     vertical-align: top;
@@ -271,23 +264,23 @@ div[class*='postcard'] {
     border-radius: 5px;
   }
 
-  /* line 130, ../sass/partials/_layout.scss */
+  /* line 125, ../sass/partials/_layout.scss */
   table.views-table tbody tr.odd {
     background: #f2f1eb;
   }
 
-  /* line 131, ../sass/partials/_layout.scss */
+  /* line 126, ../sass/partials/_layout.scss */
   table.views-table tbody tr.even {
     background: #f2f1eb;
   }
 
-  /* line 132, ../sass/partials/_layout.scss */
+  /* line 127, ../sass/partials/_layout.scss */
   table.views-table tbody td {
     display: block;
     padding: 5px;
   }
 
-  /* line 133, ../sass/partials/_layout.scss */
+  /* line 128, ../sass/partials/_layout.scss */
   table.views-table tbody td p {
     margin: 0px;
   }
