@@ -66,6 +66,13 @@ a {
   }
 }
 
+.stacked-center a {
+  text-align: center;
+  font-size: 115%;
+  border-bottom: 1px dotted $beige;
+  padding: 10px 0;
+}
+
 .sidebar .menu li {
   a {
     background-color: transparent;
