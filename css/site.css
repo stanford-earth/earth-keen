@@ -285,20 +285,15 @@ div[class*='postcard'] {
     margin: 0px;
   }
 }
-/* line 3, ../sass/partials/_objects.scss */
-.box, .box-highlight, .box-sidebar,
-.sidebar .block {
-  padding: 1em;
-}
-/* line 5, ../sass/partials/_objects.scss */
+/* line 4, ../sass/partials/_objects.scss */
 .box .hd, .box-highlight .hd, .box-sidebar .hd,
 .sidebar .block .hd, .box .bd, .box-highlight .bd, .box-sidebar .bd,
 .sidebar .block .bd, .box .ft, .box-highlight .ft, .box-sidebar .ft,
 .sidebar .block .ft {
-  padding: 5px;
+  padding: 1em;
 }
 
-/* line 10, ../sass/partials/_objects.scss */
+/* line 9, ../sass/partials/_objects.scss */
 .box-highlight {
   background: #f2f1eb;
   /* For browsers that don't support gradients */
@@ -308,45 +303,45 @@ div[class*='postcard'] {
   background: linear-gradient(to bottom, #f2f1eb, #fbfbf9);
   border: 1px solid #f2f1eb;
 }
-/* line 14, ../sass/partials/_objects.scss */
+/* line 13, ../sass/partials/_objects.scss */
 .box-highlight .hd {
   padding: 0;
 }
-/* line 23, ../sass/partials/_objects.scss */
+/* line 22, ../sass/partials/_objects.scss */
 .box-highlight blockquote {
   display: none;
 }
 
-/* line 29, ../sass/partials/_objects.scss */
+/* line 28, ../sass/partials/_objects.scss */
 .box-sidebar,
 .sidebar .block {
   border: 1px solid #f2f1eb;
   padding: 1em;
 }
-/* line 33, ../sass/partials/_objects.scss */
+/* line 32, ../sass/partials/_objects.scss */
 .box-sidebar .dropdown-menu,
 .sidebar .block .dropdown-menu {
   background-color: transparent;
 }
-/* line 36, ../sass/partials/_objects.scss */
+/* line 35, ../sass/partials/_objects.scss */
 .box-sidebar .menu a,
 .sidebar .block .menu a {
   padding: 5px;
 }
 
-/* line 42, ../sass/partials/_objects.scss */
+/* line 41, ../sass/partials/_objects.scss */
 .gallery .field-item {
   margin: 0 1em 1em 0;
   background-color: #f2f1eb;
 }
-/* line 45, ../sass/partials/_objects.scss */
+/* line 44, ../sass/partials/_objects.scss */
 .gallery .field-item blockquote {
   margin: 0;
   padding: 5px;
   text-align: center;
 }
 
-/* line 55, ../sass/partials/_objects.scss */
+/* line 54, ../sass/partials/_objects.scss */
 .article .figure {
   max-width: 480px;
 }
