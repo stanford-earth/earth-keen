@@ -12,24 +12,6 @@
   }
 }
 
-// Target Audience links
-.global {
-  position: absolute;
-  bottom: 1em;
-  right: 0;
-}
-
-
-// Search Form
-.navbar {
-  position: relative;
-  .nav-search {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-  }
-}
-
 .grid {
 
   .views-row,
@@ -70,11 +52,6 @@
 }
 
 @media screen and (max-width:767px) {
-  .global {
-    position: relative;
-    margin-top: 2em;
-  }
-  
   #header {
     margin-bottom: 0;
   }
@@ -87,31 +64,10 @@
     float: none;
   }
 
-  .region-sidebar-first {
-    //display: none;
-  }
-
   .navbar {
     border-bottom: none;
   }
 }
-
-/*
-div[class*='postcard'] {
-  padding: 5px 0;
-  border-top: 1px solid $beige;
-}
-*/
-/*
-.content .figure {
-  .field {
-    margin-bottom: 0;
-  }
-  .descriptor {
-    text-align: right;
-  }
-}
-*/
 
 @media (max-width: 640px) {
 /* Views Table */
