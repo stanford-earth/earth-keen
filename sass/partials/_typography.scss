@@ -70,7 +70,8 @@ a {
   text-align: center;
   font-size: 115%;
   border-bottom: 1px dotted $beige;
-  padding: 10px 0;
+  // TODO: Need to figure out a way to override super-specifc selector from stanford framework without resorting to the nuclear option.
+  padding: 10px 0 !important;
 }
 
 .sidebar .menu li {

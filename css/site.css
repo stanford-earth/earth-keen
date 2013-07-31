@@ -87,16 +87,16 @@ a {
   text-align: center;
   font-size: 115%;
   border-bottom: 1px dotted #f2f1eb;
-  padding: 10px 0;
+  padding: 10px 0 !important;
 }
 
-/* line 77, ../sass/partials/_typography.scss */
+/* line 78, ../sass/partials/_typography.scss */
 .sidebar .menu li a {
   background-color: transparent;
   border-bottom: 1px solid #f2f1eb;
   white-space: wrap;
 }
-/* line 81, ../sass/partials/_typography.scss */
+/* line 82, ../sass/partials/_typography.scss */
 .sidebar .menu li a:after {
   display: block;
   color: #3f3c30;
@@ -104,7 +104,7 @@ a {
   margin-right: 1em;
   content: '>';
 }
-/* line 88, ../sass/partials/_typography.scss */
+/* line 89, ../sass/partials/_typography.scss */
 .sidebar .menu li a.active:after {
   content: ' ';
 }
