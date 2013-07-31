@@ -1,8 +1,4 @@
 /* ---- Text ---- */
-body {
-  font-size: 16px;
-}
-
 a {
   transition-duration: .25s;
 }
@@ -69,7 +65,7 @@ a {
 .stacked-center a {
   text-align: center;
   font-size: 115%;
-  border-bottom: 1px dotted $beige;
+  border-bottom: 1px solid $beige;
   // TODO: Need to figure out a way to override super-specifc selector from stanford framework without resorting to the nuclear option.
   padding: 10px 0 !important;
 }

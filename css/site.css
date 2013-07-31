@@ -1,32 +1,27 @@
 /* http://www.stanford.edu/group/webdev/color/ */
 /* ---- Text ---- */
 /* line 2, ../sass/partials/_typography.scss */
-body {
-  font-size: 16px;
-}
-
-/* line 6, ../sass/partials/_typography.scss */
 a {
   transition-duration: .25s;
 }
 
-/* line 10, ../sass/partials/_typography.scss */
+/* line 6, ../sass/partials/_typography.scss */
 .more-link {
   float: right;
 }
 
-/* line 14, ../sass/partials/_typography.scss */
+/* line 10, ../sass/partials/_typography.scss */
 .byline a {
   color: #3f3c30;
   font-style: italic;
 }
 
-/* line 18, ../sass/partials/_typography.scss */
+/* line 14, ../sass/partials/_typography.scss */
 .highlight .content {
   background-color: #8c1515;
 }
 
-/* line 22, ../sass/partials/_typography.scss */
+/* line 18, ../sass/partials/_typography.scss */
 .btn-primary {
   background-color: #8c1515;
   background: -webkit-linear-gradient(#b81c1c, #8c1515);
@@ -36,7 +31,7 @@ a {
   text-transform: uppercase;
   color: #f2f1eb;
 }
-/* line 27, ../sass/partials/_typography.scss */
+/* line 23, ../sass/partials/_typography.scss */
 .btn-primary:hover {
   background: -webkit-linear-gradient(#8c1515, #b81c1c);
   background: -moz-linear-gradient(#8c1515, #b81c1c);
@@ -44,7 +39,7 @@ a {
   background: linear-gradient(#8c1515, #b81c1c);
 }
 
-/* line 32, ../sass/partials/_typography.scss */
+/* line 28, ../sass/partials/_typography.scss */
 .caption {
   background-color: #f2f1eb;
   text-align: center;
@@ -52,7 +47,7 @@ a {
 }
 
 /* ---- VCard Markup ---- */
-/* line 41, ../sass/partials/_typography.scss */
+/* line 37, ../sass/partials/_typography.scss */
 .n,
 .tel {
   white-space: nowrap;
@@ -60,43 +55,43 @@ a {
 
 /* ---- Headers ---- */
 /* ---- Lists ---- */
-/* line 49, ../sass/partials/_typography.scss */
+/* line 45, ../sass/partials/_typography.scss */
 .inline li {
   display: inline-block;
 }
 
-/* line 54, ../sass/partials/_typography.scss */
+/* line 50, ../sass/partials/_typography.scss */
 .stacked a {
   display: block;
   margin-bottom: 1em;
   text-align: left;
 }
-/* line 58, ../sass/partials/_typography.scss */
+/* line 54, ../sass/partials/_typography.scss */
 .stacked a:after {
   display: block;
   float: right;
   content: '>';
 }
-/* line 64, ../sass/partials/_typography.scss */
+/* line 60, ../sass/partials/_typography.scss */
 .stacked li {
   display: inline;
 }
 
-/* line 69, ../sass/partials/_typography.scss */
+/* line 65, ../sass/partials/_typography.scss */
 .stacked-center a {
   text-align: center;
   font-size: 115%;
-  border-bottom: 1px dotted #f2f1eb;
+  border-bottom: 1px solid #f2f1eb;
   padding: 10px 0 !important;
 }
 
-/* line 78, ../sass/partials/_typography.scss */
+/* line 74, ../sass/partials/_typography.scss */
 .sidebar .menu li a {
   background-color: transparent;
   border-bottom: 1px solid #f2f1eb;
   white-space: wrap;
 }
-/* line 82, ../sass/partials/_typography.scss */
+/* line 78, ../sass/partials/_typography.scss */
 .sidebar .menu li a:after {
   display: block;
   color: #3f3c30;
@@ -104,7 +99,7 @@ a {
   margin-right: 1em;
   content: '>';
 }
-/* line 89, ../sass/partials/_typography.scss */
+/* line 85, ../sass/partials/_typography.scss */
 .sidebar .menu li a.active:after {
   content: ' ';
 }
@@ -127,25 +122,7 @@ a {
   text-align: start;
 }
 
-/* line 16, ../sass/partials/_layout.scss */
-.global {
-  position: absolute;
-  bottom: 1em;
-  right: 0;
-}
-
-/* line 24, ../sass/partials/_layout.scss */
-.navbar {
-  position: relative;
-}
-/* line 26, ../sass/partials/_layout.scss */
-.navbar .nav-search {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-}
-
-/* line 36, ../sass/partials/_layout.scss */
+/* line 18, ../sass/partials/_layout.scss */
 .grid .views-row,
 .grid .field-item {
   clear: none;
@@ -154,90 +131,68 @@ a {
   margin: 0 1em 1em 0\9;
   /*  IE8 and below */
 }
-/* line 40, ../sass/partials/_layout.scss */
+/* line 22, ../sass/partials/_layout.scss */
 .grid .views-row:nth-of-type(4n + 1),
 .grid .field-item:nth-of-type(4n + 1) {
   margin-left: 0;
 }
-/* line 46, ../sass/partials/_layout.scss */
+/* line 28, ../sass/partials/_layout.scss */
 .grid .pager {
   clear: both;
 }
-/* line 50, ../sass/partials/_layout.scss */
+/* line 32, ../sass/partials/_layout.scss */
 .grid .node-teaser {
   margin-bottom: 0;
 }
 
-/* line 57, ../sass/partials/_layout.scss */
+/* line 39, ../sass/partials/_layout.scss */
 .sectioned-items .view-content > h3 {
   float: left;
   width: 25%;
 }
-/* line 61, ../sass/partials/_layout.scss */
+/* line 43, ../sass/partials/_layout.scss */
 .sectioned-items .article {
   clear: none;
   margin: 0 0 1em 25%;
 }
 
-/* line 67, ../sass/partials/_layout.scss */
+/* line 49, ../sass/partials/_layout.scss */
 .navbar {
   border-bottom: 1px solid #f2f1eb;
   padding-bottom: 10px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 73, ../sass/partials/_layout.scss */
-  .global {
-    position: relative;
-    margin-top: 2em;
-  }
-
-  /* line 78, ../sass/partials/_layout.scss */
+  /* line 55, ../sass/partials/_layout.scss */
   #header {
     margin-bottom: 0;
   }
 
-  /* line 82, ../sass/partials/_layout.scss */
+  /* line 59, ../sass/partials/_layout.scss */
   #main-menu {
     margin-bottom: 0;
   }
 
-  /* line 86, ../sass/partials/_layout.scss */
+  /* line 63, ../sass/partials/_layout.scss */
   #block-search-form {
     float: none;
   }
 
-  /* line 94, ../sass/partials/_layout.scss */
+  /* line 67, ../sass/partials/_layout.scss */
   .navbar {
     border-bottom: none;
   }
 }
-/*
-div[class*='postcard'] {
-  padding: 5px 0;
-  border-top: 1px solid $beige;
-}
-*/
-/*
-.content .figure {
-  .field {
-    margin-bottom: 0;
-  }
-  .descriptor {
-    text-align: right;
-  }
-}
-*/
 @media (max-width: 640px) {
   /* Views Table */
-  /* line 118, ../sass/partials/_layout.scss */
+  /* line 74, ../sass/partials/_layout.scss */
   table.views-table, table.sticky-header {
     display: block;
     position: relative;
     width: 100%;
   }
 
-  /* line 120, ../sass/partials/_layout.scss */
+  /* line 76, ../sass/partials/_layout.scss */
   table.views-table thead, table.sticky-header thead {
     display: block;
     position: absolute;
@@ -246,12 +201,12 @@ div[class*='postcard'] {
     border-radius: 5px;
   }
 
-  /* line 122, ../sass/partials/_layout.scss */
+  /* line 78, ../sass/partials/_layout.scss */
   table.views-table thead tr, table.sticky-header thead tr {
     display: block;
   }
 
-  /* line 123, ../sass/partials/_layout.scss */
+  /* line 79, ../sass/partials/_layout.scss */
   table.views-table thead th, table.sticky-header thead th {
     display: block;
     padding: 5px;
@@ -259,7 +214,7 @@ div[class*='postcard'] {
     text-transform: none;
   }
 
-  /* line 125, ../sass/partials/_layout.scss */
+  /* line 81, ../sass/partials/_layout.scss */
   table.views-table tbody {
     display: block;
     width: auto;
@@ -267,7 +222,7 @@ div[class*='postcard'] {
     margin: 0 0 0 28%;
   }
 
-  /* line 127, ../sass/partials/_layout.scss */
+  /* line 83, ../sass/partials/_layout.scss */
   table.views-table tbody tr {
     display: block;
     vertical-align: top;
@@ -276,23 +231,23 @@ div[class*='postcard'] {
     border-radius: 5px;
   }
 
-  /* line 129, ../sass/partials/_layout.scss */
+  /* line 85, ../sass/partials/_layout.scss */
   table.views-table tbody tr.odd {
     background: #f2f1eb;
   }
 
-  /* line 130, ../sass/partials/_layout.scss */
+  /* line 86, ../sass/partials/_layout.scss */
   table.views-table tbody tr.even {
     background: #f2f1eb;
   }
 
-  /* line 131, ../sass/partials/_layout.scss */
+  /* line 87, ../sass/partials/_layout.scss */
   table.views-table tbody td {
     display: block;
     padding: 5px;
   }
 
-  /* line 132, ../sass/partials/_layout.scss */
+  /* line 88, ../sass/partials/_layout.scss */
   table.views-table tbody td p {
     margin: 0px;
   }
