@@ -252,14 +252,6 @@ a {
     margin: 0px;
   }
 }
-/* line 4, ../sass/partials/_objects.scss */
-.box .hd, .box-highlight .hd, .box-sidebar .hd,
-.sidebar .block .hd, .box .bd, .box-highlight .bd, .box-sidebar .bd,
-.sidebar .block .bd, .box .ft, .box-highlight .ft, .box-sidebar .ft,
-.sidebar .block .ft {
-  padding: 1em;
-}
-
 /* line 9, ../sass/partials/_objects.scss */
 .box-highlight {
   background: #f2f1eb;
