@@ -19,7 +19,7 @@
     clear: none;
     display: inline-block;
     vertical-align: top;
-    &:nth-of-type(4n + 1) {
+    &:nth-of-type(2n + 1) {
       margin-left: 0;
     }
     margin: 0 1em 1em 0\9; /*  IE8 and below */
@@ -30,6 +30,10 @@
   }
   
   .node-teaser {
+    margin-bottom: 0;
+  }
+
+  .postcard-left > div:first-child img {
     margin-bottom: 0;
   }
 

@@ -48,3 +48,37 @@
     z-index: 2;
   }
 }
+
+// Styling options
+
+.caption-nobackground {
+  .view.carousel {
+    img {
+      margin-bottom: 0;
+    }
+    .carousel-caption {
+      //TODO: Replace this with a mixin
+      //background: rgba(0,0,0,0.5);
+      //@include background-image(linear-gradient(rgba(red,0.0),white));
+      //text-shadow: 0 1px #666;
+      width: 50%;
+      max-width: 50%;
+      padding: .5em;
+      .slide-title {
+        margin-bottom: 0;
+      }
+      &.carousel-position-bottom {
+        bottom: 6px;
+      }  
+      &.carousel-position-top {
+        top: 6px;
+      }  
+      &.carousel-position-left {
+        left: 6px;
+      }  
+      &.carousel-position-right {
+        right: 6px;
+      }  
+    }
+  }
+}
