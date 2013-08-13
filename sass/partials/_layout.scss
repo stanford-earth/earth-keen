@@ -1,5 +1,9 @@
 //Override logo treatment
 #header {
+  margin: 0 0 1em 0;
+  padding: 25px 0 30px;
+  @include background(image-url("/d7_ses/sites/default/files/earth.png") 65% 15px no-repeat, linear-gradient($lightblue,white));
+  box-shadow: 1px 1px 5px $beige;
 
   #logo {
     border-right: none;
@@ -19,9 +23,6 @@
     clear: none;
     display: inline-block;
     vertical-align: top;
-    &:nth-of-type(2n + 1) {
-      margin-left: 0;
-    }
     margin: 0 1em 1em 0\9; /*  IE8 and below */
   }
 
@@ -39,6 +40,40 @@
 
 } // End grid rules
 
+.grid-2 {
+  @extend .grid;
+  .views-row,
+  .field-item,
+  div {
+    &:nth-of-type(2n + 1) {
+      margin-left: 0;
+    }
+  }
+}
+
+.grid-3 {
+  @extend .grid;
+  .views-row,
+  .field-item,
+  div {
+    &:nth-of-type(3n + 1) {
+      margin-left: 0;
+    }
+  }
+}
+
+.grid-4 {
+  @extend .grid;
+  .views-row,
+  .field-item,
+  div {
+    &:nth-of-type(4n + 1) {
+      margin-left: 0;
+    }
+  }
+}
+
+
 .sectioned-items {
   .view-content > h3 {
     float: left;
@@ -51,7 +86,7 @@
 }
 
 .navbar {
-  border-bottom: 1px solid $beige;
+  //border-bottom: 1px solid $beige;
   padding-bottom: 10px;
 }
 
