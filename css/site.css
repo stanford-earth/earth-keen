@@ -113,11 +113,6 @@ a {
 #header {
   margin: 0 0 1em 0;
   padding: 25px 0 30px;
-  background: url(/d7_ses/sites/default/files/earth.png) 65% 15px no-repeat, -webkit-linear-gradient(#a6b9c7, #ffffff);
-  background: url(/d7_ses/sites/default/files/earth.png) 65% 15px no-repeat, -moz-linear-gradient(#a6b9c7, #ffffff);
-  background: url(/d7_ses/sites/default/files/earth.png) 65% 15px no-repeat, -o-linear-gradient(#a6b9c7, #ffffff);
-  background: url(/d7_ses/sites/default/files/earth.png) 65% 15px no-repeat, linear-gradient(#a6b9c7, #ffffff);
-  box-shadow: 1px 1px 5px #f2f1eb;
 }
 /* line 8, ../sass/partials/_layout.scss */
 #header #logo {

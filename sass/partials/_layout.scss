@@ -2,8 +2,8 @@
 #header {
   margin: 0 0 1em 0;
   padding: 25px 0 30px;
-  @include background(image-url("/d7_ses/sites/default/files/earth.png") 65% 15px no-repeat, linear-gradient($lightblue,white));
-  box-shadow: 1px 1px 5px $beige;
+  //@include background(image-url("/d7_ses/sites/default/files/earth.png") 65% 15px no-repeat, linear-gradient($lightblue,white));
+  //box-shadow: 1px 1px 5px $beige;
 
   #logo {
     border-right: none;
