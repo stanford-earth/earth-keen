@@ -364,47 +364,47 @@ a {
 }
 
 /* line 90, ../sass/partials/_objects.scss */
-.social a[rel~="youtube"] {
+.social a[href~="youtube.com"] {
   background-position: 0 0;
 }
 
 /* line 94, ../sass/partials/_objects.scss */
-.social a[rel~="vimeo"] {
+.social a[href~="vimeo.com"] {
   background-position: -48px 0;
 }
 
 /* line 98, ../sass/partials/_objects.scss */
-.social a[rel~="twitter"] {
+.social a[href~="twitter.com"] {
   background-position: -94px 0;
 }
 
 /* line 102, ../sass/partials/_objects.scss */
-.social a[rel~="tumblr"] {
+.social a[href~="tumblr.com"] {
   background-position: 0 -48px;
 }
 
 /* line 106, ../sass/partials/_objects.scss */
-.social a[rel~="pinterest"] {
+.social a[href~="pinterest.com"] {
   background-position: -48px -48px;
 }
 
 /* line 110, ../sass/partials/_objects.scss */
-.social a[rel~="linkedin"] {
+.social a[href~="linkedin.com"] {
   background-position: -94px -48px;
 }
 
 /* line 114, ../sass/partials/_objects.scss */
-.social a[rel~="google"] {
+.social a[href~="google.com"] {
   background-position: 0 -96px;
 }
 
 /* line 118, ../sass/partials/_objects.scss */
-.social a[rel~="flickr"] {
+.social a[href~="flickr.com"] {
   background-position: -48px -96px;
 }
 
 /* line 122, ../sass/partials/_objects.scss */
-.social a[rel~="facebook"] {
+.social a[href~="facebook.com"] {
   background-position: -94px -96px;
 }
 
