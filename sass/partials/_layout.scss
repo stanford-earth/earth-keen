@@ -35,7 +35,11 @@
   }
 
   .postcard-left > div:first-child img {
-    margin-bottom: 0;
+    margin: 0;
+  }
+  
+  .ds-text {
+    padding: 5px 15px;
   }
 
 } // End grid rules
