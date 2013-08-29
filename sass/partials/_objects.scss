@@ -65,4 +65,60 @@
   }
 }
 
+.social .icon {
+    padding: 0;
+}
 
+.social .icon a {
+    display: inline-block;
+    background: transparent url('../images/socialicons.png') no-repeat 0 0;
+    xborder: 1px solid orange;
+    width: 48px;
+    height: 48px;
+    opacity: .75;
+}
+
+.social .icon a:hover {
+    opacity: 1;
+}
+
+.social span {
+    display: block;
+    text-indent: -9999px;
+}
+
+.social a[rel~="youtube"] {
+    background-position: 0 0;
+}
+
+.social a[rel~="vimeo"] {
+    background-position: -48px 0;
+}
+
+.social a[rel~="twitter"] {
+    background-position: -94px 0;
+}
+
+.social a[rel~="tumblr"] {
+    background-position: 0 -48px;
+}
+
+.social a[rel~="pinterest"] {
+    background-position: -48px -48px;
+}
+
+.social a[rel~="linkedin"] {
+    background-position: -94px -48px;
+}
+
+.social a[rel~="google"] {
+    background-position: 0 -94px;
+}
+
+.social a[rel~="flickr"] {
+    background-position: -48px -94px;
+}
+
+.social a[rel~="facebook"] {
+    background-position: -94px -94px;
+}
