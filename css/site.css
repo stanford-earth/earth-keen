@@ -338,72 +338,66 @@ a {
 }
 
 /* line 68, ../sass/partials/_objects.scss */
-.social .icon {
+.social li {
   padding: 0;
 }
 
 /* line 72, ../sass/partials/_objects.scss */
-.social .icon a {
+.social a {
   display: inline-block;
   background: transparent url("../images/socialicons.png") no-repeat 0 0;
-  xborder: 1px solid orange;
   width: 48px;
   height: 48px;
   opacity: .75;
+  text-indent: -9999px;
 }
 
 /* line 81, ../sass/partials/_objects.scss */
-.social .icon a:hover {
+.social a:hover {
   opacity: 1;
 }
 
 /* line 85, ../sass/partials/_objects.scss */
-.social span {
-  display: block;
-  text-indent: -9999px;
-}
-
-/* line 90, ../sass/partials/_objects.scss */
 .social a[href*="youtube.com"] {
   background-position: 0 0;
 }
 
-/* line 94, ../sass/partials/_objects.scss */
+/* line 89, ../sass/partials/_objects.scss */
 .social a[href*="vimeo.com"] {
   background-position: -48px 0;
 }
 
-/* line 98, ../sass/partials/_objects.scss */
+/* line 93, ../sass/partials/_objects.scss */
 .social a[href*="twitter.com"] {
   background-position: -94px 0;
 }
 
-/* line 102, ../sass/partials/_objects.scss */
+/* line 97, ../sass/partials/_objects.scss */
 .social a[href*="tumblr.com"] {
   background-position: 0 -48px;
 }
 
-/* line 106, ../sass/partials/_objects.scss */
+/* line 101, ../sass/partials/_objects.scss */
 .social a[href*="pinterest.com"] {
   background-position: -48px -48px;
 }
 
-/* line 110, ../sass/partials/_objects.scss */
+/* line 105, ../sass/partials/_objects.scss */
 .social a[href*="linkedin.com"] {
   background-position: -94px -48px;
 }
 
-/* line 114, ../sass/partials/_objects.scss */
+/* line 109, ../sass/partials/_objects.scss */
 .social a[href*="google.com"] {
   background-position: 0 -96px;
 }
 
-/* line 118, ../sass/partials/_objects.scss */
+/* line 113, ../sass/partials/_objects.scss */
 .social a[href*="flickr.com"] {
   background-position: -48px -96px;
 }
 
-/* line 122, ../sass/partials/_objects.scss */
+/* line 117, ../sass/partials/_objects.scss */
 .social a[href*="facebook.com"] {
   background-position: -94px -96px;
 }
