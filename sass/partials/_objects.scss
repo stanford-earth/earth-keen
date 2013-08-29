@@ -87,38 +87,38 @@
     text-indent: -9999px;
 }
 
-.social a[href~="youtube.com"] {
+.social a[href*="youtube.com"] {
     background-position: 0 0;
 }
 
-.social a[href~="vimeo.com"] {
+.social a[href*="vimeo.com"] {
     background-position: -48px 0;
 }
 
-.social a[href~="twitter.com"] {
+.social a[href*="twitter.com"] {
     background-position: -94px 0;
 }
 
-.social a[href~="tumblr.com"] {
+.social a[href*="tumblr.com"] {
     background-position: 0 -48px;
 }
 
-.social a[href~="pinterest.com"] {
+.social a[href*="pinterest.com"] {
     background-position: -48px -48px;
 }
 
-.social a[href~="linkedin.com"] {
+.social a[href*="linkedin.com"] {
     background-position: -94px -48px;
 }
 
-.social a[href~="google.com"] {
+.social a[href*="google.com"] {
     background-position: 0 -96px;
 }
 
-.social a[href~="flickr.com"] {
+.social a[href*="flickr.com"] {
     background-position: -48px -96px;
 }
 
-.social a[href~="facebook.com"] {
+.social a[href*="facebook.com"] {
     background-position: -94px -96px;
 }

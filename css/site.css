@@ -364,47 +364,47 @@ a {
 }
 
 /* line 90, ../sass/partials/_objects.scss */
-.social a[href~="youtube.com"] {
+.social a[href*="youtube.com"] {
   background-position: 0 0;
 }
 
 /* line 94, ../sass/partials/_objects.scss */
-.social a[href~="vimeo.com"] {
+.social a[href*="vimeo.com"] {
   background-position: -48px 0;
 }
 
 /* line 98, ../sass/partials/_objects.scss */
-.social a[href~="twitter.com"] {
+.social a[href*="twitter.com"] {
   background-position: -94px 0;
 }
 
 /* line 102, ../sass/partials/_objects.scss */
-.social a[href~="tumblr.com"] {
+.social a[href*="tumblr.com"] {
   background-position: 0 -48px;
 }
 
 /* line 106, ../sass/partials/_objects.scss */
-.social a[href~="pinterest.com"] {
+.social a[href*="pinterest.com"] {
   background-position: -48px -48px;
 }
 
 /* line 110, ../sass/partials/_objects.scss */
-.social a[href~="linkedin.com"] {
+.social a[href*="linkedin.com"] {
   background-position: -94px -48px;
 }
 
 /* line 114, ../sass/partials/_objects.scss */
-.social a[href~="google.com"] {
+.social a[href*="google.com"] {
   background-position: 0 -96px;
 }
 
 /* line 118, ../sass/partials/_objects.scss */
-.social a[href~="flickr.com"] {
+.social a[href*="flickr.com"] {
   background-position: -48px -96px;
 }
 
 /* line 122, ../sass/partials/_objects.scss */
-.social a[href~="facebook.com"] {
+.social a[href*="facebook.com"] {
   background-position: -94px -96px;
 }
 
