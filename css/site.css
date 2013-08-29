@@ -395,17 +395,17 @@ a {
 
 /* line 114, ../sass/partials/_objects.scss */
 .social a[rel~="google"] {
-  background-position: 0 -94px;
+  background-position: 0 -96px;
 }
 
 /* line 118, ../sass/partials/_objects.scss */
 .social a[rel~="flickr"] {
-  background-position: -48px -94px;
+  background-position: -48px -96px;
 }
 
 /* line 122, ../sass/partials/_objects.scss */
 .social a[rel~="facebook"] {
-  background-position: -94px -94px;
+  background-position: -94px -96px;
 }
 
 /* line 2, ../sass/partials/_stanford_carousel.scss */
