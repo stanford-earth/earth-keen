@@ -71,12 +71,6 @@ a {
   margin-bottom: 1em;
   text-align: left;
 }
-/* line 58, ../sass/partials/_typography.scss */
-.stacked a:after {
-  display: block;
-  float: right;
-  content: '>';
-}
 /* line 64, ../sass/partials/_typography.scss */
 .stacked li {
   display: inline;
@@ -95,18 +89,6 @@ a {
   background-color: transparent;
   border-bottom: 1px solid #f2f1eb;
   white-space: wrap;
-}
-/* line 82, ../sass/partials/_typography.scss */
-.sidebar .menu li a:after {
-  display: block;
-  color: #3f3c30;
-  float: right;
-  margin-right: 1em;
-  content: '>';
-}
-/* line 89, ../sass/partials/_typography.scss */
-.sidebar .menu li a.active:after {
-  content: ' ';
 }
 
 /* line 2, ../sass/partials/_layout.scss */

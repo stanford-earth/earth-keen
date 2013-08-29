@@ -55,11 +55,11 @@ a {
     display: block;
     margin-bottom: 1em;
     text-align: left;
-    &:after {
-      display: block;
-      float: right;
-      content: '>';
-    }
+    //&:after {
+    //  display: block;
+    //  float: right;
+    //  content: '>';
+    //}
   }
   li {
     display: inline;
@@ -79,16 +79,16 @@ a {
     background-color: transparent;
     border-bottom: 1px solid $beige;
     white-space: wrap;
-    &:after {
-      display: block;
-      color: $grey;
-      float: right;
-      margin-right: 1em;
-      content: '>';
-    }
-    &.active:after {
-      content: ' ';
-    }
+    //&:after {
+    //  display: block;
+    //  color: $grey;
+    //  float: right;
+    //  margin-right: 1em;
+    //  content: '>';
+    //}
+    //&.active:after {
+    //  content: ' ';
+    //}
   }
 
 
