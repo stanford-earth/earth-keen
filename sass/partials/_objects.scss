@@ -6,6 +6,15 @@
   } 
 }
 
+.box-impact {
+  @extend .box;
+  
+  h2 {
+    border-bottom: 3px solid $cardinal;
+    padding-bottom: 3px;
+  }
+}
+
 .box-highlight {
 
   @extend .box;

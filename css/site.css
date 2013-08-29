@@ -271,14 +271,20 @@ a {
   }
 }
 /* line 4, ../sass/partials/_objects.scss */
-.box .hd, .box-highlight .hd, .box-sidebar .hd,
-.sidebar .block .hd, .box .bd, .box-highlight .bd, .box-sidebar .bd,
-.sidebar .block .bd, .box .ft, .box-highlight .ft, .box-sidebar .ft,
+.box .hd, .box-impact .hd, .box-highlight .hd, .box-sidebar .hd,
+.sidebar .block .hd, .box .bd, .box-impact .bd, .box-highlight .bd, .box-sidebar .bd,
+.sidebar .block .bd, .box .ft, .box-impact .ft, .box-highlight .ft, .box-sidebar .ft,
 .sidebar .block .ft {
   padding: 1em;
 }
 
-/* line 9, ../sass/partials/_objects.scss */
+/* line 12, ../sass/partials/_objects.scss */
+.box-impact h2 {
+  border-bottom: 3px solid #8c1515;
+  padding-bottom: 3px;
+}
+
+/* line 18, ../sass/partials/_objects.scss */
 .box-highlight {
   background: #f2f1eb;
   /* For browsers that don't support gradients */
@@ -288,45 +294,45 @@ a {
   background: linear-gradient(to bottom, #f2f1eb, #fbfbf9);
   border: 1px solid #f2f1eb;
 }
-/* line 13, ../sass/partials/_objects.scss */
+/* line 22, ../sass/partials/_objects.scss */
 .box-highlight .hd {
   padding: 0;
 }
-/* line 22, ../sass/partials/_objects.scss */
+/* line 31, ../sass/partials/_objects.scss */
 .box-highlight blockquote {
   display: none;
 }
 
-/* line 28, ../sass/partials/_objects.scss */
+/* line 37, ../sass/partials/_objects.scss */
 .box-sidebar,
 .sidebar .block {
   border: 1px solid #f2f1eb;
   padding: 1em;
 }
-/* line 32, ../sass/partials/_objects.scss */
+/* line 41, ../sass/partials/_objects.scss */
 .box-sidebar .dropdown-menu,
 .sidebar .block .dropdown-menu {
   background-color: transparent;
 }
-/* line 35, ../sass/partials/_objects.scss */
+/* line 44, ../sass/partials/_objects.scss */
 .box-sidebar .menu a,
 .sidebar .block .menu a {
   padding: 5px;
 }
 
-/* line 41, ../sass/partials/_objects.scss */
+/* line 50, ../sass/partials/_objects.scss */
 .gallery .field-item {
   margin: 0 1em 1em 0;
   background-color: #f2f1eb;
 }
-/* line 44, ../sass/partials/_objects.scss */
+/* line 53, ../sass/partials/_objects.scss */
 .gallery .field-item blockquote {
   margin: 0;
   padding: 5px;
   text-align: center;
 }
 
-/* line 54, ../sass/partials/_objects.scss */
+/* line 63, ../sass/partials/_objects.scss */
 .article .figure {
   max-width: 480px;
 }
