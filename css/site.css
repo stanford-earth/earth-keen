@@ -346,11 +346,11 @@ a {
 
 /* line 68, ../sass/partials/_objects.scss */
 .social li {
-  margin: 0;
+  margin: 0 !important;
   padding: 0;
 }
 
-/* line 73, ../sass/partials/_objects.scss */
+/* line 74, ../sass/partials/_objects.scss */
 .social .content a {
   display: inline-block;
   background: transparent url("../images/socialicons.png") no-repeat 0 0;
@@ -361,52 +361,52 @@ a {
   text-indent: -9999px;
 }
 
-/* line 84, ../sass/partials/_objects.scss */
+/* line 85, ../sass/partials/_objects.scss */
 .social .content a:hover {
   opacity: 1;
 }
 
-/* line 88, ../sass/partials/_objects.scss */
+/* line 89, ../sass/partials/_objects.scss */
 .social a[href*="youtube.com"] {
   background-position: 0 0;
 }
 
-/* line 92, ../sass/partials/_objects.scss */
+/* line 93, ../sass/partials/_objects.scss */
 .social a[href*="vimeo.com"] {
   background-position: -46px 0;
 }
 
-/* line 96, ../sass/partials/_objects.scss */
+/* line 97, ../sass/partials/_objects.scss */
 .social a[href*="twitter.com"] {
   background-position: -91px 0;
 }
 
-/* line 100, ../sass/partials/_objects.scss */
+/* line 101, ../sass/partials/_objects.scss */
 .social a[href*="tumblr.com"] {
   background-position: 0 -46px;
 }
 
-/* line 104, ../sass/partials/_objects.scss */
+/* line 105, ../sass/partials/_objects.scss */
 .social a[href*="pinterest.com"] {
   background-position: -46px -46px;
 }
 
-/* line 108, ../sass/partials/_objects.scss */
+/* line 109, ../sass/partials/_objects.scss */
 .social a[href*="linkedin.com"] {
   background-position: -91px -46px;
 }
 
-/* line 112, ../sass/partials/_objects.scss */
+/* line 113, ../sass/partials/_objects.scss */
 .social a[href*="google.com"] {
   background-position: 0 -91px;
 }
 
-/* line 116, ../sass/partials/_objects.scss */
+/* line 117, ../sass/partials/_objects.scss */
 .social a[href*="flickr.com"] {
   background-position: -46px -91px;
 }
 
-/* line 120, ../sass/partials/_objects.scss */
+/* line 121, ../sass/partials/_objects.scss */
 .social a[href*="facebook.com"] {
   background-position: -91px -91px;
 }

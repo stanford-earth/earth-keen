@@ -66,7 +66,8 @@
 }
 
 .social li {
-    margin: 0;
+    //TODO: Need to override #footer from Stanford Framework
+    margin: 0 !important;
     padding: 0;
 }
 
