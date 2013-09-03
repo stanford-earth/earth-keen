@@ -19,9 +19,11 @@ a {
   background-color: $cardinal;
   @include background(linear-gradient(lighten($cardinal, 10%), $cardinal));
   text-transform: uppercase;
-  color: $white;
   &:hover {
     @include background(linear-gradient($cardinal, lighten($cardinal, 10%)));
+  }
+  a {
+    color: $white;
   }
 }
 

@@ -29,30 +29,33 @@ a {
   background: -o-linear-gradient(#b81c1c, #8c1515);
   background: linear-gradient(#b81c1c, #8c1515);
   text-transform: uppercase;
-  color: #fbfbf9;
 }
-/* line 23, ../sass/partials/_typography.scss */
+/* line 22, ../sass/partials/_typography.scss */
 .btn-primary:hover {
   background: -webkit-linear-gradient(#8c1515, #b81c1c);
   background: -moz-linear-gradient(#8c1515, #b81c1c);
   background: -o-linear-gradient(#8c1515, #b81c1c);
   background: linear-gradient(#8c1515, #b81c1c);
 }
+/* line 25, ../sass/partials/_typography.scss */
+.btn-primary a {
+  color: #fbfbf9;
+}
 
-/* line 28, ../sass/partials/_typography.scss */
+/* line 30, ../sass/partials/_typography.scss */
 .caption {
   background-color: #f2f1eb;
   text-align: center;
   padding: 5px;
 }
 
-/* line 34, ../sass/partials/_typography.scss */
+/* line 36, ../sass/partials/_typography.scss */
 .summary {
   text-align: justify;
 }
 
 /* ---- VCard Markup ---- */
-/* line 41, ../sass/partials/_typography.scss */
+/* line 43, ../sass/partials/_typography.scss */
 .n,
 .tel {
   white-space: nowrap;
@@ -60,23 +63,23 @@ a {
 
 /* ---- Headers ---- */
 /* ---- Lists ---- */
-/* line 49, ../sass/partials/_typography.scss */
+/* line 51, ../sass/partials/_typography.scss */
 .inline li {
   display: inline-block;
 }
 
-/* line 54, ../sass/partials/_typography.scss */
+/* line 56, ../sass/partials/_typography.scss */
 .stacked a {
   display: block;
   margin-bottom: 1em;
   text-align: left;
 }
-/* line 64, ../sass/partials/_typography.scss */
+/* line 66, ../sass/partials/_typography.scss */
 .stacked li {
   display: inline;
 }
 
-/* line 69, ../sass/partials/_typography.scss */
+/* line 71, ../sass/partials/_typography.scss */
 .stacked-center a {
   text-align: center;
   font-size: 115%;
@@ -84,7 +87,7 @@ a {
   padding: 10px 0 !important;
 }
 
-/* line 78, ../sass/partials/_typography.scss */
+/* line 80, ../sass/partials/_typography.scss */
 .sidebar .menu li a {
   background-color: transparent;
   border-bottom: 1px solid #f2f1eb;
