@@ -346,10 +346,11 @@ a {
 
 /* line 68, ../sass/partials/_objects.scss */
 .social li {
+  margin: 0;
   padding: 0;
 }
 
-/* line 72, ../sass/partials/_objects.scss */
+/* line 73, ../sass/partials/_objects.scss */
 .social .content a {
   display: inline-block;
   background: transparent url("../images/socialicons.png") no-repeat 0 0;
@@ -360,52 +361,52 @@ a {
   text-indent: -9999px;
 }
 
-/* line 83, ../sass/partials/_objects.scss */
+/* line 84, ../sass/partials/_objects.scss */
 .social .content a:hover {
   opacity: 1;
 }
 
-/* line 87, ../sass/partials/_objects.scss */
+/* line 88, ../sass/partials/_objects.scss */
 .social a[href*="youtube.com"] {
   background-position: 0 0;
 }
 
-/* line 91, ../sass/partials/_objects.scss */
+/* line 92, ../sass/partials/_objects.scss */
 .social a[href*="vimeo.com"] {
   background-position: -46px 0;
 }
 
-/* line 95, ../sass/partials/_objects.scss */
+/* line 96, ../sass/partials/_objects.scss */
 .social a[href*="twitter.com"] {
   background-position: -91px 0;
 }
 
-/* line 99, ../sass/partials/_objects.scss */
+/* line 100, ../sass/partials/_objects.scss */
 .social a[href*="tumblr.com"] {
   background-position: 0 -46px;
 }
 
-/* line 103, ../sass/partials/_objects.scss */
+/* line 104, ../sass/partials/_objects.scss */
 .social a[href*="pinterest.com"] {
   background-position: -46px -46px;
 }
 
-/* line 107, ../sass/partials/_objects.scss */
+/* line 108, ../sass/partials/_objects.scss */
 .social a[href*="linkedin.com"] {
   background-position: -91px -46px;
 }
 
-/* line 111, ../sass/partials/_objects.scss */
+/* line 112, ../sass/partials/_objects.scss */
 .social a[href*="google.com"] {
   background-position: 0 -91px;
 }
 
-/* line 115, ../sass/partials/_objects.scss */
+/* line 116, ../sass/partials/_objects.scss */
 .social a[href*="flickr.com"] {
   background-position: -46px -91px;
 }
 
-/* line 119, ../sass/partials/_objects.scss */
+/* line 120, ../sass/partials/_objects.scss */
 .social a[href*="facebook.com"] {
   background-position: -90px -91px;
 }
