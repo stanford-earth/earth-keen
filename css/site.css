@@ -372,12 +372,12 @@ a {
 
 /* line 91, ../sass/partials/_objects.scss */
 .social a[href*="vimeo.com"] {
-  background-position: -48px 0;
+  background-position: -46px 0;
 }
 
 /* line 95, ../sass/partials/_objects.scss */
 .social a[href*="twitter.com"] {
-  background-position: -94px 0;
+  background-position: -91px 0;
 }
 
 /* line 99, ../sass/partials/_objects.scss */
@@ -387,12 +387,12 @@ a {
 
 /* line 103, ../sass/partials/_objects.scss */
 .social a[href*="pinterest.com"] {
-  background-position: -46px -48px;
+  background-position: -46px -46px;
 }
 
 /* line 107, ../sass/partials/_objects.scss */
 .social a[href*="linkedin.com"] {
-  background-position: -94px -48px;
+  background-position: -91px -46px;
 }
 
 /* line 111, ../sass/partials/_objects.scss */
