@@ -402,12 +402,12 @@ a {
 
 /* line 115, ../sass/partials/_objects.scss */
 .social a[href*="flickr.com"] {
-  background-position: -48px -96px;
+  background-position: -46px -91px;
 }
 
 /* line 119, ../sass/partials/_objects.scss */
 .social a[href*="facebook.com"] {
-  background-position: -94px -96px;
+  background-position: -90px -91px;
 }
 
 /* line 2, ../sass/partials/_stanford_carousel.scss */
