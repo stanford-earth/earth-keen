@@ -29,7 +29,7 @@ a {
   background: -o-linear-gradient(#b81c1c, #8c1515);
   background: linear-gradient(#b81c1c, #8c1515);
   text-transform: uppercase;
-  color: #f2f1eb;
+  color: #fbfbf9;
 }
 /* line 23, ../sass/partials/_typography.scss */
 .btn-primary:hover {
