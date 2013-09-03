@@ -353,8 +353,8 @@ a {
 .social .content a {
   display: inline-block;
   background: transparent url("../images/socialicons.png") no-repeat 0 0;
-  width: 48px;
-  height: 48px;
+  width: 46px;
+  height: 46px;
   padding: 0 !important;
   opacity: .75;
   text-indent: -9999px;
@@ -382,12 +382,12 @@ a {
 
 /* line 99, ../sass/partials/_objects.scss */
 .social a[href*="tumblr.com"] {
-  background-position: 0 -48px;
+  background-position: 0 -46px;
 }
 
 /* line 103, ../sass/partials/_objects.scss */
 .social a[href*="pinterest.com"] {
-  background-position: -48px -48px;
+  background-position: -46px -48px;
 }
 
 /* line 107, ../sass/partials/_objects.scss */
@@ -397,7 +397,7 @@ a {
 
 /* line 111, ../sass/partials/_objects.scss */
 .social a[href*="google.com"] {
-  background-position: 0 -96px;
+  background-position: 0 -91px;
 }
 
 /* line 115, ../sass/partials/_objects.scss */
