@@ -65,13 +65,14 @@
   }
 }
 
-.social li {
-    //TODO: Need to override #footer from Stanford Framework
-    margin: 0 !important;
-    padding: 0;
-}
-
-.social .content a {
+.social {
+  li {
+      //TODO: Need to override #footer from Stanford Framework
+      margin: 0 !important;
+      padding: 0;
+  }  
+  
+  .content a {
     display: inline-block;
     background: transparent url('../images/socialicons.png') no-repeat 0 0;
     width: 46px;
@@ -80,44 +81,44 @@
     padding: 0 !important;
     opacity: .75;
     text-indent: -9999px;
-}
-
-.social .content a:hover {
-    opacity: 1;
-}
-
-.social a[href*="youtube.com"] {
+    &:hover {
+      opacity: 1;
+    }
+  }
+  
+  a[href*="youtube.com"] {
     background-position: 0 0;
-}
-
-.social a[href*="vimeo.com"] {
+  }
+  
+  a[href*="vimeo.com"] {
     background-position: -46px 0;
-}
-
-.social a[href*="twitter.com"] {
+  }
+  
+  a[href*="twitter.com"] {
     background-position: -91px 0;
-}
-
-.social a[href*="tumblr.com"] {
+  }
+  
+  a[href*="tumblr.com"] {
     background-position: 0 -46px;
-}
-
-.social a[href*="pinterest.com"] {
+  }
+  
+  a[href*="pinterest.com"] {
     background-position: -46px -46px;
-}
-
-.social a[href*="linkedin.com"] {
+  }
+  
+  a[href*="linkedin.com"] {
     background-position: -91px -46px;
-}
-
-.social a[href*="google.com"] {
+  }
+  
+  a[href*="google.com"] {
     background-position: 0 -91px;
-}
-
-.social a[href*="flickr.com"] {
+  }
+  
+  a[href*="flickr.com"] {
     background-position: -46px -91px;
-}
-
-.social a[href*="facebook.com"] {
+  }
+  
+  a[href*="facebook.com"] {
     background-position: -91px -91px;
-}
+  }
+} // End Social
