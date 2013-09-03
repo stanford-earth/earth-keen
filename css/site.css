@@ -123,11 +123,11 @@ a {
 .grid-2 .field-item,
 .grid-3 .field-item,
 .grid-4 .field-item,
-.grid .span6,
-.grid-2 .span6,
-.grid-3 .span6,
-.grid-4 .span6 {
-  clear: none;
+.grid .column,
+.grid-2 .column,
+.grid-3 .column,
+.grid-4 .column {
+  clear: none !important;
   display: inline-block;
   vertical-align: top;
   margin: 0 1em 1em 0\9;
