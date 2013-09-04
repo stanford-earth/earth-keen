@@ -75,13 +75,14 @@
   
   .content a {
     display: inline-block;
-    background: transparent url('../images/socialicons.png') no-repeat 0 0;
+    background: transparent url('/d7_ses/sites/all/themes/earth-keen/images/socialicons.png') no-repeat 0 0;
     width: 46px;
     height: 46px;
     // TODO: Figure out a better way to "out-specify" the ID selector from Stanford Framewok
     padding: 0 !important;
     opacity: .75;
     text-indent: -9999px;
+    *text-indent: 0;
     &:hover {
       opacity: 1;
     }

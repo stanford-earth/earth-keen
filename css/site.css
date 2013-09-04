@@ -363,50 +363,51 @@ a {
 /* line 76, ../sass/partials/_objects.scss */
 .social .content a {
   display: inline-block;
-  background: transparent url("../images/socialicons.png") no-repeat 0 0;
+  background: transparent url("/d7_ses/sites/all/themes/earth-keen/images/socialicons.png") no-repeat 0 0;
   width: 46px;
   height: 46px;
   padding: 0 !important;
   opacity: .75;
   text-indent: -9999px;
+  *text-indent: 0;
 }
-/* line 85, ../sass/partials/_objects.scss */
+/* line 86, ../sass/partials/_objects.scss */
 .social .content a:hover {
   opacity: 1;
 }
-/* line 90, ../sass/partials/_objects.scss */
+/* line 91, ../sass/partials/_objects.scss */
 .social a[href*="youtube.com"] {
   background-position: 0 0;
 }
-/* line 94, ../sass/partials/_objects.scss */
+/* line 95, ../sass/partials/_objects.scss */
 .social a[href*="vimeo.com"] {
   background-position: -46px 0;
 }
-/* line 98, ../sass/partials/_objects.scss */
+/* line 99, ../sass/partials/_objects.scss */
 .social a[href*="twitter.com"] {
   background-position: -91px 0;
 }
-/* line 102, ../sass/partials/_objects.scss */
+/* line 103, ../sass/partials/_objects.scss */
 .social a[href*="tumblr.com"] {
   background-position: 0 -46px;
 }
-/* line 106, ../sass/partials/_objects.scss */
+/* line 107, ../sass/partials/_objects.scss */
 .social a[href*="pinterest.com"] {
   background-position: -46px -46px;
 }
-/* line 110, ../sass/partials/_objects.scss */
+/* line 111, ../sass/partials/_objects.scss */
 .social a[href*="linkedin.com"] {
   background-position: -91px -46px;
 }
-/* line 114, ../sass/partials/_objects.scss */
+/* line 115, ../sass/partials/_objects.scss */
 .social a[href*="google.com"] {
   background-position: 0 -91px;
 }
-/* line 118, ../sass/partials/_objects.scss */
+/* line 119, ../sass/partials/_objects.scss */
 .social a[href*="flickr.com"] {
   background-position: -46px -91px;
 }
-/* line 122, ../sass/partials/_objects.scss */
+/* line 123, ../sass/partials/_objects.scss */
 .social a[href*="facebook.com"] {
   background-position: -91px -91px;
 }
