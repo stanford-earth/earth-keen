@@ -64,7 +64,7 @@ a {
 /* ---- Headers ---- */
 /* ---- Lists ---- */
 /* line 51, ../sass/partials/_typography.scss */
-.inline li {
+.inline a {
   display: inline-block;
 }
 
