@@ -74,8 +74,8 @@
   }  
   
   .content a {
-    display: inline-block;
     display: block;
+    float: left;
     background: pink url(../images/socialicons.png) no-repeat 0 0;
     width: 46px;
     height: 46px;
