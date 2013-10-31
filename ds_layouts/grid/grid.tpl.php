@@ -26,7 +26,7 @@
     <?php print render($title_suffix['contextual_links']); ?>
   <?php endif; ?>
 
-    <<?php print $media_wrapper; ?> class="ds-media hd<?php print $media_classes; ?>">
+    <<?php print $media_wrapper; ?> class="ds-media gallery hd<?php print $media_classes; ?>">
       <?php print $media; ?>
     </<?php print $media_wrapper; ?>>
 
