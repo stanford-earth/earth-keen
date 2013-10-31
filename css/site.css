@@ -1,3 +1,7 @@
+body {
+  font-size: 16px;
+}
+
 /* http://www.stanford.edu/group/webdev/color/ */
 /* ---- Text ---- */
 /* line 2, ../sass/partials/_typography.scss */
@@ -98,6 +102,10 @@ a {
 #header {
   margin: 0 0 1em 0;
   padding: 25px 0 30px;
+  padding: 55px 0 0 0;
+  background: transparent url(https://stanford.box.com/shared/static/p1jfc8ppzbzj9p4q1y0n.png) no-repeat top right;
+  min-height: 131px;
+  border-bottom: 1px solid #ccc;
 }
 /* line 8, ../sass/partials/_layout.scss */
 #header #logo {
@@ -364,9 +372,10 @@ a {
 .social .content a {
   display: block;
   float: left;
-  background: pink url(../images/socialicons.png) no-repeat 0 0;
+  background: transparent url(../images/socialicons.png) no-repeat 0 0;
   width: 46px;
   height: 46px;
+  margin: 2px;
   padding: 0 !important;
   opacity: .75;
   text-indent: -9999px;
