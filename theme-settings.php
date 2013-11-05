@@ -2,7 +2,7 @@
 function earth_keen_form_system_theme_settings_alter(&$form, &$form_state) {
 
     $form['header_container']['masthead'] = array(
-      '#type'     => 'managed_file',
+      '#type'     => 'file',
       '#title'    => t('Masthead'),
       '#required' => FALSE,
       '#upload_location' => file_default_scheme() . '://theme/mastheads/',
@@ -24,8 +24,8 @@ function masthead_upload_submit($form, &$form_state) {
   //Set the status of the uploaded file.
   $file->status = FILE_STATUS_PERMANENT;
   file_save($file);
+  watchdog('notice', 'file = ' . print_r($file,true));
 }
   
 function masthead_upload_validate($form, &$form_state) {
-  watchdog('notice','masthead_upload_validate');
 }
