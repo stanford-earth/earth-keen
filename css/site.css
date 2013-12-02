@@ -104,7 +104,9 @@ a {
   padding: 25px 0 30px;
   padding: 55px 0 0 0;
   background: transparent url(https://stanford.box.com/shared/static/p1jfc8ppzbzj9p4q1y0n.png) no-repeat top right;
-  min-height: 131px;
+  background: transparent url(../images/globe.gif) no-repeat top right;
+  min-height: 129px;
+  border-top: 2px solid #a8b8c9;
   border-bottom: 1px solid #ccc;
 }
 /* line 8, ../sass/partials/_layout.scss */
