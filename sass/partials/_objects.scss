@@ -25,7 +25,7 @@
 
   background: $beige; /* For browsers that don't support gradients */
   @include background(linear-gradient(top, $beige, $white));
-  border: 1px solid $beige;
+  border: 1px solid $beige !important;
 
   // Hack to hide captions from gallery thumnails
   blockquote {
