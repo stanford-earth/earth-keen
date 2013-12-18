@@ -76,7 +76,7 @@
   .content a {
     display: block;
     float: left;
-    background: pink url(../images/socialicons.png) no-repeat 0 0;
+    background: transparent url(../images/socialicons.png) no-repeat 0 0;
     width: 46px;
     height: 46px;
     // TODO: Figure out a better way to "out-specify" the ID selector from Stanford Framewok
@@ -124,3 +124,7 @@
     background-position: -91px -91px;
   }
 } // End Social
+
+.table td {
+  border-width: 1px 0 0 0;
+}

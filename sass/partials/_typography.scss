@@ -41,6 +41,16 @@ a {
   text-align: justify;
 }
 
+.promo {
+  .title, h3 {
+    font-size: 140%;
+    margin-bottom: 2em;
+  }
+  img, .views-row {
+    margin-bottom: 0 !important;
+  }
+}
+
 /* ---- VCard Markup ---- */
 
 .n,
