@@ -48,7 +48,7 @@
 } // End grid rules
 
 .ds-text {
-  padding: 5px 15px;
+  padding: 1.25em;
 }
 
  // IE8 doesn't support nth-of-type selectors, so resorting to hard-coded selectors below. Sad panda :(
@@ -187,4 +187,13 @@ table.views-table tbody tr.odd {background: #f2f1eb;}
 table.views-table tbody tr.even {background: #f2f1eb;}
 table.views-table tbody td {display: block; padding: 5px;}
 table.views-table tbody td p {margin: 0px;}
+}
+
+.content-body {
+  .region-content {
+    margin-bottom: 0;
+  }
+  .ds-text {
+    padding: 0;
+  }
 }
