@@ -126,7 +126,7 @@ a {
 /* line 8, ../sass/partials/_layout.scss */
 #header .container {
   background: transparent url(../images/bluemarble-western.png) no-repeat top right;
-  background-position-y: 5px;
+  background-position-y: 25px;
   min-height: 140px;
 }
 /* line 13, ../sass/partials/_layout.scss */
@@ -343,9 +343,9 @@ a {
 }
 
 /* line 4, ../sass/partials/_objects.scss */
-.box .hd, .box-impact .hd, .box-highlight .hd, .box-sidebar .hd,
-.sidebar .block .hd, .box .bd, .box-impact .bd, .box-highlight .bd, .box-sidebar .bd,
-.sidebar .block .bd, .box .ft, .box-impact .ft, .box-highlight .ft, .box-sidebar .ft,
+.box .hd, .box-impact .hd, .box-highlight .hd, .box-summary .hd, .box-sidebar .hd,
+.sidebar .block .hd, .box .bd, .box-impact .bd, .box-highlight .bd, .box-summary .bd, .box-sidebar .bd,
+.sidebar .block .bd, .box .ft, .box-impact .ft, .box-highlight .ft, .box-summary .ft, .box-sidebar .ft,
 .sidebar .block .ft {
   padding: 1em;
 }
@@ -357,7 +357,7 @@ a {
 }
 
 /* line 18, ../sass/partials/_objects.scss */
-.box-highlight {
+.box-highlight, .box-summary {
   background: #f2f1eb;
   /* For browsers that don't support gradients */
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f2f1eb), color-stop(100%, #fbfbf9));
@@ -368,55 +368,60 @@ a {
   border: 1px solid #f2f1eb !important;
 }
 /* line 22, ../sass/partials/_objects.scss */
-.box-highlight .hd {
+.box-highlight .hd, .box-summary .hd {
   padding: 0;
 }
 /* line 31, ../sass/partials/_objects.scss */
-.box-highlight blockquote {
+.box-highlight blockquote, .box-summary blockquote {
   display: none;
 }
 
-/* line 37, ../sass/partials/_objects.scss */
+/* line 36, ../sass/partials/_objects.scss */
+.box-summary {
+  padding: 2% 5%;
+}
+
+/* line 42, ../sass/partials/_objects.scss */
 .box-sidebar,
 .sidebar .block {
   border: 1px solid #f2f1eb;
   padding: 1em;
 }
-/* line 41, ../sass/partials/_objects.scss */
+/* line 46, ../sass/partials/_objects.scss */
 .box-sidebar .dropdown-menu,
 .sidebar .block .dropdown-menu {
   background-color: transparent;
 }
-/* line 44, ../sass/partials/_objects.scss */
+/* line 49, ../sass/partials/_objects.scss */
 .box-sidebar .menu a,
 .sidebar .block .menu a {
   padding: 5px;
 }
 
-/* line 50, ../sass/partials/_objects.scss */
+/* line 55, ../sass/partials/_objects.scss */
 .gallery .field-item {
   margin: 0 1em 1em 0;
   background-color: #f2f1eb;
   display: inline-block;
 }
-/* line 54, ../sass/partials/_objects.scss */
+/* line 59, ../sass/partials/_objects.scss */
 .gallery .field-item blockquote {
   margin: 0;
   padding: 5px;
   text-align: center;
 }
 
-/* line 64, ../sass/partials/_objects.scss */
+/* line 69, ../sass/partials/_objects.scss */
 .article .figure {
   max-width: 480px;
 }
 
-/* line 70, ../sass/partials/_objects.scss */
+/* line 75, ../sass/partials/_objects.scss */
 .social li {
   margin: 0 !important;
   padding: 0;
 }
-/* line 76, ../sass/partials/_objects.scss */
+/* line 81, ../sass/partials/_objects.scss */
 .social .content a {
   display: block;
   float: left;
@@ -427,48 +432,48 @@ a {
   opacity: .75;
   text-indent: -9999px;
 }
-/* line 86, ../sass/partials/_objects.scss */
+/* line 91, ../sass/partials/_objects.scss */
 .social .content a:hover {
   opacity: 1;
 }
-/* line 91, ../sass/partials/_objects.scss */
+/* line 96, ../sass/partials/_objects.scss */
 .social a[href*="youtube.com"] {
   background-position: 0 0;
 }
-/* line 95, ../sass/partials/_objects.scss */
+/* line 100, ../sass/partials/_objects.scss */
 .social a[href*="vimeo.com"] {
   background-position: -46px 0;
 }
-/* line 99, ../sass/partials/_objects.scss */
+/* line 104, ../sass/partials/_objects.scss */
 .social a[href*="twitter.com"] {
   background-position: -91px 0;
 }
-/* line 103, ../sass/partials/_objects.scss */
+/* line 108, ../sass/partials/_objects.scss */
 .social a[href*="tumblr.com"] {
   background-position: 0 -46px;
 }
-/* line 107, ../sass/partials/_objects.scss */
+/* line 112, ../sass/partials/_objects.scss */
 .social a[href*="pinterest.com"] {
   background-position: -46px -46px;
 }
-/* line 111, ../sass/partials/_objects.scss */
+/* line 116, ../sass/partials/_objects.scss */
 .social a[href*="linkedin.com"] {
   background-position: -91px -46px;
 }
-/* line 115, ../sass/partials/_objects.scss */
+/* line 120, ../sass/partials/_objects.scss */
 .social a[href*="google.com"] {
   background-position: 0 -91px;
 }
-/* line 119, ../sass/partials/_objects.scss */
+/* line 124, ../sass/partials/_objects.scss */
 .social a[href*="flickr.com"] {
   background-position: -46px -91px;
 }
-/* line 123, ../sass/partials/_objects.scss */
+/* line 128, ../sass/partials/_objects.scss */
 .social a[href*="facebook.com"] {
   background-position: -91px -91px;
 }
 
-/* line 128, ../sass/partials/_objects.scss */
+/* line 133, ../sass/partials/_objects.scss */
 .table td {
   border-width: 0 0 1px 0;
 }

@@ -33,6 +33,11 @@
   }
 }
 
+.box-summary {
+  @extend .box-highlight;
+  padding: 2% 5%;
+}
+
 .box-sidebar,
 .sidebar .block {
   @extend .box;
