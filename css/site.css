@@ -129,7 +129,7 @@ a {
   background: transparent url(../images/globe-700.png) no-repeat right -222px;
   min-height: 155px;
 }
-@media (max-width: 1187px) {
+@media (max-width: 1195px) {
   /* line 8, ../sass/partials/_layout.scss */
   #header .container {
     background: transparent url(../images/globe-500.png) no-repeat 440px -130px;
