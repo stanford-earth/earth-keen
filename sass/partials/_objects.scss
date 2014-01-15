@@ -4,6 +4,9 @@
   .hd, .bd, .ft {
     padding: 1em;
   } 
+  .ds-text {
+    padding: 1em;
+  }
 }
 
 .box-impact {
@@ -34,7 +37,6 @@
 }
 
 .box-summary {
-  @extend .box-highlight;
   padding: 2% 5%;
 }
 
@@ -63,6 +65,17 @@
       }
     }
   }
+
+.promo {
+  @extend .promo;  
+  .postcard-left,
+  p {
+    margin-bottom: 0;
+  }
+  .ds-text {
+    padding: 1em;
+  }
+}
 
 // Article image
 .article {

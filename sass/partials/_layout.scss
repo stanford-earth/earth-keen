@@ -6,9 +6,9 @@
 #header {
   margin: 0;
   .container {
-    background: transparent url(../images/bluemarble-western.png) no-repeat top right;
-    background-position-y: 25px;
-    min-height: 140px;
+    background: transparent url(../images/globe-900.png) no-repeat 460px -320px;
+    background: transparent url(../images/globe-700.png) no-repeat right -222px;
+    min-height: 155px;
   }
   #logo {
     padding-top: 45px;
@@ -46,10 +46,6 @@
   
 
 } // End grid rules
-
-.ds-text {
-  padding: 1.25em;
-}
 
  // IE8 doesn't support nth-of-type selectors, so resorting to hard-coded selectors below. Sad panda :(
 
@@ -144,13 +140,21 @@
   padding: 5px 0;
 }
 
+#block-search-form {
+  //position: relative;
+  //top: 65px;
+  //right: 15px;
+}
+
 @media screen and (max-width:767px) {
   #header {
     .container {
       background-position-y: 75px;
       background-position-x: -75px;
+      background: none;
       margin-bottom: 0;
       min-height: 190px;
+      min-height: 66px;
       }
       #logo {
         padding-top: 0;
@@ -171,6 +175,9 @@
 }
 
 @media (max-width: 640px) {
+#block-search-form {
+  position: static;
+}
 /* Views Table */
 table.views-table, table.sticky-header {display: block; position:
 relative; width: 100%;}
