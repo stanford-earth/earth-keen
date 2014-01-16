@@ -19,6 +19,10 @@ a {
   background-color: $cardinal;
 }
 
+.btn {
+  text-transform: uppercase;
+}
+
 .btn-primary {
   background-color: $cardinal;
   @include background(linear-gradient(lighten($cardinal, 10%), $cardinal));
