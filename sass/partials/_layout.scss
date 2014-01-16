@@ -1,5 +1,5 @@
 #global-header a {
-  font-size: 14px;
+  font-size: 13px;
 }
 
 //Override logo treatment
@@ -34,6 +34,10 @@
   #name-and-slogan {
     @include off-screen;
   }
+}
+
+#block-system-main-menu {
+  margin-right: 200px;
 }
 
 .grid {
@@ -155,9 +159,9 @@
 }
 
 #block-search-form {
-  //position: relative;
-  //top: 65px;
-  //right: 15px;
+  position: relative;
+  top: 65px;
+  right: 15px;
 }
 
 @media screen and (max-width:767px) {
@@ -171,6 +175,12 @@
 
   .navbar {
     border-bottom: none;
+  }
+}
+
+.front {
+  .region-content {
+    margin-bottom: 0;
   }
 }
 
