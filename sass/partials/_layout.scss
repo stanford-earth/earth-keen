@@ -205,3 +205,14 @@ table.views-table tbody tr.even {background: #f2f1eb;}
 table.views-table tbody td {display: block; padding: 5px;}
 table.views-table tbody td p {margin: 0px;}
 }
+
+// Ensuring that height of degree programs boxes is always equal
+
+.degree-programs .box-highlight {
+  @media (min-width: 768px) {
+    min-height: 170px;
+  }
+  @media (min-width: 1200px) {
+    min-height: 120px;
+  }
+}
