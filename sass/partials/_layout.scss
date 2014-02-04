@@ -159,9 +159,11 @@
 }
 
 #block-search-form {
-  position: relative;
-  top: 65px;
-  right: 15px;
+  @media (min-width: 767px) {
+    position: relative;
+    top: 65px;
+    right: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
