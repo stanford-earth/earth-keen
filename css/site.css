@@ -550,6 +550,16 @@ a {
   border-width: 0 0 1px 0;
 }
 
+/* line 159, ../sass/partials/_objects.scss */
+.page-node .content-body .ds-credit .field, .page-node .content-body .ds-figure .field {
+  margin-bottom: 0;
+}
+/* line 163, ../sass/partials/_objects.scss */
+.page-node .content-body .ds-credit {
+  text-align: right;
+  font-style: italic;
+}
+
 /* line 2, ../sass/partials/_stanford_carousel.scss */
 .carousel {
   margin-bottom: 0;

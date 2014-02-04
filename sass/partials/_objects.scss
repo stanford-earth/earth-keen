@@ -150,3 +150,18 @@
 .table td {
   border-width: 0 0 1px 0;
 }
+
+
+// Figure box
+
+.page-node .content-body {
+  .ds-credit, .ds-figure {
+    .field {
+      margin-bottom: 0;
+    }
+  }
+  .ds-credit {
+    text-align: right;
+    font-style: italic;
+  }
+}
