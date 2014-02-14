@@ -560,6 +560,23 @@ a {
   font-style: italic;
 }
 
+/* line 171, ../sass/partials/_objects.scss */
+.byline .field {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  border-left: 1px solid #3f3c30;
+  padding: 0 .5em;
+}
+/* line 176, ../sass/partials/_objects.scss */
+.byline .field:first-child {
+  border-left: none;
+  padding-left: 0;
+}
+
 /* line 2, ../sass/partials/_stanford_carousel.scss */
 .carousel {
   margin-bottom: 0;
