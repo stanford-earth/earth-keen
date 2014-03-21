@@ -1,42 +1,14 @@
 /*
-Syntax error: Invalid CSS after "      float: left": expected ";", was ":"
-        on line 87 of /Users/aaroncole/WWW/d7/sites/all/themes/earth-keen/sass/partials/_objects.scss
+Syntax error: Invalid CSS after "}": expected selector or at-rule, was "}"
+        on line 92 of /Users/aaroncole/WWW/d7/sites/all/themes/earth-keen/sass/partials/_objects.scss
         from line 8 of /Users/aaroncole/WWW/d7/sites/all/themes/earth-keen/sass/site.scss
 
 Backtrace:
-/Users/aaroncole/WWW/d7/sites/all/themes/earth-keen/sass/partials/_objects.scss:87
+/Users/aaroncole/WWW/d7/sites/all/themes/earth-keen/sass/partials/_objects.scss:92
 /Users/aaroncole/WWW/d7/sites/all/themes/earth-keen/sass/site.scss:8
 /Library/Ruby/Gems/2.0.0/gems/sass-3.2.17/lib/sass/scss/parser.rb:1147:in `expected'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.2.17/lib/sass/scss/parser.rb:1085:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.17/lib/sass/scss/parser.rb:1080:in `tok!'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.17/lib/sass/scss/parser.rb:586:in `block in declaration_or_ruleset'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.17/lib/sass/scss/parser.rb:1123:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.17/lib/sass/scss/parser.rb:1123:in `rethrow'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.17/lib/sass/scss/parser.rb:592:in `declaration_or_ruleset'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.17/lib/sass/scss/parser.rb:554:in `block_child'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.17/lib/sass/scss/parser.rb:543:in `block_contents'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.17/lib/sass/scss/parser.rb:535:in `block'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.17/lib/sass/scss/parser.rb:529:in `ruleset'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.17/lib/sass/scss/parser.rb:591:in `block in declaration_or_ruleset'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.17/lib/sass/scss/parser.rb:1123:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.17/lib/sass/scss/parser.rb:1123:in `rethrow'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.17/lib/sass/scss/parser.rb:592:in `declaration_or_ruleset'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.17/lib/sass/scss/parser.rb:554:in `block_child'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.17/lib/sass/scss/parser.rb:543:in `block_contents'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.17/lib/sass/scss/parser.rb:535:in `block'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.17/lib/sass/scss/parser.rb:529:in `ruleset'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.17/lib/sass/scss/parser.rb:591:in `block in declaration_or_ruleset'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.17/lib/sass/scss/parser.rb:1123:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.17/lib/sass/scss/parser.rb:1123:in `rethrow'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.17/lib/sass/scss/parser.rb:592:in `declaration_or_ruleset'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.17/lib/sass/scss/parser.rb:554:in `block_child'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.17/lib/sass/scss/parser.rb:543:in `block_contents'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.17/lib/sass/scss/parser.rb:535:in `block'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.17/lib/sass/scss/parser.rb:529:in `ruleset'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.17/lib/sass/scss/parser.rb:553:in `block_child'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.17/lib/sass/scss/parser.rb:546:in `block_contents'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.17/lib/sass/scss/parser.rb:82:in `stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.17/lib/sass/scss/parser.rb:27:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.17/lib/sass/scss/parser.rb:28:in `parse'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.2.17/lib/sass/engine.rb:342:in `_to_tree'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.2.17/lib/sass/engine.rb:274:in `to_tree'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.2.17/lib/sass/tree/visitors/perform.rb:225:in `visit_import'
@@ -97,4 +69,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"      float: left\": expected \";\", was \":\"\A         on line 87 of /Users/aaroncole/WWW/d7/sites/all/themes/earth-keen/sass/partials/_objects.scss\A         from line 8 of /Users/aaroncole/WWW/d7/sites/all/themes/earth-keen/sass/site.scss"; }
+  content: "Syntax error: Invalid CSS after \"}\": expected selector or at-rule, was \"}\"\A         on line 92 of /Users/aaroncole/WWW/d7/sites/all/themes/earth-keen/sass/partials/_objects.scss\A         from line 8 of /Users/aaroncole/WWW/d7/sites/all/themes/earth-keen/sass/site.scss"; }
