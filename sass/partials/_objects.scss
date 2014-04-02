@@ -41,15 +41,12 @@
 }
 
 .box-sidebar,
-.sidebar .block {
+.region-sidebar-second .block {
   @extend .box;
   border: 1px solid $beige;
   padding: 1em;
   .dropdown-menu {
     background-color: transparent;
-  }
-  .menu a {
-    padding: 5px;
   }
 }
 
