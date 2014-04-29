@@ -596,6 +596,12 @@ a {
   padding: .5em;
 }
 
+/* line 194, ../sass/partials/_objects.scss */
+.view-mode-search_result {
+  border-bottom: 1px solid #eeeeee;
+  margin-bottom: 1em;
+}
+
 /* line 2, ../sass/partials/_stanford_carousel.scss */
 .carousel {
   margin-bottom: 0;
