@@ -201,6 +201,11 @@
 #block-search-form {
   position: static;
 }
+
+#block-search-form form {
+  position: relative;
+}
+
 /* Views Table */
 table.views-table, table.sticky-header {display: block; position:
 relative; width: 100%;}

@@ -326,15 +326,20 @@ a {
     position: static;
   }
 
-  /* Views Table */
   /* line 205, ../sass/partials/_layout.scss */
+  #block-search-form form {
+    position: relative;
+  }
+
+  /* Views Table */
+  /* line 210, ../sass/partials/_layout.scss */
   table.views-table, table.sticky-header {
     display: block;
     position: relative;
     width: 100%;
   }
 
-  /* line 207, ../sass/partials/_layout.scss */
+  /* line 212, ../sass/partials/_layout.scss */
   table.views-table thead, table.sticky-header thead {
     display: block;
     position: absolute;
@@ -343,12 +348,12 @@ a {
     border-radius: 5px;
   }
 
-  /* line 209, ../sass/partials/_layout.scss */
+  /* line 214, ../sass/partials/_layout.scss */
   table.views-table thead tr, table.sticky-header thead tr {
     display: block;
   }
 
-  /* line 210, ../sass/partials/_layout.scss */
+  /* line 215, ../sass/partials/_layout.scss */
   table.views-table thead th, table.sticky-header thead th {
     display: block;
     padding: 5px;
@@ -356,7 +361,7 @@ a {
     text-transform: none;
   }
 
-  /* line 212, ../sass/partials/_layout.scss */
+  /* line 217, ../sass/partials/_layout.scss */
   table.views-table tbody {
     display: block;
     width: auto;
@@ -364,7 +369,7 @@ a {
     margin: 0 0 0 28%;
   }
 
-  /* line 214, ../sass/partials/_layout.scss */
+  /* line 219, ../sass/partials/_layout.scss */
   table.views-table tbody tr {
     display: block;
     vertical-align: top;
@@ -373,41 +378,41 @@ a {
     border-radius: 5px;
   }
 
-  /* line 216, ../sass/partials/_layout.scss */
+  /* line 221, ../sass/partials/_layout.scss */
   table.views-table tbody tr.odd {
     background: #f2f1eb;
   }
 
-  /* line 217, ../sass/partials/_layout.scss */
+  /* line 222, ../sass/partials/_layout.scss */
   table.views-table tbody tr.even {
     background: #f2f1eb;
   }
 
-  /* line 218, ../sass/partials/_layout.scss */
+  /* line 223, ../sass/partials/_layout.scss */
   table.views-table tbody td {
     display: block;
     padding: 5px;
   }
 
-  /* line 219, ../sass/partials/_layout.scss */
+  /* line 224, ../sass/partials/_layout.scss */
   table.views-table tbody td p {
     margin: 0px;
   }
 }
 @media (min-width: 768px) {
-  /* line 224, ../sass/partials/_layout.scss */
+  /* line 229, ../sass/partials/_layout.scss */
   .degree-programs .box-highlight {
     min-height: 170px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 224, ../sass/partials/_layout.scss */
+  /* line 229, ../sass/partials/_layout.scss */
   .degree-programs .box-highlight {
     min-height: 120px;
   }
 }
 
-/* line 237, ../sass/partials/_layout.scss */
+/* line 242, ../sass/partials/_layout.scss */
 .fullwidth .file-video {
   position: relative;
   padding-bottom: 56.25%;
@@ -415,7 +420,7 @@ a {
   padding-top: 25px;
   height: 0;
 }
-/* line 242, ../sass/partials/_layout.scss */
+/* line 247, ../sass/partials/_layout.scss */
 .fullwidth .file-video iframe {
   position: absolute;
   top: 0;
