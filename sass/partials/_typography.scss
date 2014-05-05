@@ -39,6 +39,23 @@ a {
   }
 }
 
+.btn-giving,
+.btn-giving:hover {
+  @extend .btn-primary;
+
+  color: $beige;
+  font: normal 11px/1.1em "NewsGothicBT-Bold",Arial,sans-serif;
+  letter-spacing: 1px;  
+  padding: 8px 20px;
+  
+  &:after {
+    content: '  >';
+    }
+  &:hover {
+    color: $white;
+  }
+}
+
 .caption {
   background-color: $beige;
   text-align: center;
