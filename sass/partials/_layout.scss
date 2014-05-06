@@ -36,6 +36,16 @@
   }
 }
 
+// Subsite override
+
+.subsite {
+  #header {
+    .container {
+      background: transparent url(../images/globe-500.png) no-repeat 650px -130px;
+    }
+  }
+}
+
 #block-system-main-menu {
   margin-right: 200px;
 }
