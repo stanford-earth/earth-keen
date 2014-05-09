@@ -3,3 +3,19 @@
  * <!--[if IE]>
  *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
  * <![endif]--> */
+/* line 8, ../sass/ie.scss */
+#header .container {
+  background: transparent url("../images/globe-500.png") no-repeat 440px -130px;
+}
+/* line 11, ../sass/ie.scss */
+#header #logo {
+  padding-top: 45px;
+}
+
+/* line 16, ../sass/ie.scss */
+#block-search-form {
+  position: relative;
+  top: 65px;
+  right: 15px;
+  z-index: 100;
+}
