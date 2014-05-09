@@ -163,25 +163,25 @@ a {
 @media (min-width: 1196px) {
   /* line 8, ../sass/partials/_layout.scss */
   #header .container {
-    background: transparent url(../images/globe-700.png) no-repeat right -222px;
+    background: transparent url("../images/globe-700.png") no-repeat right -222px;
   }
 }
 @media (max-width: 1195px) {
   /* line 8, ../sass/partials/_layout.scss */
   #header .container {
-    background: transparent url(../images/globe-500.png) no-repeat 440px -130px;
+    background: transparent url("../images/globe-500.png") no-repeat 440px -130px;
   }
 }
 @media (max-width: 978px) {
   /* line 8, ../sass/partials/_layout.scss */
   #header .container {
-    background: transparent url(../images/globe-300.png) no-repeat 420px -55px;
+    background: transparent url("../images/globe-300.png") no-repeat 420px -55px;
   }
 }
 @media (max-width: 321px) {
   /* line 8, ../sass/partials/_layout.scss */
   #header .container {
-    background: transparent url(../images/globe-300.png) no-repeat 420px -55px;
+    background: transparent url("../images/globe-300.png") no-repeat 420px -55px;
     min-height: 55px;
   }
 }
@@ -212,7 +212,7 @@ a {
 
 /* line 43, ../sass/partials/_layout.scss */
 .subsite #header .container {
-  background: transparent url(../images/globe-500.png) no-repeat 650px -130px;
+  background: transparent url("../images/globe-500.png") no-repeat 650px -130px;
 }
 
 /* line 49, ../sass/partials/_layout.scss */
