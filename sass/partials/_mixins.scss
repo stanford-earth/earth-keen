@@ -7,3 +7,9 @@
   font-size: 0;
   text-align: start;
 }
+
+@mixin on-screen {
+  text-indent: 0;
+  overflow: auto;
+  display: block;
+}
