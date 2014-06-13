@@ -40,8 +40,7 @@
 
 // Subsite override
 
-.node-type-stanford-subsite {
-  #header {
+  #header.is-subsite {
     .container {
       background: transparent url("../images/globe-500.png") no-repeat right 0;
       min-height: 130px;
@@ -59,7 +58,6 @@
       left: 0;
     }
   }
-}
 
 #block-system-main-menu {
   margin-right: 200px;
