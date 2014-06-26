@@ -627,7 +627,7 @@ a {
 }
 /* line 141, ../sass/partials/_objects.scss */
 .social a[href*="youtube.com"] {
-  background-position: 0 0;
+  background-position: -1px 0;
 }
 /* line 145, ../sass/partials/_objects.scss */
 .social a[href*="vimeo.com"] {
@@ -635,7 +635,7 @@ a {
 }
 /* line 149, ../sass/partials/_objects.scss */
 .social a[href*="twitter.com"] {
-  background-position: -91px 0;
+  background-position: -92px 0;
 }
 /* line 153, ../sass/partials/_objects.scss */
 .social a[href*="tumblr.com"] {
@@ -647,27 +647,31 @@ a {
 }
 /* line 161, ../sass/partials/_objects.scss */
 .social a[href*="linkedin.com"] {
-  background-position: -91px -46px;
+  background-position: -92px -46px;
 }
 /* line 165, ../sass/partials/_objects.scss */
 .social a[href*="google.com"] {
-  background-position: 0 -91px;
+  background-position: 0 -92px;
 }
 /* line 169, ../sass/partials/_objects.scss */
 .social a[href*="flickr.com"] {
-  background-position: -46px -91px;
+  background-position: -46px -92px;
 }
 /* line 173, ../sass/partials/_objects.scss */
 .social a[href*="facebook.com"] {
-  background-position: -91px -91px;
+  background-position: -92px -92px;
+}
+/* line 177, ../sass/partials/_objects.scss */
+.social a[href*="feeds"] {
+  background-position: 0 -137px;
 }
 
-/* line 178, ../sass/partials/_objects.scss */
+/* line 182, ../sass/partials/_objects.scss */
 .table td {
   border-width: 0 0 1px 0;
 }
 
-/* line 185, ../sass/partials/_objects.scss */
+/* line 189, ../sass/partials/_objects.scss */
 .byline .field {
   display: -moz-inline-stack;
   display: inline-block;
@@ -678,18 +682,18 @@ a {
   border-left: 1px solid #3f3c30;
   padding: 0 .5em;
 }
-/* line 190, ../sass/partials/_objects.scss */
+/* line 194, ../sass/partials/_objects.scss */
 .byline .field:first-child {
   border-left: none;
   padding-left: 0;
 }
 
-/* line 196, ../sass/partials/_objects.scss */
+/* line 200, ../sass/partials/_objects.scss */
 .well {
   padding: .5em;
 }
 
-/* line 201, ../sass/partials/_objects.scss */
+/* line 205, ../sass/partials/_objects.scss */
 .view-mode-search_result {
   border-bottom: 1px solid #eeeeee;
   margin-bottom: 1em;

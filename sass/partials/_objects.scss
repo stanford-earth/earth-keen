@@ -139,7 +139,7 @@
   }
   
   a[href*="youtube.com"] {
-    background-position: 0 0;
+    background-position: -1px 0;
   }
   
   a[href*="vimeo.com"] {
@@ -147,7 +147,7 @@
   }
   
   a[href*="twitter.com"] {
-    background-position: -91px 0;
+    background-position: -92px 0;
   }
   
   a[href*="tumblr.com"] {
@@ -159,19 +159,23 @@
   }
   
   a[href*="linkedin.com"] {
-    background-position: -91px -46px;
+    background-position: -92px -46px;
   }
   
   a[href*="google.com"] {
-    background-position: 0 -91px;
+    background-position: 0 -92px;
   }
   
   a[href*="flickr.com"] {
-    background-position: -46px -91px;
+    background-position: -46px -92px;
   }
   
   a[href*="facebook.com"] {
-    background-position: -91px -91px;
+    background-position: -92px -92px;
+  }
+  
+  a[href*="feeds"] {
+    background-position: 0 -137px;
   }
 } // End Social
 
