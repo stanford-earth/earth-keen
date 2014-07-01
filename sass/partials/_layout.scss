@@ -44,16 +44,14 @@
     .container {
       background: transparent url("../images/globe-500.png") no-repeat right 0;
       min-height: 130px;
-      padding-top: 25px;
     }
     #logo {
-      border-right: 1px solid $black;
-      padding: 0 10px 0 0;
+      padding: 20px 0;
       img {
-        max-width: 180px;
+	max-height: 100px;
       }
     }
-    #name-and-slogan {
+    #xname-and-slogan {
       position: relative;
       left: 0;
     }
