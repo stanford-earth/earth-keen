@@ -8,6 +8,15 @@
   }
 }
 
+// Hide controls
+
+.no-contols {
+  .carousel-controls,
+  .carousel-dots {
+    display: none; 
+  }
+}
+
 
 // Code to change animatation to fade
 
