@@ -709,8 +709,8 @@ a {
 }
 
 /* line 15, ../sass/partials/_stanford_carousel.scss */
-.no-contols .carousel-controls,
-.no-contols .carousel-dots {
+.no-controls .carousel-controls,
+.no-controls .carousel-dots {
   display: none;
 }
 
