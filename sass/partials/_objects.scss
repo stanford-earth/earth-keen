@@ -174,7 +174,8 @@
     background-position: -92px -92px;
   }
   
-  a[href*="feeds"] {
+  a[href*="feeds"],
+  a[href*=".rss"] {
     background-position: 0 -137px;
   }
 } // End Social
