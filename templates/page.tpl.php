@@ -28,6 +28,10 @@
           <?php endif; ?>
           <!-- /#logo -->
           <?php if ($site_name || $site_slogan): ?>
+          <!--- Use subsite name with subsite link if present. --->
+	  <?php if ($subsite_site_name_html) : ?>
+            <?php $site_name = $subsite_site_name_html; ?> 
+          <?php endif; ?>
           <div id="name-and-slogan"  class="<?php if (isset($logo)) { print ('with-logo'); } ?><?php if ($site_title_second_line || $site_slogan) { print (' two-lines'); } ?>">
             <?php if (($site_name) && !($site_title_first_line)): ?>
             <div id="site-name" class="site-name"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><?php print $site_name; ?></a></div>
