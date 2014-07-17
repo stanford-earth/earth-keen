@@ -3,7 +3,8 @@
 }
 
 //Override logo treatment
-#header {
+#header,
+#header.is-subsite {
   margin: 0;
   .container {
     @media (min-width:1196px) {
@@ -42,7 +43,16 @@
 
   #header.is-subsite {
     .container {
-      background: transparent url("../images/globe-500.png") no-repeat right 0;
+      @media (min-width:1196px) {
+        background: transparent url("../images/globe-500.png") no-repeat right 0;
+      }
+    @media (max-width:1195px) {
+      background: transparent url("../images/globe-300.png") no-repeat right 0;
+    }
+    @media (max-width:978px) {
+      background: transparent url("../images/globe-300.png") no-repeat 420px -55px;
+      background: none;
+    }
       min-height: 130px;
     }
     #logo {
@@ -54,6 +64,15 @@
     #name-and-slogan {
       position: relative;
       left: 0;
+      padding: 20px 0 20px 10px;
+    }
+    #site-name {
+      margin: 0;
+      font-size: 25px;
+      max-width: 340px;
+      @media (max-width:978px) {
+        max-width: 100%;
+      }
     }
   }
 
