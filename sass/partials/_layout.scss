@@ -3,7 +3,7 @@
 }
 
 //Override logo treatment
-#header,
+#header.is-mainsite,
 #header.is-subsite {
   margin: 0;
   .container {
@@ -23,11 +23,11 @@
     min-height: 155px;
   }
   #logo {
+    border-right-width: 0;
     padding: 0;
     @media (min-width:330px) {
       padding-top: 45px;
     }
-    border-right: none;
     img {
       max-width: 100%;
     }

@@ -178,64 +178,64 @@ a {
 }
 
 /* line 7, ../sass/partials/_layout.scss */
-#header,
+#header.is-mainsite,
 #header.is-subsite {
   margin: 0;
 }
 /* line 9, ../sass/partials/_layout.scss */
-#header .container,
+#header.is-mainsite .container,
 #header.is-subsite .container {
   min-height: 155px;
 }
 @media (min-width: 1196px) {
   /* line 9, ../sass/partials/_layout.scss */
-  #header .container,
+  #header.is-mainsite .container,
   #header.is-subsite .container {
     background: transparent url("../images/globe-700.png") no-repeat right -222px;
   }
 }
 @media (max-width: 1195px) {
   /* line 9, ../sass/partials/_layout.scss */
-  #header .container,
+  #header.is-mainsite .container,
   #header.is-subsite .container {
     background: transparent url("../images/globe-500.png") no-repeat 440px -130px;
   }
 }
 @media (max-width: 978px) {
   /* line 9, ../sass/partials/_layout.scss */
-  #header .container,
+  #header.is-mainsite .container,
   #header.is-subsite .container {
     background: transparent url("../images/globe-300.png") no-repeat 420px -55px;
   }
 }
 @media (max-width: 321px) {
   /* line 9, ../sass/partials/_layout.scss */
-  #header .container,
+  #header.is-mainsite .container,
   #header.is-subsite .container {
     background: transparent url("../images/globe-300.png") no-repeat 420px -55px;
     min-height: 55px;
   }
 }
 /* line 25, ../sass/partials/_layout.scss */
-#header #logo,
+#header.is-mainsite #logo,
 #header.is-subsite #logo {
+  border-right-width: 0;
   padding: 0;
-  border-right: none;
 }
 @media (min-width: 330px) {
   /* line 25, ../sass/partials/_layout.scss */
-  #header #logo,
+  #header.is-mainsite #logo,
   #header.is-subsite #logo {
     padding-top: 45px;
   }
 }
 /* line 31, ../sass/partials/_layout.scss */
-#header #logo img,
+#header.is-mainsite #logo img,
 #header.is-subsite #logo img {
   max-width: 100%;
 }
 /* line 35, ../sass/partials/_layout.scss */
-#header #name-and-slogan,
+#header.is-mainsite #name-and-slogan,
 #header.is-subsite #name-and-slogan {
   position: absolute;
   left: -9999px;
