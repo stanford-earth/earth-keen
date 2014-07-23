@@ -171,6 +171,10 @@ a {
   border-bottom: 1px solid #f2f1eb;
   white-space: wrap;
 }
+/* line 150, ../sass/partials/_typography.scss */
+.sidebar .menu li .horizontal-tabs li {
+  list-style: none;
+}
 
 /* line 1, ../sass/partials/_layout.scss */
 #global-header a {
