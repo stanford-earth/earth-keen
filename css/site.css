@@ -172,7 +172,7 @@ a {
   white-space: wrap;
 }
 /* line 150, ../sass/partials/_typography.scss */
-.sidebar .menu li ul.horizontal-tabs-list li {
+.sidebar .menu li .horizontal-tabs ul.horizontal-tabs-list li {
   list-style: none;
 }
 
