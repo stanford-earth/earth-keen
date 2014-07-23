@@ -32,6 +32,7 @@
     <?php print render($title_suffix['contextual_links']); ?>
   <?php endif; ?>
 
+    <div class="two-column-30-70">
     <<?php print $header_wrapper; ?> class="ds-header<?php print $header_classes; ?>">
       <?php print $header; ?>
     </<?php print $header_wrapper; ?>>
@@ -40,13 +41,14 @@
       <?php print $left; ?>
     </<?php print $left_wrapper; ?>>
 
-    <<?php print $right_wrapper; ?> class="ds-right span9<?php print $right_classes; ?>">
+    <<?php print $right_wrapper; ?> class="ds-right span8<?php print $right_classes; ?>">
       <?php print $right; ?>
     </<?php print $right_wrapper; ?>>
 
     <<?php print $footer_wrapper; ?> class="ds-footer<?php print $footer_classes; ?>">
       <?php print $footer; ?>
     </<?php print $footer_wrapper; ?>>
+    </div>    
 
 </<?php print $layout_wrapper ?>>
 
