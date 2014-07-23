@@ -171,8 +171,9 @@ a {
   border-bottom: 1px solid #f2f1eb;
   white-space: wrap;
 }
-/* line 150, ../sass/partials/_typography.scss */
-.sidebar .menu li .horizontal-tabs ul.horizontal-tabs-list li {
+
+/* line 152, ../sass/partials/_typography.scss */
+.horizontal-tabs ul.horizontal-tabs-list li {
   list-style: none;
 }
 
