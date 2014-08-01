@@ -40,37 +40,45 @@ a {
   transition-duration: .25s;
 }
 
-/* line 25, ../sass/partials/_typography.scss */
+/* line 26, ../sass/partials/_typography.scss */
 .content-body a {
   border-bottom: 1px dotted #3f3c30;
 }
-/* line 28, ../sass/partials/_typography.scss */
+/* line 29, ../sass/partials/_typography.scss */
 .content-body a:hover, .content-body a:active {
-  border-bottom-style: solid;
+  border-bottom: 1px solid #3f3c30;
+}
+/* line 34, ../sass/partials/_typography.scss */
+.content-body h1 a, .content-body h2 a, .content-body h3 a, .content-body h4 a, .content-body h5 a, .content-body h6 a {
+  border-bottom: none;
+}
+/* line 37, ../sass/partials/_typography.scss */
+.content-body h1 a:hover, .content-body h1 a:active, .content-body h2 a:hover, .content-body h2 a:active, .content-body h3 a:hover, .content-body h3 a:active, .content-body h4 a:hover, .content-body h4 a:active, .content-body h5 a:hover, .content-body h5 a:active, .content-body h6 a:hover, .content-body h6 a:active {
+  border-bottom: none;
 }
 
-/* line 33, ../sass/partials/_typography.scss */
+/* line 44, ../sass/partials/_typography.scss */
 .more-link {
   float: right;
 }
 
-/* line 37, ../sass/partials/_typography.scss */
+/* line 48, ../sass/partials/_typography.scss */
 .byline a {
   color: #3f3c30;
   font-style: italic;
 }
 
-/* line 41, ../sass/partials/_typography.scss */
+/* line 52, ../sass/partials/_typography.scss */
 .highlight .content {
   background-color: #8c1515;
 }
 
-/* line 45, ../sass/partials/_typography.scss */
+/* line 56, ../sass/partials/_typography.scss */
 .btn {
   text-transform: uppercase;
 }
 
-/* line 49, ../sass/partials/_typography.scss */
+/* line 60, ../sass/partials/_typography.scss */
 .btn-primary, .btn-giving,
 .btn-giving:hover {
   background-color: #8c1515;
@@ -81,7 +89,7 @@ a {
   background: linear-gradient(#b81c1c, #8c1515);
   text-transform: uppercase;
 }
-/* line 53, ../sass/partials/_typography.scss */
+/* line 64, ../sass/partials/_typography.scss */
 .btn-primary:hover, .btn-giving:hover {
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8c1515), color-stop(100%, #b81c1c));
   background: -webkit-linear-gradient(#8c1515, #b81c1c);
@@ -89,13 +97,13 @@ a {
   background: -o-linear-gradient(#8c1515, #b81c1c);
   background: linear-gradient(#8c1515, #b81c1c);
 }
-/* line 56, ../sass/partials/_typography.scss */
+/* line 67, ../sass/partials/_typography.scss */
 .btn-primary a, .btn-giving a,
 .btn-giving:hover a {
   color: #fbfbf9;
 }
 
-/* line 62, ../sass/partials/_typography.scss */
+/* line 73, ../sass/partials/_typography.scss */
 .btn-giving,
 .btn-giving:hover {
   color: #f2f1eb;
@@ -103,46 +111,46 @@ a {
   letter-spacing: 1px;
   padding: 8px 20px;
 }
-/* line 70, ../sass/partials/_typography.scss */
+/* line 81, ../sass/partials/_typography.scss */
 .btn-giving:after,
 .btn-giving:hover:after {
   content: '  >';
 }
-/* line 73, ../sass/partials/_typography.scss */
+/* line 84, ../sass/partials/_typography.scss */
 .btn-giving:hover,
 .btn-giving:hover:hover {
   color: #fbfbf9;
 }
 
-/* line 78, ../sass/partials/_typography.scss */
+/* line 89, ../sass/partials/_typography.scss */
 .caption {
   background-color: #f2f1eb;
   text-align: center;
   padding: 5px;
 }
 
-/* line 84, ../sass/partials/_typography.scss */
+/* line 95, ../sass/partials/_typography.scss */
 .summary {
   text-align: justify;
   font-size: 18px;
 }
 
-/* line 90, ../sass/partials/_typography.scss */
+/* line 101, ../sass/partials/_typography.scss */
 .promo .ds-text {
   font-size: 120%;
   line-height: 1.5em;
 }
-/* line 94, ../sass/partials/_typography.scss */
+/* line 105, ../sass/partials/_typography.scss */
 .promo h3 {
   font-size: 130%;
 }
-/* line 97, ../sass/partials/_typography.scss */
+/* line 108, ../sass/partials/_typography.scss */
 .promo img, .promo .views-row {
   margin-bottom: 0 !important;
 }
 
 /* ---- VCard Markup ---- */
-/* line 105, ../sass/partials/_typography.scss */
+/* line 116, ../sass/partials/_typography.scss */
 .n,
 .tel {
   white-space: nowrap;
@@ -150,23 +158,23 @@ a {
 
 /* ---- Headers ---- */
 /* ---- Lists ---- */
-/* line 113, ../sass/partials/_typography.scss */
+/* line 124, ../sass/partials/_typography.scss */
 .inline a {
   display: inline-block;
 }
 
-/* line 118, ../sass/partials/_typography.scss */
+/* line 129, ../sass/partials/_typography.scss */
 .stacked a {
   display: block;
   margin-bottom: 1em;
   text-align: left;
 }
-/* line 128, ../sass/partials/_typography.scss */
+/* line 139, ../sass/partials/_typography.scss */
 .stacked li {
   display: inline;
 }
 
-/* line 133, ../sass/partials/_typography.scss */
+/* line 144, ../sass/partials/_typography.scss */
 .stacked-center a {
   text-align: center;
   font-size: 115%;
@@ -174,14 +182,14 @@ a {
   padding: 10px 0 !important;
 }
 
-/* line 142, ../sass/partials/_typography.scss */
+/* line 153, ../sass/partials/_typography.scss */
 .sidebar .menu li a {
   background-color: transparent;
   border-bottom: 1px solid #f2f1eb;
   white-space: wrap;
 }
 
-/* line 160, ../sass/partials/_typography.scss */
+/* line 171, ../sass/partials/_typography.scss */
 .horizontal-tabs ul.horizontal-tabs-list li {
   list-style: none;
 }
