@@ -253,7 +253,7 @@ a {
 @media (min-width: 1196px) {
   /* line 45, ../sass/partials/_layout.scss */
   #header.is-subsite .container {
-    background: transparent url("../images/globe-500.png") no-repeat right -125px;
+    background: transparent url("../images/globe-500.png") no-repeat right -150px;
   }
 }
 @media (max-width: 1195px) {
