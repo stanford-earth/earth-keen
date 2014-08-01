@@ -253,7 +253,7 @@ a {
 @media (min-width: 1196px) {
   /* line 45, ../sass/partials/_layout.scss */
   #header.is-subsite .container {
-    background: transparent url("../images/globe-500.png") no-repeat right 0;
+    background: transparent url("../images/globe-500.png") no-repeat right -125px;
   }
 }
 @media (max-width: 1195px) {
@@ -765,8 +765,12 @@ a {
 .no-controls .carousel-dots {
   display: none;
 }
+/* line 26, ../sass/partials/_stanford_carousel.scss */
+.no-controls .views-row {
+  margin-bottom: 0;
+}
 
-/* line 39, ../sass/partials/_stanford_carousel.scss */
+/* line 42, ../sass/partials/_stanford_carousel.scss */
 .carousel-fade .carousel-inner .item {
   opacity: 0;
   -webkit-transition-property: opacity;
@@ -774,54 +778,54 @@ a {
   -o-transition-property: opacity;
   transition-property: opacity;
 }
-/* line 47, ../sass/partials/_stanford_carousel.scss */
+/* line 50, ../sass/partials/_stanford_carousel.scss */
 .carousel-fade .carousel-inner .active {
   opacity: 1;
 }
-/* line 52, ../sass/partials/_stanford_carousel.scss */
+/* line 55, ../sass/partials/_stanford_carousel.scss */
 .carousel-fade .carousel-inner .active.left,
 .carousel-fade .carousel-inner .active.right {
   left: 0;
   opacity: 0;
   z-index: 1;
 }
-/* line 59, ../sass/partials/_stanford_carousel.scss */
+/* line 62, ../sass/partials/_stanford_carousel.scss */
 .carousel-fade .carousel-inner .next.left,
 .carousel-fade .carousel-inner .prev.right {
   opacity: 1;
 }
-/* line 64, ../sass/partials/_stanford_carousel.scss */
+/* line 67, ../sass/partials/_stanford_carousel.scss */
 .carousel-fade .carousel-control {
   z-index: 2;
 }
 
-/* line 73, ../sass/partials/_stanford_carousel.scss */
+/* line 76, ../sass/partials/_stanford_carousel.scss */
 .caption-nobackground .view.carousel img {
   margin-bottom: 0;
 }
-/* line 76, ../sass/partials/_stanford_carousel.scss */
+/* line 79, ../sass/partials/_stanford_carousel.scss */
 .caption-nobackground .view.carousel .carousel-caption {
   width: 50%;
   max-width: 50%;
   padding: .5em;
 }
-/* line 84, ../sass/partials/_stanford_carousel.scss */
+/* line 87, ../sass/partials/_stanford_carousel.scss */
 .caption-nobackground .view.carousel .carousel-caption .slide-title {
   margin-bottom: 0;
 }
-/* line 87, ../sass/partials/_stanford_carousel.scss */
+/* line 90, ../sass/partials/_stanford_carousel.scss */
 .caption-nobackground .view.carousel .carousel-caption.carousel-position-bottom {
   bottom: 6px;
 }
-/* line 90, ../sass/partials/_stanford_carousel.scss */
+/* line 93, ../sass/partials/_stanford_carousel.scss */
 .caption-nobackground .view.carousel .carousel-caption.carousel-position-top {
   top: 6px;
 }
-/* line 93, ../sass/partials/_stanford_carousel.scss */
+/* line 96, ../sass/partials/_stanford_carousel.scss */
 .caption-nobackground .view.carousel .carousel-caption.carousel-position-left {
   left: 6px;
 }
-/* line 96, ../sass/partials/_stanford_carousel.scss */
+/* line 99, ../sass/partials/_stanford_carousel.scss */
 .caption-nobackground .view.carousel .carousel-caption.carousel-position-right {
   right: 6px;
 }
