@@ -744,24 +744,29 @@ a {
   margin-bottom: 1em;
 }
 
-/* line 2, ../sass/partials/_stanford_carousel.scss */
-.carousel {
+/* line 1, ../sass/partials/_stanford_carousel.scss */
+.view.carousel {
   margin-bottom: 0;
 }
 /* line 4, ../sass/partials/_stanford_carousel.scss */
-.carousel .carousel-dots {
+.view.carousel .carousel-dots {
   position: absolute;
   bottom: 20px;
   left: 45%;
 }
+/* line 12, ../sass/partials/_stanford_carousel.scss */
+.view.carousel .carousel-block .carousel-caption.carousel-position-left,
+.view.carousel .carousel-block .carousel-caption.carousel-position-right {
+  padding: 1em;
+}
 
-/* line 15, ../sass/partials/_stanford_carousel.scss */
+/* line 23, ../sass/partials/_stanford_carousel.scss */
 .no-controls .carousel-controls,
 .no-controls .carousel-dots {
   display: none;
 }
 
-/* line 31, ../sass/partials/_stanford_carousel.scss */
+/* line 39, ../sass/partials/_stanford_carousel.scss */
 .carousel-fade .carousel-inner .item {
   opacity: 0;
   -webkit-transition-property: opacity;
@@ -769,54 +774,54 @@ a {
   -o-transition-property: opacity;
   transition-property: opacity;
 }
-/* line 39, ../sass/partials/_stanford_carousel.scss */
+/* line 47, ../sass/partials/_stanford_carousel.scss */
 .carousel-fade .carousel-inner .active {
   opacity: 1;
 }
-/* line 44, ../sass/partials/_stanford_carousel.scss */
+/* line 52, ../sass/partials/_stanford_carousel.scss */
 .carousel-fade .carousel-inner .active.left,
 .carousel-fade .carousel-inner .active.right {
   left: 0;
   opacity: 0;
   z-index: 1;
 }
-/* line 51, ../sass/partials/_stanford_carousel.scss */
+/* line 59, ../sass/partials/_stanford_carousel.scss */
 .carousel-fade .carousel-inner .next.left,
 .carousel-fade .carousel-inner .prev.right {
   opacity: 1;
 }
-/* line 56, ../sass/partials/_stanford_carousel.scss */
+/* line 64, ../sass/partials/_stanford_carousel.scss */
 .carousel-fade .carousel-control {
   z-index: 2;
 }
 
-/* line 65, ../sass/partials/_stanford_carousel.scss */
+/* line 73, ../sass/partials/_stanford_carousel.scss */
 .caption-nobackground .view.carousel img {
   margin-bottom: 0;
 }
-/* line 68, ../sass/partials/_stanford_carousel.scss */
+/* line 76, ../sass/partials/_stanford_carousel.scss */
 .caption-nobackground .view.carousel .carousel-caption {
   width: 50%;
   max-width: 50%;
   padding: .5em;
 }
-/* line 76, ../sass/partials/_stanford_carousel.scss */
+/* line 84, ../sass/partials/_stanford_carousel.scss */
 .caption-nobackground .view.carousel .carousel-caption .slide-title {
   margin-bottom: 0;
 }
-/* line 79, ../sass/partials/_stanford_carousel.scss */
+/* line 87, ../sass/partials/_stanford_carousel.scss */
 .caption-nobackground .view.carousel .carousel-caption.carousel-position-bottom {
   bottom: 6px;
 }
-/* line 82, ../sass/partials/_stanford_carousel.scss */
+/* line 90, ../sass/partials/_stanford_carousel.scss */
 .caption-nobackground .view.carousel .carousel-caption.carousel-position-top {
   top: 6px;
 }
-/* line 85, ../sass/partials/_stanford_carousel.scss */
+/* line 93, ../sass/partials/_stanford_carousel.scss */
 .caption-nobackground .view.carousel .carousel-caption.carousel-position-left {
   left: 6px;
 }
-/* line 88, ../sass/partials/_stanford_carousel.scss */
+/* line 96, ../sass/partials/_stanford_carousel.scss */
 .caption-nobackground .view.carousel .carousel-caption.carousel-position-right {
   right: 6px;
 }
