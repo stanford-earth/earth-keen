@@ -22,6 +22,14 @@ a {
   transition-duration: .25s;
 }
 
+.content-body a {
+  border-bottom: 1px dotted $black;
+  &:hover,
+  &:active {
+   border-bottom-style: solid; 
+  }
+}
+
 .more-link {
   float: right;
 }
