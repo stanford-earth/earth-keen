@@ -870,15 +870,19 @@ legend {
 }
 
 /* line 1, ../sass/partials/_horizontal_tabs.scss */
+.horizontal-tabs ul.horizontal-tabs-list {
+  background-color: #f2f1eb;
+}
+/* line 3, ../sass/partials/_horizontal_tabs.scss */
 .horizontal-tabs ul.horizontal-tabs-list li {
-  background-color: none;
+  background-color: transparent;
   border-right: none;
 }
-/* line 4, ../sass/partials/_horizontal_tabs.scss */
+/* line 6, ../sass/partials/_horizontal_tabs.scss */
 .horizontal-tabs ul.horizontal-tabs-list li a {
   border-bottom: none;
 }
-/* line 7, ../sass/partials/_horizontal_tabs.scss */
+/* line 9, ../sass/partials/_horizontal_tabs.scss */
 .horizontal-tabs ul.horizontal-tabs-list li a:hover, .horizontal-tabs ul.horizontal-tabs-list li a:active {
   border-bottom: none;
 }
