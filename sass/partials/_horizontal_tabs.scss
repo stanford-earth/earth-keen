@@ -1,0 +1,11 @@
+.horizontal-tabs ul.horizontal-tabs-list li {
+  background-color: none;
+  border-right: none;
+  a {
+    border-bottom: none;
+    &:hover,
+    &:active {
+      border-bottom: none;
+    }
+  }
+}

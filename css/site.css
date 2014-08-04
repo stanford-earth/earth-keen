@@ -868,3 +868,17 @@ legend {
 .field-label-above {
   margin-top: 1em;
 }
+
+/* line 1, ../sass/partials/_horizontal_tabs.scss */
+.horizontal-tabs ul.horizontal-tabs-list li {
+  background-color: none;
+  border-right: none;
+}
+/* line 4, ../sass/partials/_horizontal_tabs.scss */
+.horizontal-tabs ul.horizontal-tabs-list li a {
+  border-bottom: none;
+}
+/* line 7, ../sass/partials/_horizontal_tabs.scss */
+.horizontal-tabs ul.horizontal-tabs-list li a:hover, .horizontal-tabs ul.horizontal-tabs-list li a:active {
+  border-bottom: none;
+}
