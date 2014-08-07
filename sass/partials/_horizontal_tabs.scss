@@ -1,0 +1,17 @@
+.horizontal-tabs ul.horizontal-tabs-list {
+  background-color: $beige;
+  border-bottom: 1px solid $grey;
+  li {
+    background-color: transparent;
+    border-right: none;
+    a {
+      border-bottom: none;
+      &:hover,
+      &:focus,
+      &:active {
+        border-bottom: none;
+        background-color: $white;
+      }
+    }
+  }
+}

@@ -863,3 +863,10 @@ a {
 .field-label-above {
   margin-top: 1em;
 }
+
+/* line 3, ../sass/partials/_soundmanager2.scss */
+.ui360 {
+  border: 1px solid #f2f1eb;
+  box-shadow: 0 0 0.25em #3f3c30;
+  margin-bottom: 1em;
+}
