@@ -194,6 +194,11 @@ a {
   list-style: none;
 }
 
+/* line 178, ../sass/partials/_typography.scss */
+legend {
+  color: #8c1515;
+}
+
 /* line 1, ../sass/partials/_layout.scss */
 #global-header a {
   font-size: 13px;
@@ -869,4 +874,24 @@ a {
   border: 1px solid #f2f1eb;
   box-shadow: 0 0 0.25em #3f3c30;
   margin-bottom: 1em;
+}
+
+/* line 1, ../sass/partials/_horizontal_tabs.scss */
+.horizontal-tabs ul.horizontal-tabs-list {
+  background-color: #f2f1eb;
+  border-bottom: 1px solid #3f3c30;
+}
+/* line 4, ../sass/partials/_horizontal_tabs.scss */
+.horizontal-tabs ul.horizontal-tabs-list li {
+  background-color: transparent;
+  border-right: none;
+}
+/* line 7, ../sass/partials/_horizontal_tabs.scss */
+.horizontal-tabs ul.horizontal-tabs-list li a {
+  border-bottom: none;
+}
+/* line 11, ../sass/partials/_horizontal_tabs.scss */
+.horizontal-tabs ul.horizontal-tabs-list li a:hover, .horizontal-tabs ul.horizontal-tabs-list li a:focus, .horizontal-tabs ul.horizontal-tabs-list li a:active {
+  border-bottom: none;
+  background-color: #fbfbf9;
 }
