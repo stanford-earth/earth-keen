@@ -1,0 +1,37 @@
+.icon-label {
+    font-size: 0;
+    height: 1px;
+    overflow: hidden;
+    display: block;
+}
+
+.fa {
+  display: inline-block;
+  border-radius: 100%;
+  border: 0;
+  color: $white;
+  margin: 1px;
+  opacity: .75;
+  padding: 1em;
+  &:hover {
+    opacity: 1;
+    color: $white;
+  }
+}
+
+.icon-facebook {
+  background-color: #45619d;
+  padding: 1em 1.35em;
+}
+
+.icon-twitter {
+  background-color: #55acee;
+}
+
+.icon-youtube {
+  background-color: #cc181e;
+}
+
+.icon-rss {
+  background-color: #ffb878;
+}

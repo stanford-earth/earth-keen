@@ -895,3 +895,48 @@ legend {
   border-bottom: none;
   background-color: #fbfbf9;
 }
+
+/* line 1, ../sass/partials/_fontawesome.scss */
+.icon-label {
+  font-size: 0;
+  height: 1px;
+  overflow: hidden;
+  display: block;
+}
+
+/* line 8, ../sass/partials/_fontawesome.scss */
+.fa {
+  display: inline-block;
+  border-radius: 100%;
+  border: 0;
+  color: #fbfbf9;
+  margin: 1px;
+  opacity: .75;
+  padding: 1em;
+}
+/* line 16, ../sass/partials/_fontawesome.scss */
+.fa:hover {
+  opacity: 1;
+  color: #fbfbf9;
+}
+
+/* line 22, ../sass/partials/_fontawesome.scss */
+.icon-facebook {
+  background-color: #45619d;
+  padding: 1em 1.35em;
+}
+
+/* line 27, ../sass/partials/_fontawesome.scss */
+.icon-twitter {
+  background-color: #55acee;
+}
+
+/* line 31, ../sass/partials/_fontawesome.scss */
+.icon-youtube {
+  background-color: #cc181e;
+}
+
+/* line 35, ../sass/partials/_fontawesome.scss */
+.icon-rss {
+  background-color: #ffb878;
+}
