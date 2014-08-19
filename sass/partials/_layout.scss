@@ -203,6 +203,17 @@
   box-shadow: 1px 1px 5px $beige;
 }
 
+.sidebar {
+  .nav {
+    margin-bottom: 0;
+  }
+  .menu {
+    li:last-child a {
+      border-bottom: 0;
+    }
+  }
+}
+
 .navbar {
   margin: 0;
   padding: 5px 0;
