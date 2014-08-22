@@ -199,6 +199,11 @@ legend {
   color: #8c1515;
 }
 
+/* line 185, ../sass/partials/_typography.scss */
+th {
+  vertical-align: top;
+}
+
 /* line 1, ../sass/partials/_layout.scss */
 #global-header a {
   font-size: 13px;
