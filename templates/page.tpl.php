@@ -1,4 +1,4 @@
-<div id="wrap" class="<? if ($subsite_is_front) : ?>subsite-front <? endif; ?><?php if ($site_title_position_classes): ?><?php print $site_title_position_classes; ?><?php endif; ?>"> <a href="#main" class="element-invisible element-focusable"><?php print t('Skip to content'); ?></a>
+<div id="wrap" class="<? if (!empty($subsite_is_front)) : ?>subsite-front <? endif; ?><?php if ($site_title_position_classes): ?><?php print $site_title_position_classes; ?><?php endif; ?>"> <a href="#main" class="element-invisible element-focusable"><?php print t('Skip to content'); ?></a>
   <?php if ($main_menu): ?>
   <a href="#main-nav" class="element-invisible element-focusable"><?php print t('Skip to navigation'); ?></a>
   <?php endif; ?>
@@ -29,7 +29,7 @@
           <!-- /#logo -->
           <?php if ($site_name || $site_slogan): ?>
           <!--- Use subsite name with subsite link if present. --->
-	  <?php if ($subsite_site_name_html) : ?>
+	  <?php if (!empty($subsite_site_name_html)) : ?>
             <?php $site_name = $subsite_site_name_html; ?> 
           <?php endif; ?>
           <div id="name-and-slogan"  class="<?php if (isset($logo)) { print ('with-logo'); } ?><?php if ($site_title_second_line || $site_slogan) { print (' two-lines'); } ?>">
@@ -128,7 +128,7 @@
               <div id="highlighted" class="clearfix"><?php print render($page['highlighted']); ?></div>
               <?php endif; ?>
               <?php print render($title_prefix); ?>
-              <?php if (($title) && (!$subsite_is_front)): ?>
+              <?php if (($title) && (!empty($subsite_is_front))): ?>
               <h1 class="title" id="page-title"> <?php print $title; ?> </h1>
               <?php endif; ?>
               <?php print render($title_suffix); ?>
