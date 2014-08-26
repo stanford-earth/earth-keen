@@ -882,6 +882,11 @@ th {
   margin-top: 1em;
 }
 
+/* line 14, ../sass/partials/_forms.scss */
+.horizontal-tabs fieldset.horizontal-tabs-pane {
+  padding: 1em;
+}
+
 /* line 3, ../sass/partials/_soundmanager2.scss */
 .ui360 {
   border: 1px solid #f2f1eb;

@@ -37,11 +37,11 @@
       <?php print $header; ?>
     </<?php print $header_wrapper; ?>>
 
-    <<?php print $left_wrapper; ?> class="ds-left span3<?php print $left_classes; ?>">
+    <<?php print $left_wrapper; ?> class="clear-left ds-left span3<?php print $left_classes; ?>" style="margin-left: 0">
       <?php print $left; ?>
     </<?php print $left_wrapper; ?>>
 
-    <<?php print $right_wrapper; ?> class="ds-right span8<?php print $right_classes; ?>">
+    <<?php print $right_wrapper; ?> class="ds-right span9<?php print $right_classes; ?>">
       <?php print $right; ?>
     </<?php print $right_wrapper; ?>>
 
