@@ -64,7 +64,7 @@ a {
 
 /* line 48, ../sass/partials/_typography.scss */
 .byline a {
-  color: #3f3c30;
+  color: #585754;
   font-style: italic;
 }
 
@@ -159,22 +159,50 @@ a {
 /* ---- Headers ---- */
 /* ---- Lists ---- */
 /* line 124, ../sass/partials/_typography.scss */
+.byline {
+  border: 1px solid #f2f1eb;
+  border-width: 1px 0;
+  padding: .25em 0;
+  margin: 1em 0;
+}
+/* line 129, ../sass/partials/_typography.scss */
+.byline .se-label,
+.byline .author,
+.byline .date {
+  margin-right: .25em;
+  font-weight: bold;
+}
+/* line 135, ../sass/partials/_typography.scss */
+.byline .se-label {
+  text-transform: none;
+  background-color: none;
+}
+/* line 139, ../sass/partials/_typography.scss */
+.byline .author {
+  margin-right: 2em;
+}
+/* line 142, ../sass/partials/_typography.scss */
+.byline .date {
+  font-weight: normal;
+}
+
+/* line 147, ../sass/partials/_typography.scss */
 .inline a {
   display: inline-block;
 }
 
-/* line 129, ../sass/partials/_typography.scss */
+/* line 152, ../sass/partials/_typography.scss */
 .stacked a {
   display: block;
   margin-bottom: 1em;
   text-align: left;
 }
-/* line 139, ../sass/partials/_typography.scss */
+/* line 162, ../sass/partials/_typography.scss */
 .stacked li {
   display: inline;
 }
 
-/* line 144, ../sass/partials/_typography.scss */
+/* line 167, ../sass/partials/_typography.scss */
 .stacked-center a {
   text-align: center;
   font-size: 115%;
@@ -182,24 +210,24 @@ a {
   padding: 10px 0 !important;
 }
 
-/* line 153, ../sass/partials/_typography.scss */
+/* line 176, ../sass/partials/_typography.scss */
 .sidebar .menu li a {
   background-color: transparent;
   border-bottom: 1px solid #f2f1eb;
   white-space: wrap;
 }
 
-/* line 171, ../sass/partials/_typography.scss */
+/* line 194, ../sass/partials/_typography.scss */
 .horizontal-tabs ul.horizontal-tabs-list li {
   list-style: none;
 }
 
-/* line 178, ../sass/partials/_typography.scss */
+/* line 201, ../sass/partials/_typography.scss */
 legend {
   color: #8c1515;
 }
 
-/* line 185, ../sass/partials/_typography.scss */
+/* line 208, ../sass/partials/_typography.scss */
 th {
   vertical-align: top;
 }
@@ -629,46 +657,55 @@ th {
   background-color: transparent;
 }
 
-/* line 57, ../sass/partials/_objects.scss */
-.box-figure .ds-credit .field, .box-figure .ds-figure .field {
+/* line 55, ../sass/partials/_objects.scss */
+.figure {
+  margin-bottom: 2em;
+}
+/* line 58, ../sass/partials/_objects.scss */
+.figure .caption .field, .figure .figure .field {
   margin-bottom: 0;
 }
-/* line 61, ../sass/partials/_objects.scss */
-.box-figure .ds-credit {
+/* line 62, ../sass/partials/_objects.scss */
+.figure .credit {
   text-align: right;
   font-style: italic;
 }
+/* line 66, ../sass/partials/_objects.scss */
+.figure .caption {
+  text-align: center;
+  font-style: italic;
+}
 
-/* line 69, ../sass/partials/_objects.scss */
+/* line 74, ../sass/partials/_objects.scss */
 .gallery .field-item {
   margin: 0 1em 1em 0;
   background-color: #f2f1eb;
   display: inline-block;
 }
-/* line 73, ../sass/partials/_objects.scss */
+/* line 78, ../sass/partials/_objects.scss */
 .gallery .field-item blockquote {
   margin: 0;
   padding: 5px;
   text-align: center;
 }
 
-/* line 83, ../sass/partials/_objects.scss */
+/* line 88, ../sass/partials/_objects.scss */
 .node-gallery .field-type-image .field-item {
   float: left;
   margin: 0 1em 1em 0;
 }
 
-/* line 92, ../sass/partials/_objects.scss */
+/* line 97, ../sass/partials/_objects.scss */
 .promo .postcard-left,
 .promo p {
   margin-bottom: 0;
 }
-/* line 96, ../sass/partials/_objects.scss */
+/* line 101, ../sass/partials/_objects.scss */
 .promo .ds-text {
   padding: 1em;
 }
 
-/* line 101, ../sass/partials/_objects.scss */
+/* line 106, ../sass/partials/_objects.scss */
 .postcard-left,
 .postcard-left-wrap,
 .postcard-right,
@@ -676,17 +713,17 @@ th {
   margin-bottom: 0;
 }
 
-/* line 110, ../sass/partials/_objects.scss */
+/* line 115, ../sass/partials/_objects.scss */
 .article .figure {
   max-width: 480px;
 }
 
-/* line 116, ../sass/partials/_objects.scss */
+/* line 121, ../sass/partials/_objects.scss */
 .social li {
   margin: 0 !important;
   padding: 0;
 }
-/* line 122, ../sass/partials/_objects.scss */
+/* line 127, ../sass/partials/_objects.scss */
 .social .content a {
   display: block;
   float: left;
@@ -698,83 +735,83 @@ th {
   opacity: .75;
   text-indent: -9999px;
 }
-/* line 133, ../sass/partials/_objects.scss */
+/* line 138, ../sass/partials/_objects.scss */
 .social .content a:hover {
   opacity: 1;
 }
-/* line 136, ../sass/partials/_objects.scss */
+/* line 141, ../sass/partials/_objects.scss */
 .social .content a:first-child {
   margin-left: 0;
 }
-/* line 141, ../sass/partials/_objects.scss */
+/* line 146, ../sass/partials/_objects.scss */
 .social a[href*="youtube.com"] {
   background-position: -1px 0;
 }
-/* line 145, ../sass/partials/_objects.scss */
+/* line 150, ../sass/partials/_objects.scss */
 .social a[href*="vimeo.com"] {
   background-position: -46px 0;
 }
-/* line 149, ../sass/partials/_objects.scss */
+/* line 154, ../sass/partials/_objects.scss */
 .social a[href*="twitter.com"] {
   background-position: -92px 0;
 }
-/* line 153, ../sass/partials/_objects.scss */
+/* line 158, ../sass/partials/_objects.scss */
 .social a[href*="tumblr.com"] {
   background-position: 0 -46px;
 }
-/* line 157, ../sass/partials/_objects.scss */
+/* line 162, ../sass/partials/_objects.scss */
 .social a[href*="pinterest.com"] {
   background-position: -46px -46px;
 }
-/* line 161, ../sass/partials/_objects.scss */
+/* line 166, ../sass/partials/_objects.scss */
 .social a[href*="linkedin.com"] {
   background-position: -92px -46px;
 }
-/* line 165, ../sass/partials/_objects.scss */
+/* line 170, ../sass/partials/_objects.scss */
 .social a[href*="google.com"] {
   background-position: 0 -92px;
 }
-/* line 169, ../sass/partials/_objects.scss */
+/* line 174, ../sass/partials/_objects.scss */
 .social a[href*="flickr.com"] {
   background-position: -46px -92px;
 }
-/* line 173, ../sass/partials/_objects.scss */
+/* line 178, ../sass/partials/_objects.scss */
 .social a[href*="facebook.com"] {
   background-position: -92px -92px;
 }
-/* line 177, ../sass/partials/_objects.scss */
+/* line 182, ../sass/partials/_objects.scss */
 .social a[href*="feeds"],
 .social a[href*=".rss"] {
   background-position: 0 -137px;
 }
 
-/* line 183, ../sass/partials/_objects.scss */
+/* line 188, ../sass/partials/_objects.scss */
 .table td {
   border-width: 0 0 1px 0;
 }
 
-/* line 190, ../sass/partials/_objects.scss */
+/* line 195, ../sass/partials/_objects.scss */
 .byline .field {
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
   *zoom: 1;
   *display: inline;
-  border-left: 1px solid #3f3c30;
+  border-left: 1px solid #585754;
   padding: 0 .5em;
 }
-/* line 195, ../sass/partials/_objects.scss */
+/* line 200, ../sass/partials/_objects.scss */
 .byline .field:first-child {
   border-left: none;
   padding-left: 0;
 }
 
-/* line 201, ../sass/partials/_objects.scss */
+/* line 206, ../sass/partials/_objects.scss */
 .well {
   padding: .5em;
 }
 
-/* line 206, ../sass/partials/_objects.scss */
+/* line 211, ../sass/partials/_objects.scss */
 .view-mode-search_result {
   border-bottom: 1px solid #eeeeee;
   margin-bottom: 1em;
@@ -897,7 +934,7 @@ th {
 /* line 1, ../sass/partials/_horizontal_tabs.scss */
 .horizontal-tabs ul.horizontal-tabs-list {
   background-color: #f2f1eb;
-  border-bottom: 1px solid #3f3c30;
+  border-bottom: 1px solid #585754;
 }
 /* line 4, ../sass/partials/_horizontal_tabs.scss */
 .horizontal-tabs ul.horizontal-tabs-list li {

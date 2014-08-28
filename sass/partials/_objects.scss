@@ -52,14 +52,19 @@
 
 // Figure box
 
-.box-figure {
-  .ds-credit, .ds-figure {
+.figure {
+  margin-bottom: 2em;
+  .caption, .figure {
     .field {
       margin-bottom: 0;
     }
   }
-  .ds-credit {
+  .credit {
     text-align: right;
+    font-style: italic;
+  }
+  .caption {
+    text-align: center;
     font-style: italic;
   }
 }

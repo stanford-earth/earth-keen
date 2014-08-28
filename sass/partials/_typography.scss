@@ -121,6 +121,29 @@ a {
 
 /* ---- Lists ---- */
 
+.byline {
+  border: 1px solid $beige;
+  border-width: 1px 0;
+  padding: .25em 0;
+  margin: 1em 0;
+  .se-label,
+  .author,
+  .date {
+    margin-right: .25em;
+    font-weight: bold;
+  }
+  .se-label {
+    text-transform: none;
+    background-color: none;
+  }
+  .author {
+    margin-right: 2em;
+  }
+  .date {
+    font-weight: normal;
+  }
+}
+
 .inline a {
   display: inline-block;
 }
