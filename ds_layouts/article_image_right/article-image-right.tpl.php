@@ -30,10 +30,10 @@
     <<?php print $header_wrapper; ?> class="ds-text<?php print $header_classes; ?>">
       <?php print $header	; ?>
     </<?php print $header_wrapper; ?>>
-    <<?php print $image_wrapper; ?> class="span5 pull-right <?php print $image_classes; ?>">
+    <<?php print $image_wrapper; ?> class="span3 pull-right <?php print $image_classes; ?>">
       <?php print $image; ?>
     </<?php print $image_wrapper; ?>>
-    <<?php print $text_wrapper; ?> class="span6 <?php print $text_classes; ?>" style="margin-left: 0;">
+    <<?php print $text_wrapper; ?> class="span8 <?php print $text_classes; ?>" style="margin-left: 0;">
       <?php print $text; ?>
     </<?php print $text_wrapper; ?>>
     <<?php print $footer_wrapper; ?> class="<?php print $footer_classes; ?>">
