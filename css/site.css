@@ -129,39 +129,32 @@ a {
 }
 
 /* line 94, ../sass/partials/_typography.scss */
-.caption {
-  background-color: #f2f1eb;
-  text-align: center;
-  padding: 5px;
-}
-
-/* line 100, ../sass/partials/_typography.scss */
 .summary {
   text-align: justify;
   font-size: 18px;
 }
 
-/* line 105, ../sass/partials/_typography.scss */
+/* line 99, ../sass/partials/_typography.scss */
 .nowrap {
   white-space: nowrap;
 }
 
-/* line 110, ../sass/partials/_typography.scss */
+/* line 104, ../sass/partials/_typography.scss */
 .promo .ds-text {
   font-size: 120%;
   line-height: 1.5em;
 }
-/* line 114, ../sass/partials/_typography.scss */
+/* line 108, ../sass/partials/_typography.scss */
 .promo h3 {
   font-size: 130%;
 }
-/* line 117, ../sass/partials/_typography.scss */
+/* line 111, ../sass/partials/_typography.scss */
 .promo img, .promo .views-row {
   margin-bottom: 0 !important;
 }
 
 /* ---- VCard Markup ---- */
-/* line 124, ../sass/partials/_typography.scss */
+/* line 118, ../sass/partials/_typography.scss */
 .n,
 .tel {
   white-space: nowrap;
@@ -169,51 +162,51 @@ a {
 
 /* ---- Headers ---- */
 /* ---- Lists ---- */
-/* line 133, ../sass/partials/_typography.scss */
+/* line 127, ../sass/partials/_typography.scss */
 .byline {
   border: 1px solid #f2f1eb;
   border-width: 1px 0;
   padding: .25em 0;
   margin: 1em 0;
 }
-/* line 138, ../sass/partials/_typography.scss */
+/* line 132, ../sass/partials/_typography.scss */
 .byline .se-label,
 .byline .author,
 .byline .date {
   margin-right: .25em;
   font-weight: bold;
 }
-/* line 144, ../sass/partials/_typography.scss */
+/* line 138, ../sass/partials/_typography.scss */
 .byline .se-label {
   text-transform: none;
   background-color: none;
 }
-/* line 148, ../sass/partials/_typography.scss */
+/* line 142, ../sass/partials/_typography.scss */
 .byline .author {
   margin-right: 2em;
 }
-/* line 151, ../sass/partials/_typography.scss */
+/* line 145, ../sass/partials/_typography.scss */
 .byline .date {
   font-weight: normal;
 }
 
-/* line 156, ../sass/partials/_typography.scss */
+/* line 150, ../sass/partials/_typography.scss */
 .inline a {
   display: inline-block;
 }
 
-/* line 161, ../sass/partials/_typography.scss */
+/* line 155, ../sass/partials/_typography.scss */
 .stacked a {
   display: block;
   margin-bottom: 1em;
   text-align: left;
 }
-/* line 171, ../sass/partials/_typography.scss */
+/* line 165, ../sass/partials/_typography.scss */
 .stacked li {
   display: inline;
 }
 
-/* line 176, ../sass/partials/_typography.scss */
+/* line 170, ../sass/partials/_typography.scss */
 .stacked-center a {
   text-align: center;
   font-size: 115%;
@@ -221,24 +214,24 @@ a {
   padding: 10px 0 !important;
 }
 
-/* line 185, ../sass/partials/_typography.scss */
+/* line 179, ../sass/partials/_typography.scss */
 .sidebar .menu li a {
   background-color: transparent;
   border-bottom: 1px solid #f2f1eb;
   white-space: wrap;
 }
 
-/* line 203, ../sass/partials/_typography.scss */
+/* line 197, ../sass/partials/_typography.scss */
 .horizontal-tabs ul.horizontal-tabs-list li {
   list-style: none;
 }
 
-/* line 210, ../sass/partials/_typography.scss */
+/* line 204, ../sass/partials/_typography.scss */
 legend {
   color: #8c1515;
 }
 
-/* line 217, ../sass/partials/_typography.scss */
+/* line 211, ../sass/partials/_typography.scss */
 th {
   vertical-align: top;
 }
