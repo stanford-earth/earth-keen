@@ -128,7 +128,7 @@
               <div id="highlighted" class="clearfix"><?php print render($page['highlighted']); ?></div>
               <?php endif; ?>
               <?php print render($title_prefix); ?>
-              <?php if (($title) && (!$subsite_is_front)): ?>
+              <?php if (($title) && (isset($subsite_is_front)) && (!$subsite_is_front)): ?>
               <h1 class="title" id="page-title"> <?php print $title; ?> </h1>
               <?php endif; ?>
               <?php print render($title_suffix); ?>
