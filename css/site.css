@@ -687,8 +687,8 @@ th {
 }
 /* line 66, ../sass/partials/_objects.scss */
 .figure .caption {
-  text-align: center;
   font-style: italic;
+  margin-bottom: 1em;
 }
 
 /* line 74, ../sass/partials/_objects.scss */
