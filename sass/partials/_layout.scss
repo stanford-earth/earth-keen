@@ -112,6 +112,10 @@
     margin: 0;
   }
   
+  div[class*="span"] {
+    margin-bottom: 1em;
+  }
+  
 
 } // End grid rules
 
