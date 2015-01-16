@@ -3,6 +3,12 @@
 }
 
 //Override logo treatment
+#header {
+  #logo img {
+    max-width: inherit;
+  }
+}
+
 #header.is-mainsite,
 #header.is-subsite {
   margin: 0;
