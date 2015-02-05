@@ -5,6 +5,7 @@ core = 7.x
 version = 1.0
 
 stylesheets[all][] = css/site.css
+stylesheets[all][] = css/extra.css
 stylesheets-conditional[IE][all][] = css/ie.css
 
 regions[admin_shortcuts] = Admin Shortcuts (Authenticated Users Only)
