@@ -32,6 +32,7 @@
 	  <?php if (!empty($subsite_site_name_html)) : ?>
             <?php $site_name = $subsite_site_name_html; ?> 
           <?php endif; ?>
+	  <?php if (empty($subsite_site_name_html)) : ?>
           <div id="name-and-slogan"  class="<?php if (isset($logo)) { print ('with-logo'); } ?><?php if ($site_title_second_line || $site_slogan) { print (' two-lines'); } ?>">
             <?php if (($site_name) && !($site_title_first_line)): ?>
             <div id="site-name" class="site-name"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><?php print $site_name; ?></a></div>
@@ -53,6 +54,7 @@
           </div>
           <?php endif; ?>
           <!-- /#name-and-slogan --> 
+          <?php endif; ?>
         </div>
       </div>
     </div>
