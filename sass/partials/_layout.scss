@@ -64,8 +64,9 @@
     }
     #logo {
       padding: 20px 0;
+      max-width: 650px;
       img {
-	max-height: 100px;
+	max-width: 100%;
       }
     }
     #name-and-slogan {
