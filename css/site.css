@@ -277,14 +277,14 @@ th {
   /* line 15, ../sass/partials/_layout.scss */
   #header.is-mainsite .container,
   #header.is-subsite .container {
-    background: transparent url("../images/globe-500.png") no-repeat 440px -130px;
+    background: transparent url("../images/globe-500.png") no-repeat 475px -130px;
   }
 }
 @media (max-width: 978px) {
   /* line 15, ../sass/partials/_layout.scss */
   #header.is-mainsite .container,
   #header.is-subsite .container {
-    background: transparent url("../images/globe-300.png") no-repeat 420px -55px;
+    background: transparent url("../images/globe-300.png") no-repeat 460px -55px;
   }
 }
 @media (max-width: 321px) {
