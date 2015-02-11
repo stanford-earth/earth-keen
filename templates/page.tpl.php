@@ -19,7 +19,7 @@
   </div>
   <!-- /#global-header -->
   <?php if ($logo || $site_name || $site_slogan || $site_title_first_line || $site_title_second_line): ?>
-  <div id="header" class="clearfix header <?php if (!empty($subsite_site_name_text)) : ?>is-subsite<?php endif;?> <?php if ('School of Earth, Energy & Environmental Sciences') : ?>is-mainsite<?php endif;?>" role="banner">
+  <div id="header" class="clearfix header <?php if (!empty($subsite_site_name_text)) : ?>is-subsite<?php endif;?> <?php if ($site_name == 'School of Earth, Energy & Environmental Sciences') : ?>is-mainsite<?php endif;?>" role="banner">
     <div class="container">
       <div class="row">
         <div class="header-section <?php if ($page['search_box']): print 'span8'; else: print 'span12'; endif; ?>">
