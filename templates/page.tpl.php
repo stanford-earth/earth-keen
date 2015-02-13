@@ -1,3 +1,6 @@
+<?
+$mainsite = (strpos($site_name,'Earth, Energy') !== false) ? true: false;
+?>
 <div id="wrap" class="<? if (!empty($subsite_is_front)) : ?>subsite-front <? endif; ?><?php if ($site_title_position_classes): ?><?php print $site_title_position_classes; ?><?php endif; ?>"> <a href="#main" class="element-invisible element-focusable"><?php print t('Skip to content'); ?></a>
   <?php if ($main_menu): ?>
   <a href="#main-nav" class="element-invisible element-focusable"><?php print t('Skip to navigation'); ?></a>
@@ -19,7 +22,7 @@
   </div>
   <!-- /#global-header -->
   <?php if ($logo || $site_name || $site_slogan || $site_title_first_line || $site_title_second_line): ?>
-  <div id="header" class="clearfix header <?php if (!empty($subsite_site_name_text)) : ?>is-subsite<?php endif;?> <?php if ($site_name == 'School of Earth, Energy & Environmental Sciences') : ?>is-mainsite<?php endif;?>" role="banner">
+  <div id="header" class="clearfix header <?php if (!empty($subsite_site_name_text)) : ?>is-subsite<?php endif;?> <?php if ($mainsite) : ?>is-mainsite<?php endif;?>" role="banner">
     <div class="container">
       <div class="row">
         <div class="header-section <?php if ($page['search_box']): print 'span8'; else: print 'span12'; endif; ?>">
