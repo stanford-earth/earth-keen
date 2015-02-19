@@ -22,7 +22,7 @@
     @media (max-width:978px) {
       background: transparent url("../images/globe-300.png") no-repeat 420px -55px;
     }
-    @media (max-width:321px) {
+    @media (max-width:340px) {
       background: transparent url("../images/globe-300.png") no-repeat 420px -55px;
       min-height: 55px;
     }
@@ -32,7 +32,7 @@
     border-right-width: 0;
     padding: 0;
     @media (min-width:330px) {
-      padding-top: 60px;
+      padding-top: 20px;
     }
     img {
       max-width: 100%;
