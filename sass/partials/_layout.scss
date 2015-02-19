@@ -26,13 +26,12 @@
       background: transparent url("../images/globe-300.png") no-repeat 420px -55px;
       min-height: 55px;
     }
-    min-height: 155px;
+    padding: 20px 0;
   }
   #logo {
     border-right-width: 0;
     padding: 0;
     @media (min-width:230px) {
-      padding-top: 20px;
     }
     img {
       max-width: 100%;
