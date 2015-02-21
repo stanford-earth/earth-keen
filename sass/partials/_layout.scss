@@ -300,7 +300,8 @@ table.views-table tbody td p {margin: 0px;}
 // http://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php
 // http://alistapart.com/article/creating-intrinsic-ratios-for-video
 
-.fullwidth .file-video {
+.fullwidth .file-video,
+.media-youtube-video {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
 	padding-top: 25px;
