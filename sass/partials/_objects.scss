@@ -52,7 +52,7 @@
 // Figure box
 
 .figure {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   .caption, .figure {
     .field {
       margin-bottom: 0;
@@ -67,6 +67,17 @@
   }
 }
 
+.media-left {
+  @extend .figure;
+  float: left;
+  margin: 0 1em 0 0;
+}
+
+.media-right {
+  @extend .figure;
+  float: right;
+  margin: 0 0 0 1em;
+}
 
 .gallery {
     .field-item {
