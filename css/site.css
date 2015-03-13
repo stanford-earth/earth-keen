@@ -676,32 +676,32 @@ th {
 }
 
 /* line 54, ../sass/partials/_objects.scss */
-.figure, .article .media-left, .article .media-right {
+.figure, .article .figure .media-left, .article .figure .media-right {
   margin-bottom: 1em;
 }
 /* line 57, ../sass/partials/_objects.scss */
-.figure .caption .field, .article .media-left .caption .field, .article .media-right .caption .field, .figure .figure .field, .article .media-left .figure .field, .article .media-right .figure .field, .figure .article .media-left .field, .article .figure .media-left .field, .article .media-left .media-left .field, .article .media-right .media-left .field, .figure .article .media-right .field, .article .figure .media-right .field, .article .media-left .media-right .field, .article .media-right .media-right .field {
+.figure .caption .field, .figure .figure .field, .article .figure .media-left .field, .article .figure .media-right .field {
   margin-bottom: 0;
 }
 /* line 61, ../sass/partials/_objects.scss */
-.figure .credit, .article .media-left .credit, .article .media-right .credit {
+.figure .credit, .article .figure .media-left .credit, .article .figure .media-right .credit {
   text-align: right;
   font-style: italic;
 }
 /* line 65, ../sass/partials/_objects.scss */
-.figure .caption, .article .media-left .caption, .article .media-right .caption {
+.figure .caption, .article .figure .media-left .caption, .article .figure .media-right .caption {
   font-style: italic;
 }
 
 /* line 70, ../sass/partials/_objects.scss */
-.article .media-left {
+.article .figure .media-left {
   float: left;
   margin: 0 1em 0 0;
   max-width: 40%;
 }
 
 /* line 77, ../sass/partials/_objects.scss */
-.article .media-right {
+.article .figure .media-right {
   float: right;
   margin: 0 0 0 1em;
   max-width: 40%;
@@ -745,7 +745,7 @@ th {
 }
 
 /* line 126, ../sass/partials/_objects.scss */
-.article .figure, .article .media-left, .article .media-right {
+.article .figure, .article .figure .media-left, .article .figure .media-right {
   max-width: 480px;
 }
 
