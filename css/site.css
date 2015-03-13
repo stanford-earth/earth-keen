@@ -676,32 +676,32 @@ th {
 }
 
 /* line 54, ../sass/partials/_objects.scss */
-.figure, .media-left, .media-right {
+.figure, .article .media-left, .article .media-right {
   margin-bottom: 1em;
 }
 /* line 57, ../sass/partials/_objects.scss */
-.figure .caption .field, .media-left .caption .field, .media-right .caption .field, .figure .figure .field, .media-left .figure .field, .media-right .figure .field, .figure .media-left .field, .media-left .media-left .field, .media-right .media-left .field, .figure .media-right .field, .media-left .media-right .field, .media-right .media-right .field {
+.figure .caption .field, .article .media-left .caption .field, .article .media-right .caption .field, .figure .figure .field, .article .media-left .figure .field, .article .media-right .figure .field, .figure .article .media-left .field, .article .figure .media-left .field, .article .media-left .media-left .field, .article .media-right .media-left .field, .figure .article .media-right .field, .article .figure .media-right .field, .article .media-left .media-right .field, .article .media-right .media-right .field {
   margin-bottom: 0;
 }
 /* line 61, ../sass/partials/_objects.scss */
-.figure .credit, .media-left .credit, .media-right .credit {
+.figure .credit, .article .media-left .credit, .article .media-right .credit {
   text-align: right;
   font-style: italic;
 }
 /* line 65, ../sass/partials/_objects.scss */
-.figure .caption, .media-left .caption, .media-right .caption {
+.figure .caption, .article .media-left .caption, .article .media-right .caption {
   font-style: italic;
 }
 
 /* line 70, ../sass/partials/_objects.scss */
-.media-left {
+.article .media-left {
   float: left;
   margin: 0 1em 0 0;
   max-width: 40%;
 }
 
 /* line 77, ../sass/partials/_objects.scss */
-.media-right {
+.article .media-right {
   float: right;
   margin: 0 0 0 1em;
   max-width: 40%;
