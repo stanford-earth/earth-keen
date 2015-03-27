@@ -1,6 +1,6 @@
 name = Keen
 base theme = stanford_framework
-description = Sub-theme provided by Stanford School of Earth Sciences Web Services.
+description = Sub-theme provided by Stanford School of Earth, Energy & Environmental Sciences Web Services.
 core = 7.x
 version = 1.0
 
