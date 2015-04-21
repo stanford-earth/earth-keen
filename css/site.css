@@ -951,6 +951,11 @@ th {
 }
 
 /* line 14, ../sass/partials/_forms.scss */
+.form-item label.option {
+  display: inline;
+}
+
+/* line 18, ../sass/partials/_forms.scss */
 .horizontal-tabs fieldset.horizontal-tabs-pane {
   padding: 1em;
 }
