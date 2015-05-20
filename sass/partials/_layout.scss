@@ -314,3 +314,10 @@ table.views-table tbody td p {margin: 0px;}
   }
 }
 
+
+// Override Two Column layout in Display Suite
+
+.ds-2col > .group-left {
+  width: 48%;
+  margin-right: 2%;
+}

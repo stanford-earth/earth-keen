@@ -619,6 +619,12 @@ th {
   height: 100%;
 }
 
+/* line 320, ../sass/partials/_layout.scss */
+.ds-2col > .group-left {
+  width: 48%;
+  margin-right: 2%;
+}
+
 /* line 3, ../sass/partials/_objects.scss */
 .box .hd, .box-impact .hd, .box-highlight .hd, .box-sidebar .hd,
 .region-sidebar-second .block .hd, .box .bd, .box-impact .bd, .box-highlight .bd, .box-sidebar .bd,
