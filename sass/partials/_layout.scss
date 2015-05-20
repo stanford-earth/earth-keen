@@ -313,3 +313,13 @@ table.views-table tbody td p {margin: 0px;}
     height: 100%;
   }
 }
+
+// Overrides for Post Card Right layout
+
+.postcard-right-wrap > div:first-child, .postcard-right > div:first-child {
+  max-width: 48%;
+}
+
+.postcard-right > div:first-child img, .postcard-right-wrap > div:first-child img {
+  margin-left: 0;
+}

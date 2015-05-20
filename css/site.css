@@ -619,6 +619,16 @@ th {
   height: 100%;
 }
 
+/* line 319, ../sass/partials/_layout.scss */
+.postcard-right-wrap > div:first-child, .postcard-right > div:first-child {
+  max-width: 48%;
+}
+
+/* line 323, ../sass/partials/_layout.scss */
+.postcard-right > div:first-child img, .postcard-right-wrap > div:first-child img {
+  margin-left: 0;
+}
+
 /* line 3, ../sass/partials/_objects.scss */
 .box .hd, .box-impact .hd, .box-highlight .hd, .box-sidebar .hd,
 .region-sidebar-second .block .hd, .box .bd, .box-impact .bd, .box-highlight .bd, .box-sidebar .bd,
