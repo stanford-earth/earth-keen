@@ -955,6 +955,31 @@ th {
   right: 6px;
 }
 
+/* line 109, ../sass/partials/_stanford_carousel.scss */
+.view.carousel.nav-titles .carousel-dots {
+  position: inherit;
+}
+/* line 113, ../sass/partials/_stanford_carousel.scss */
+.view.carousel.nav-titles .carousel-indicators li {
+  text-indent: 0;
+  width: 8em;
+  min-height: 3em;
+  border-width: 0 1px 0 0;
+  margin: 0 .25em;
+  padding: .25em 0;
+}
+/* line 120, ../sass/partials/_stanford_carousel.scss */
+.view.carousel.nav-titles .carousel-indicators li.active {
+  background-color: pink;
+}
+/* line 124, ../sass/partials/_stanford_carousel.scss */
+.view.carousel.nav-titles .carousel-indicators a {
+  margin-left: 0;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 80%;
+}
+
 /* line 1, ../sass/partials/_forms.scss */
 .field-label-inline {
   padding: .25em 0;

@@ -102,3 +102,30 @@
     }
   }
 }
+
+// Show slide titles in carousel navigation
+
+.view.carousel.nav-titles {
+	.carousel-dots {
+		position: inherit;	
+	}
+	.carousel-indicators {
+		li {
+			text-indent: 0;
+			width: 8em;
+			min-height: 3em;	
+			border-width: 0 1px 0 0;
+			margin: 0 .25em;
+			padding: .25em 0;
+			&.active {
+				background-color: pink;
+			}
+		}
+		a {
+  			margin-left: 0;
+			display: inline-block;
+			vertical-align: top;
+			font-size: 80%;
+		}
+	}
+}
