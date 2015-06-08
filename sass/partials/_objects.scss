@@ -67,14 +67,14 @@
   }
 }
 
-.article .media-left {
+.media-left {
   @extend .figure;
   float: left;
   margin: 0 1em 0 0;
   max-width: 40% !important;
 }
 
-.article .media-right {
+.media-right {
   @extend .figure;
   float: right;
   margin: 0 0 0 1em;
