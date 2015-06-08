@@ -52,6 +52,8 @@
 // Figure box
 
 .figure {
+  background-color: $beige;
+  border: 1px solid $lightgrey;
   margin-bottom: 1em;
   .caption, .figure {
     .field {
