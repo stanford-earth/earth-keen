@@ -70,16 +70,20 @@
 
 .media-left {
   @extend .figure;
-  float: left;
-  margin: 0 1em 0 0;
-  max-width: 50% !important;
+  @media (min-width: 320px) {
+    float: left;
+    margin: 0 1em 0 0;
+    max-width: 50% !important;
+  }
 }
 
 .media-right {
   @extend .figure;
-  float: right;
-  margin: 0 0 0 1em;
-  max-width: 50% !important;
+  @media (min-width: 320px) {
+    float: right;
+    margin: 0 0 0 1em;
+    max-width: 50% !important;
+  }
 }
 
 .gallery {
