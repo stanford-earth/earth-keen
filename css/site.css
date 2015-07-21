@@ -710,7 +710,7 @@ th {
   padding: .5em;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 400px) {
   /* line 71, ../sass/partials/_objects.scss */
   .media-left {
     float: left;
@@ -719,7 +719,7 @@ th {
   }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 400px) {
   /* line 80, ../sass/partials/_objects.scss */
   .media-right {
     float: right;
