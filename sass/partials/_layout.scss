@@ -317,5 +317,7 @@ table.views-table tbody td p {margin: 0px;}
 // Overrides for Post Card Right layout
 
 .postcard-right-wrap > div:first-child, .postcard-right > div:first-child {
-  max-width: 48%;
+  @media screen and (min-width: 400px) {
+    max-width: 48%;
+  }
 }

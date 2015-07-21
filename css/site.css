@@ -630,9 +630,11 @@ th {
   height: 100%;
 }
 
-/* line 319, ../sass/partials/_layout.scss */
-.postcard-right-wrap > div:first-child, .postcard-right > div:first-child {
-  max-width: 48%;
+@media screen and (min-width: 400px) {
+  /* line 319, ../sass/partials/_layout.scss */
+  .postcard-right-wrap > div:first-child, .postcard-right > div:first-child {
+    max-width: 48%;
+  }
 }
 
 /* line 3, ../sass/partials/_objects.scss */
