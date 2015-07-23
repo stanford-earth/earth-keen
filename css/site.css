@@ -108,11 +108,12 @@ a {
 /* line 81, ../sass/partials/_typography.scss */
 .btn a,
 .btn a:active,
+.btn a:focus,
 .btn a:hover {
   border-bottom: none;
 }
 
-/* line 88, ../sass/partials/_typography.scss */
+/* line 89, ../sass/partials/_typography.scss */
 .btn-primary, .btn-giving,
 .btn-giving:hover {
   background-color: #8c1515;
@@ -123,7 +124,7 @@ a {
   background: linear-gradient(#b81c1c, #8c1515);
   text-transform: uppercase;
 }
-/* line 92, ../sass/partials/_typography.scss */
+/* line 93, ../sass/partials/_typography.scss */
 .btn-primary:hover, .btn-giving:hover {
   background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzhjMTUxNSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2I4MWMxYyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8c1515), color-stop(100%, #b81c1c));
@@ -131,13 +132,13 @@ a {
   background: -webkit-linear-gradient(#8c1515, #b81c1c);
   background: linear-gradient(#8c1515, #b81c1c);
 }
-/* line 95, ../sass/partials/_typography.scss */
+/* line 96, ../sass/partials/_typography.scss */
 .btn-primary a, .btn-giving a,
 .btn-giving:hover a {
   color: #fbfbf9;
 }
 
-/* line 100, ../sass/partials/_typography.scss */
+/* line 101, ../sass/partials/_typography.scss */
 .btn-giving,
 .btn-giving:hover {
   color: #f2f1eb;
@@ -145,43 +146,43 @@ a {
   letter-spacing: 1px;
   padding: 8px 20px;
 }
-/* line 109, ../sass/partials/_typography.scss */
+/* line 110, ../sass/partials/_typography.scss */
 .btn-giving:after,
 .btn-giving:hover:after {
   content: '  >';
 }
-/* line 112, ../sass/partials/_typography.scss */
+/* line 113, ../sass/partials/_typography.scss */
 .btn-giving:hover,
 .btn-giving:hover:hover {
   color: #fbfbf9;
 }
 
-/* line 117, ../sass/partials/_typography.scss */
+/* line 118, ../sass/partials/_typography.scss */
 .summary {
   font-size: 20px;
 }
 
-/* line 121, ../sass/partials/_typography.scss */
+/* line 122, ../sass/partials/_typography.scss */
 .nowrap {
   white-space: nowrap;
 }
 
-/* line 126, ../sass/partials/_typography.scss */
+/* line 127, ../sass/partials/_typography.scss */
 .promo .ds-text {
   font-size: 120%;
   line-height: 1.5em;
 }
-/* line 130, ../sass/partials/_typography.scss */
+/* line 131, ../sass/partials/_typography.scss */
 .promo h3 {
   font-size: 130%;
 }
-/* line 133, ../sass/partials/_typography.scss */
+/* line 134, ../sass/partials/_typography.scss */
 .promo img, .promo .views-row {
   margin-bottom: 0 !important;
 }
 
 /* ---- VCard Markup ---- */
-/* line 140, ../sass/partials/_typography.scss */
+/* line 141, ../sass/partials/_typography.scss */
 .n,
 .tel {
   white-space: nowrap;
@@ -189,51 +190,51 @@ a {
 
 /* ---- Headers ---- */
 /* ---- Lists ---- */
-/* line 149, ../sass/partials/_typography.scss */
+/* line 150, ../sass/partials/_typography.scss */
 .byline {
   border: 1px solid #f2f1eb;
   border-width: 1px 0;
   padding: .25em 0;
   margin: 1em 0;
 }
-/* line 154, ../sass/partials/_typography.scss */
+/* line 155, ../sass/partials/_typography.scss */
 .byline .se-label,
 .byline .author,
 .byline .date {
   margin-right: .25em;
   font-weight: bold;
 }
-/* line 160, ../sass/partials/_typography.scss */
+/* line 161, ../sass/partials/_typography.scss */
 .byline .se-label {
   text-transform: none;
   background-color: none;
 }
-/* line 164, ../sass/partials/_typography.scss */
+/* line 165, ../sass/partials/_typography.scss */
 .byline .author {
   margin-right: 2em;
 }
-/* line 167, ../sass/partials/_typography.scss */
+/* line 168, ../sass/partials/_typography.scss */
 .byline .date {
   font-weight: normal;
 }
 
-/* line 172, ../sass/partials/_typography.scss */
+/* line 173, ../sass/partials/_typography.scss */
 .inline a {
   display: inline-block;
 }
 
-/* line 177, ../sass/partials/_typography.scss */
+/* line 178, ../sass/partials/_typography.scss */
 .stacked a {
   display: block;
   margin-bottom: 1em;
   text-align: left;
 }
-/* line 187, ../sass/partials/_typography.scss */
+/* line 188, ../sass/partials/_typography.scss */
 .stacked li {
   display: inline;
 }
 
-/* line 192, ../sass/partials/_typography.scss */
+/* line 193, ../sass/partials/_typography.scss */
 .stacked-center a {
   text-align: center;
   font-size: 115%;
@@ -241,24 +242,24 @@ a {
   padding: 10px 0 !important;
 }
 
-/* line 201, ../sass/partials/_typography.scss */
+/* line 202, ../sass/partials/_typography.scss */
 .sidebar .menu li a {
   background-color: transparent;
   border-bottom: 1px solid #f2f1eb;
   white-space: wrap;
 }
 
-/* line 219, ../sass/partials/_typography.scss */
+/* line 220, ../sass/partials/_typography.scss */
 .horizontal-tabs ul.horizontal-tabs-list li {
   list-style: none;
 }
 
-/* line 226, ../sass/partials/_typography.scss */
+/* line 227, ../sass/partials/_typography.scss */
 legend {
   color: #8c1515;
 }
 
-/* line 233, ../sass/partials/_typography.scss */
+/* line 234, ../sass/partials/_typography.scss */
 th {
   vertical-align: top;
 }
