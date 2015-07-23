@@ -15,3 +15,10 @@
     }
   }
 }
+
+.horizontal-tabs ul.horizontal-tabs-list li.selected {
+  border: 1px solid $grey;
+  border-width: 1px 1px 0 1px;
+  position: relative;
+  bottom: -1px;
+}

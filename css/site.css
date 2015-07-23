@@ -1048,6 +1048,14 @@ th {
   background-color: #fbfbf9;
 }
 
+/* line 19, ../sass/partials/_horizontal_tabs.scss */
+.horizontal-tabs ul.horizontal-tabs-list li.selected {
+  border: 1px solid #585754;
+  border-width: 1px 1px 0 1px;
+  position: relative;
+  bottom: -1px;
+}
+
 /* line 1, ../sass/partials/_fontawesome.scss */
 .icon-label {
   font-size: 0;
