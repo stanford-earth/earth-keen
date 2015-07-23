@@ -78,6 +78,9 @@ a {
 
 .btn {
   text-transform: uppercase;
+  a {
+   border-bottom: none; 
+  }
 }
 
 .btn-primary {
