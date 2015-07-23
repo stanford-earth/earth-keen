@@ -78,7 +78,9 @@ a {
 
 .btn {
   text-transform: uppercase;
-  a {
+  a,
+  a:active,
+  a:hover {
    border-bottom: none; 
   }
 }
