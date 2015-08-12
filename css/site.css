@@ -267,6 +267,8 @@ th {
 /* line 239, ../sass/partials/_typography.scss */
 .tags {
   text-transform: uppercase;
+  font-weight: bold;
+  color: #585754;
 }
 
 /* line 1, ../sass/partials/_layout.scss */
