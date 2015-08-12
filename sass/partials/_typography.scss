@@ -236,8 +236,7 @@ th {
 }
 
 
-.tags {
-  text-transform: uppercase;
-  font-weight: bold;
-  color: $grey;
+.tags a {
+  color: $cardinal;
+  font-style: italic;
 }
