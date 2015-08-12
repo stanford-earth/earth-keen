@@ -264,6 +264,11 @@ th {
   vertical-align: top;
 }
 
+/* line 239, ../sass/partials/_typography.scss */
+.tags {
+  text-transform: uppercase;
+}
+
 /* line 1, ../sass/partials/_layout.scss */
 #global-header a {
   font-size: 13px;
