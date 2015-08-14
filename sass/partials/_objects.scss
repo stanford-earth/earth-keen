@@ -224,6 +224,18 @@
   padding: .5em;
 }
 
+.well-dark {
+  @extend .well;
+  background-color: #000;
+  color: #fff;
+  h3, a {
+    color: #fff;
+  }
+  h3 {
+    border-color: #fff;
+  }
+}
+
 
 .view-mode-search_result {
   border-bottom: 1px solid $lightgrey;

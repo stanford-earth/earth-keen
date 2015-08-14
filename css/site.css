@@ -892,11 +892,25 @@ th {
 }
 
 /* line 223, ../sass/partials/_objects.scss */
-.well {
+.well, .well-dark {
   padding: .5em;
 }
 
-/* line 228, ../sass/partials/_objects.scss */
+/* line 227, ../sass/partials/_objects.scss */
+.well-dark {
+  background-color: #000;
+  color: #fff;
+}
+/* line 231, ../sass/partials/_objects.scss */
+.well-dark h3, .well-dark a {
+  color: #fff;
+}
+/* line 234, ../sass/partials/_objects.scss */
+.well-dark h3 {
+  border-color: #fff;
+}
+
+/* line 240, ../sass/partials/_objects.scss */
 .view-mode-search_result {
   border-bottom: 1px solid #eeeeee;
   margin-bottom: 1em;
