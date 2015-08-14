@@ -902,11 +902,11 @@ th {
   color: #fff;
 }
 /* line 231, ../sass/partials/_objects.scss */
-.well-dark h3, .well-dark a {
-  color: #fff;
+.well-dark h2, .well-dark a {
+  color: #fff !important;
 }
 /* line 234, ../sass/partials/_objects.scss */
-.well-dark h3 {
+.well-dark h2 {
   border-color: #fff;
 }
 
