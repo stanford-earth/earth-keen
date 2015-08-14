@@ -136,6 +136,16 @@ a {
   }
 }
 
+.promo-large {
+  @extend .promo;
+  .ds-text {
+   font-size: 1.1em; 
+  }
+  h3 {
+    font-size: 200%;
+  }
+}
+
 /* ---- VCard Markup ---- */
 
 .n,
