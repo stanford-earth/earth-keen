@@ -1137,4 +1137,9 @@ th {
   background-color: #ffb878;
 }
 
+/* line 2, ../sass/partials/_tables.scss */
+td img {
+  max-width: none;
+}
+
 /*# sourceMappingURL=site.css.map */

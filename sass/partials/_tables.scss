@@ -1,0 +1,4 @@
+// Fix issue where images inside of tables are sized inconsistently
+td img {
+  max-width: none;
+}
