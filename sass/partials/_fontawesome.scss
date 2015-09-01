@@ -40,25 +40,25 @@
 .node-video {
   position: relative;
   width: 300px;
-}
-.ds-image {
-      position: relative;
-      display: inline-block;
-}
-
-/* Using character code to get FontAwesome icon
-http://stackoverflow.com/a/14736642/903277 */
-
-.ds-image:after {
-  display: block;
-  position: absolute;
-  bottom: 0;
-  right: 10px;
-  font-family: FontAwesome;
-  font-size: 2em;
-  color: #fff;
-  /* play icon */
-  content: "\f04b";
-  /* headphone icon */
-  /* content: "\f025";*/
-}
+  
+  .ds-image {
+        position: relative;
+        display: inline-block;
+  }
+  
+  /* http://stackoverflow.com/a/14736642/903277 */
+  
+  .ds-image:after {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    font-family: FontAwesome;
+    font-size: 2em;
+    color: #fff;
+    /* play icon */
+    content: "\f04b";
+    /* headphone icon */
+    /* content: "\f025";*/
+  }
+}  
