@@ -1031,6 +1031,11 @@ th {
   font-size: 80%;
 }
 
+/* line 137, ../sass/partials/_stanford_carousel.scss */
+.carousel-dark .slide-title {
+  color: #fff;
+}
+
 /* line 1, ../sass/partials/_forms.scss */
 .field-label-inline {
   padding: .25em 0;
