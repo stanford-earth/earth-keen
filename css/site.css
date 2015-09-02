@@ -1137,6 +1137,31 @@ th {
   background-color: #ffb878;
 }
 
+/* line 40, ../sass/partials/_fontawesome.scss */
+.node-video {
+  position: relative;
+  width: 300px;
+  /* http://stackoverflow.com/a/14736642/903277 */
+}
+/* line 44, ../sass/partials/_fontawesome.scss */
+.node-video .ds-image {
+  position: relative;
+}
+/* line 50, ../sass/partials/_fontawesome.scss */
+.node-video .ds-image:after {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  font-family: FontAwesome;
+  font-size: 2em;
+  color: #fff;
+  /* play icon */
+  content: "\f04b";
+  /* headphone icon */
+  /* content: "\f025";*/
+}
+
 /* line 2, ../sass/partials/_tables.scss */
 td img {
   max-width: none;
