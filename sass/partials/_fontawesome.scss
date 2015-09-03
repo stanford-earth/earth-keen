@@ -41,13 +41,13 @@
   position: relative;
   width: 300px;
   
-  .ds-image {
+  .ds-image img {
         position: relative;
   }
   
   /* http://stackoverflow.com/a/14736642/903277 */
   
-  .ds-image:after {
+  .ds-image img:after {
     display: block;
     position: absolute;
     bottom: 0;
