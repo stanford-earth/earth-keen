@@ -1150,11 +1150,11 @@ th {
   /* http://stackoverflow.com/a/14736642/903277 */
 }
 /* line 44, ../sass/partials/_fontawesome.scss */
-.node-video .ds-image img {
+.node-video .ds-image {
   position: relative;
 }
 /* line 50, ../sass/partials/_fontawesome.scss */
-.node-video .ds-image img:after {
+.node-video .ds-image:after {
   display: block;
   position: absolute;
   left: 10px;
