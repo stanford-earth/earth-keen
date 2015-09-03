@@ -1157,8 +1157,8 @@ th {
 .node-video .ds-image img:after {
   display: block;
   position: absolute;
-  bottom: 0;
-  right: 10px;
+  left: 10px;
+  bottom: 10px;
   font-family: FontAwesome;
   font-size: 2em;
   color: #fff;
