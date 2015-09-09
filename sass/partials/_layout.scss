@@ -30,7 +30,6 @@
     }
   }
   #logo {
-    border-right: 0;
     padding: 1.5em 0;
     @media (min-width:1196px) {
 	padding: 55px 0;
@@ -57,17 +56,22 @@
       background: transparent url("../images/globe-300.png") no-repeat 420px -55px;
       background: none;
     }
-      min-height: 130px;
     }
     #logo {
-      border-right: 1px solid $black;
       padding: 0 5px 0 0;
+      @media (min-width:978px) {
+        border-right: 1px solid $black;
+      }
+      @media (max-width: 485px) {
+       border-bottom: 1px solid $black; 
+       padding-bottom: 10px;
+      }
     }
     #name-and-slogan {
       position: relative;
       left: 0;
       bottom: 0;
-      padding: 0 0 0 5px;
+      padding: 0 0 0 10px;
     }
     #site-name {
       margin: 0;

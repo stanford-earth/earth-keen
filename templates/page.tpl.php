@@ -25,7 +25,7 @@ $mainsite = (strpos($site_name,'Earth, Energy') !== false) ? true: false;
   <div id="header" class="clearfix header <?php if (!empty($subsite_site_name_text)) : ?>is-subsite<?php endif;?> <?php if ($mainsite) : ?>is-mainsite<?php endif;?>" role="banner">
     <div class="container">
       <div class="row">
-        <div class="header-section <?php if ($page['search_box']): print 'span7'; else: print 'span12'; endif; ?>">
+        <div class="header-section <?php if ($page['search_box']): print 'span8'; else: print 'span12'; endif; ?>">
           <?php if ($logo): ?>
           <div id="logo" class="<?php if ($logo_image_style_classes): ?><?php print $logo_image_style_classes; ?><?php endif; ?> <?php if (!($site_name || $site_slogan)): ?>site-logo<?php endif; ?>"> <a href="//earth.stanford.edu" title="<?php print t('Home'); ?>" rel="home"> <img src="<?php print $logo; ?>" alt="<?php if ($logo = theme_get_setting('logo_path')) { print $my_site_title; } else { print t('Stanford'); } ?>" role="presentation"> </a></div>
           <?php endif; ?>
