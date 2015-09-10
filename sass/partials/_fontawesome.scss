@@ -52,14 +52,13 @@
     right: 10px;
     bottom: 10px;
     font-family: FontAwesome;
-    font-size: 1.5em;
+    font-size: 1.25em;
     color: $white;
     background-color: $black;
-    padding: .5em;
+    padding: .25em .5em;
+    border: 1px solid $white;
     border-radius: 5px;
     /* play icon */
     content: "\f04b";
-    /* headphone icon */
-    /* content: "\f025";*/
   }
 }  
