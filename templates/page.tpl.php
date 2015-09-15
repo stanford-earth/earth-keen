@@ -27,7 +27,7 @@ $mainsite = (strpos($site_name,'Earth, Energy') !== false) ? true: false;
       <div class="row">
         <div class="header-section <?php if ($page['search_box']): print 'span8'; else: print 'span12'; endif; ?>">
           <?php if ($logo): ?>
-          <div id="logo" class="<?php if ($logo_image_style_classes): ?><?php print $logo_image_style_classes; ?><?php endif; ?> <?php if (!($site_name || $site_slogan)): ?>site-logo<?php endif; ?>"> <a href="//earth.stanford.edu" title="<?php print t('Home'); ?>" rel="home"> <img src="<?php print $logo; ?>" alt="<?php if ($logo = theme_get_setting('logo_path')) { print $my_site_title; } else { print t('Stanford'); } ?>" role="presentation"> </a></div>
+          <div id="logo" class="<?php if ($logo_image_style_classes): ?><?php print $logo_image_style_classes; ?><?php endif; ?> <?php if (!($site_name || $site_slogan)): ?>site-logo<?php endif; ?>"> <a href="<?php print $base_path ?>" title="<?php print t('Home'); ?>" rel="home"> <img src="<?php print $logo; ?>" alt="<?php if ($logo = theme_get_setting('logo_path')) { print $my_site_title; } else { print t('Stanford'); } ?>" role="presentation"> </a></div>
           <?php endif; ?>
           <!-- /#logo -->
           <?php if ($site_name || $site_slogan): ?>
@@ -35,7 +35,6 @@ $mainsite = (strpos($site_name,'Earth, Energy') !== false) ? true: false;
 	  <?php if (!empty($subsite_site_name_html)) : ?>
             <?php $site_name = $subsite_site_name_html; ?> 
           <?php endif; ?>
-	  <?php if (empty($subsite_site_name_html)) : ?>
           <div id="name-and-slogan"  class="<?php if (isset($logo)) { print ('with-logo'); } ?><?php if ($site_title_second_line || $site_slogan) { print (' two-lines'); } ?>">
             <?php if (($site_name) && !($site_title_first_line)): ?>
             <div id="site-name" class="site-name"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><?php print $site_name; ?></a></div>
@@ -55,7 +54,6 @@ $mainsite = (strpos($site_name,'Earth, Energy') !== false) ? true: false;
           <div id="site" class="hide">
             <div id="name"><a href="<?php print $front_page; ?>"><?php print $my_site_title; ?></a></div>
           </div>
-          <?php endif; ?>
           <!-- /#name-and-slogan --> 
           <?php endif; ?>
         </div>
