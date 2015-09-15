@@ -334,6 +334,7 @@ th {
 /* line 32, ../sass/partials/_layout.scss */
 #header.is-mainsite #logo,
 #header.is-subsite #logo {
+  border-right: none;
   padding: 1.5em 0;
 }
 @media (min-width: 1196px) {
@@ -343,7 +344,7 @@ th {
     padding: 55px 0;
   }
 }
-/* line 38, ../sass/partials/_layout.scss */
+/* line 39, ../sass/partials/_layout.scss */
 #header.is-mainsite #name-and-slogan,
 #header.is-subsite #name-and-slogan {
   position: absolute;
@@ -351,38 +352,34 @@ th {
 }
 
 @media (min-width: 1196px) {
-  /* line 48, ../sass/partials/_layout.scss */
+  /* line 49, ../sass/partials/_layout.scss */
   #header.is-subsite .container {
     background: transparent url("../images/globe-500.png") no-repeat right -150px;
   }
 }
 @media (max-width: 1195px) {
-  /* line 48, ../sass/partials/_layout.scss */
+  /* line 49, ../sass/partials/_layout.scss */
   #header.is-subsite .container {
     background: transparent url("../images/globe-300.png") no-repeat right 0;
   }
 }
 @media (max-width: 978px) {
-  /* line 48, ../sass/partials/_layout.scss */
+  /* line 49, ../sass/partials/_layout.scss */
   #header.is-subsite .container {
     background: transparent url("../images/globe-300.png") no-repeat 420px -55px;
     background: none;
   }
 }
-/* line 60, ../sass/partials/_layout.scss */
+/* line 61, ../sass/partials/_layout.scss */
 #header.is-subsite #logo {
+  border-right: 1px solid #3F3C30;
   padding: 0 5px 0 0;
 }
-@media (min-width: 978px) {
-  /* line 60, ../sass/partials/_layout.scss */
-  #header.is-subsite #logo {
-    border-right: 1px solid #3F3C30;
-  }
-}
 @media (max-width: 485px) {
-  /* line 60, ../sass/partials/_layout.scss */
+  /* line 61, ../sass/partials/_layout.scss */
   #header.is-subsite #logo {
     border-bottom: 1px solid #3F3C30;
+    border-right: none;
     padding-bottom: 10px;
   }
 }
