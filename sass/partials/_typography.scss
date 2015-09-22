@@ -24,7 +24,7 @@ a {
   transition-duration: .25s;
 }
 
-.content-body {
+.main {
   a:not(.btn) {
     border-bottom: 1px dotted $black;
     &:hover,

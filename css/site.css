@@ -45,19 +45,19 @@ a {
 }
 
 /* line 28, ../sass/partials/_typography.scss */
-.content-body a:not(.btn) {
+.main a:not(.btn) {
   border-bottom: 1px dotted #3F3C30;
 }
 /* line 30, ../sass/partials/_typography.scss */
-.content-body a:not(.btn):hover, .content-body a:not(.btn):active {
+.main a:not(.btn):hover, .main a:not(.btn):active {
   border-bottom: 1px solid #3F3C30;
 }
 /* line 36, ../sass/partials/_typography.scss */
-.content-body h1 a, .content-body h2 a, .content-body h3 a, .content-body h4 a, .content-body h5 a, .content-body h6 a {
+.main h1 a, .main h2 a, .main h3 a, .main h4 a, .main h5 a, .main h6 a {
   border-bottom: none;
 }
 /* line 38, ../sass/partials/_typography.scss */
-.content-body h1 a:hover, .content-body h1 a:active, .content-body h2 a:hover, .content-body h2 a:active, .content-body h3 a:hover, .content-body h3 a:active, .content-body h4 a:hover, .content-body h4 a:active, .content-body h5 a:hover, .content-body h5 a:active, .content-body h6 a:hover, .content-body h6 a:active {
+.main h1 a:hover, .main h1 a:active, .main h2 a:hover, .main h2 a:active, .main h3 a:hover, .main h3 a:active, .main h4 a:hover, .main h4 a:active, .main h5 a:hover, .main h5 a:active, .main h6 a:hover, .main h6 a:active {
   border-bottom: none;
 }
 
