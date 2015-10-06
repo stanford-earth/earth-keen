@@ -129,24 +129,30 @@
 
 // Banners
 .banner {
-  position: relative;
-  .overlay {
-    position: absolute;  
+  @media screen and (min-width: 400px) {
+    position: relative;
+    .overlay {
+      position: absolute;  
+    }
   }
 }
 
 .banner-bottom-right {
   @extend .banner;
-  .overlay {
-    bottom: 1em;
-    right: 1em;
+  @media screen and (min-width: 400px) {
+    .overlay {
+      bottom: 1em;
+      right: 1em;
+    }
   }
 }
 
 // Earth Matters Banner
 .earthmatters {
-  .overlay {
-    color: #0098dc;
+  @media screen and (min-width: 400px) {
+    .overlay {
+      color: #0098dc;
+    }
   }
 }
 
