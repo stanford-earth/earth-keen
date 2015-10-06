@@ -127,6 +127,29 @@
   margin-bottom: 0;
 }
 
+// Banners
+.banner {
+  position: relative;
+  .overlay {
+    position: absolute;  
+  }
+}
+
+.banner-bottom-right {
+  @extend .banner;
+  .overlay {
+    bottom: 1em;
+    right: 1em;
+  }
+}
+
+// Earth Matters Banner
+.earthmatters {
+  .overlay {
+    color: #0098dc;
+  }
+}
+
 // Article image
 .article {
   .figure {

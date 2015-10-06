@@ -803,17 +803,37 @@ th {
   margin-bottom: 0;
 }
 
-/* line 132, ../sass/partials/_objects.scss */
+/* line 131, ../sass/partials/_objects.scss */
+.banner, .banner-bottom-right {
+  position: relative;
+}
+/* line 133, ../sass/partials/_objects.scss */
+.banner .overlay, .banner-bottom-right .overlay {
+  position: absolute;
+}
+
+/* line 140, ../sass/partials/_objects.scss */
+.banner-bottom-right .overlay {
+  bottom: 1em;
+  right: 1em;
+}
+
+/* line 148, ../sass/partials/_objects.scss */
+.earthmatters .overlay {
+  color: #0098dc;
+}
+
+/* line 155, ../sass/partials/_objects.scss */
 .article .figure, .article .media-left, .article .media-right {
   max-width: 480px;
 }
 
-/* line 138, ../sass/partials/_objects.scss */
+/* line 161, ../sass/partials/_objects.scss */
 .social li {
   margin: 0 !important;
   padding: 0;
 }
-/* line 144, ../sass/partials/_objects.scss */
+/* line 167, ../sass/partials/_objects.scss */
 .social .content a {
   display: block;
   float: left;
@@ -825,62 +845,62 @@ th {
   opacity: .75;
   text-indent: -9999px;
 }
-/* line 155, ../sass/partials/_objects.scss */
+/* line 178, ../sass/partials/_objects.scss */
 .social .content a:hover {
   opacity: 1;
 }
-/* line 158, ../sass/partials/_objects.scss */
+/* line 181, ../sass/partials/_objects.scss */
 .social .content a:first-child {
   margin-left: 0;
 }
-/* line 163, ../sass/partials/_objects.scss */
+/* line 186, ../sass/partials/_objects.scss */
 .social a[href*="youtube.com"] {
   background-position: -1px 0;
 }
-/* line 167, ../sass/partials/_objects.scss */
+/* line 190, ../sass/partials/_objects.scss */
 .social a[href*="vimeo.com"] {
   background-position: -46px 0;
 }
-/* line 171, ../sass/partials/_objects.scss */
+/* line 194, ../sass/partials/_objects.scss */
 .social a[href*="twitter.com"] {
   background-position: -92px 0;
 }
-/* line 175, ../sass/partials/_objects.scss */
+/* line 198, ../sass/partials/_objects.scss */
 .social a[href*="tumblr.com"] {
   background-position: 0 -46px;
 }
-/* line 179, ../sass/partials/_objects.scss */
+/* line 202, ../sass/partials/_objects.scss */
 .social a[href*="pinterest.com"] {
   background-position: -46px -46px;
 }
-/* line 183, ../sass/partials/_objects.scss */
+/* line 206, ../sass/partials/_objects.scss */
 .social a[href*="linkedin.com"] {
   background-position: -92px -46px;
 }
-/* line 187, ../sass/partials/_objects.scss */
+/* line 210, ../sass/partials/_objects.scss */
 .social a[href*="google.com"] {
   background-position: 0 -92px;
 }
-/* line 191, ../sass/partials/_objects.scss */
+/* line 214, ../sass/partials/_objects.scss */
 .social a[href*="flickr.com"] {
   background-position: -46px -92px;
 }
-/* line 195, ../sass/partials/_objects.scss */
+/* line 218, ../sass/partials/_objects.scss */
 .social a[href*="facebook.com"] {
   background-position: -92px -92px;
 }
-/* line 199, ../sass/partials/_objects.scss */
+/* line 222, ../sass/partials/_objects.scss */
 .social a[href*="feeds"],
 .social a[href*=".rss"] {
   background-position: 0 -137px;
 }
 
-/* line 205, ../sass/partials/_objects.scss */
+/* line 228, ../sass/partials/_objects.scss */
 .table td {
   border-width: 0 0 1px 0;
 }
 
-/* line 212, ../sass/partials/_objects.scss */
+/* line 235, ../sass/partials/_objects.scss */
 .byline .field {
   display: inline-block;
   vertical-align: middle;
@@ -890,32 +910,32 @@ th {
   border-left: 1px solid #585754;
   padding: 0 .5em;
 }
-/* line 217, ../sass/partials/_objects.scss */
+/* line 240, ../sass/partials/_objects.scss */
 .byline .field:first-child {
   border-left: none;
   padding-left: 0;
 }
 
-/* line 223, ../sass/partials/_objects.scss */
+/* line 246, ../sass/partials/_objects.scss */
 .well, .well-dark {
   padding: .5em;
 }
 
-/* line 227, ../sass/partials/_objects.scss */
+/* line 250, ../sass/partials/_objects.scss */
 .well-dark {
   background-color: #000;
   color: #fff;
 }
-/* line 231, ../sass/partials/_objects.scss */
+/* line 254, ../sass/partials/_objects.scss */
 .well-dark h2, .well-dark a {
   color: #fff !important;
 }
-/* line 234, ../sass/partials/_objects.scss */
+/* line 257, ../sass/partials/_objects.scss */
 .well-dark h2 {
   border-color: #fff;
 }
 
-/* line 240, ../sass/partials/_objects.scss */
+/* line 263, ../sass/partials/_objects.scss */
 .view-mode-search_result {
   border-bottom: 1px solid #eeeeee;
   margin-bottom: 1em;
