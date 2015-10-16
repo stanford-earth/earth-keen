@@ -148,7 +148,9 @@
 }
 
 // Earth Matters Banner
-.earthmatters {
+.earthmatters,
+#block-bean-earth-matters-banner {
+  @extend .banner-bottom-right;
   @media screen and (min-width: 400px) {
     .overlay {
       color: #0098dc;
