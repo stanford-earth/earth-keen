@@ -838,79 +838,84 @@ th {
   max-width: 480px;
 }
 
-/* line 169, ../sass/partials/_objects.scss */
-.social li {
+/* line 168, ../sass/partials/_objects.scss */
+ul.social {
+  margin: 0;
+}
+/* line 170, ../sass/partials/_objects.scss */
+ul.social li {
+  list-style: none;
   margin: 0 !important;
   padding: 0;
 }
-/* line 175, ../sass/partials/_objects.scss */
-.social .content a {
+/* line 177, ../sass/partials/_objects.scss */
+ul.social a {
   display: block;
-  float: left;
   background: transparent url(../images/socialicons.png) no-repeat 0 0;
-  width: 46px;
-  height: 46px;
-  margin: 5px;
+  border-bottom: 0;
+  float: left;
+  width: 48px;
+  height: 48px;
   padding: 0 !important;
   opacity: .75;
   text-indent: -9999px;
 }
-/* line 186, ../sass/partials/_objects.scss */
-.social .content a:hover {
+/* line 188, ../sass/partials/_objects.scss */
+ul.social a:hover {
   opacity: 1;
 }
-/* line 189, ../sass/partials/_objects.scss */
-.social .content a:first-child {
+/* line 191, ../sass/partials/_objects.scss */
+ul.social a:first-child {
   margin-left: 0;
 }
-/* line 194, ../sass/partials/_objects.scss */
-.social a[href*="youtube.com"] {
-  background-position: -1px 0;
+/* line 196, ../sass/partials/_objects.scss */
+ul.social a[href*="youtube.com"] {
+  background-image: url("/sites/all/modules/stanford_bean_types/images/youtube.png");
 }
-/* line 198, ../sass/partials/_objects.scss */
-.social a[href*="vimeo.com"] {
-  background-position: -46px 0;
+/* line 200, ../sass/partials/_objects.scss */
+ul.social a[href*="vimeo.com"] {
+  background-image: url("/sites/all/modules/stanford_bean_types/images/vimeo.png");
 }
-/* line 202, ../sass/partials/_objects.scss */
-.social a[href*="twitter.com"] {
-  background-position: -92px 0;
+/* line 204, ../sass/partials/_objects.scss */
+ul.social a[href*="twitter.com"] {
+  background-image: url("/sites/all/modules/stanford_bean_types/images/twitter.png");
 }
-/* line 206, ../sass/partials/_objects.scss */
-.social a[href*="tumblr.com"] {
-  background-position: 0 -46px;
+/* line 208, ../sass/partials/_objects.scss */
+ul.social a[href*="tumblr.com"] {
+  background-image: url("/sites/all/modules/stanford_bean_types/images/tumblr.png");
 }
-/* line 210, ../sass/partials/_objects.scss */
-.social a[href*="pinterest.com"] {
-  background-position: -46px -46px;
+/* line 212, ../sass/partials/_objects.scss */
+ul.social a[href*="pinterest.com"] {
+  background-image: url("/sites/all/modules/stanford_bean_types/images/pinterest.png");
 }
-/* line 214, ../sass/partials/_objects.scss */
-.social a[href*="linkedin.com"] {
-  background-position: -92px -46px;
+/* line 216, ../sass/partials/_objects.scss */
+ul.social a[href*="linkedin.com"] {
+  background-image: url("/sites/all/modules/stanford_bean_types/images/linkedin.png");
 }
-/* line 218, ../sass/partials/_objects.scss */
-.social a[href*="google.com"] {
-  background-position: 0 -92px;
+/* line 220, ../sass/partials/_objects.scss */
+ul.social a[href*="google.com"] {
+  background-image: url("/sites/all/modules/stanford_bean_types/images/google.png");
 }
-/* line 222, ../sass/partials/_objects.scss */
-.social a[href*="flickr.com"] {
-  background-position: -46px -92px;
+/* line 224, ../sass/partials/_objects.scss */
+ul.social a[href*="flickr.com"] {
+  background-image: url("/sites/all/modules/stanford_bean_types/images/flickr.png");
 }
-/* line 226, ../sass/partials/_objects.scss */
-.social a[href*="facebook.com"] {
-  background-position: -92px -92px;
+/* line 228, ../sass/partials/_objects.scss */
+ul.social a[href*="facebook.com"] {
+  background-image: url("/sites/all/modules/stanford_bean_types/images/facebook.png");
 }
-/* line 230, ../sass/partials/_objects.scss */
-.social a[href*="feeds"],
-.social a[href*=".rss"] {
+/* line 232, ../sass/partials/_objects.scss */
+ul.social a[href*="feeds"],
+ul.social a[href*=".rss"] {
   background-position: 0 -137px;
 }
 
-/* line 236, ../sass/partials/_objects.scss */
+/* line 238, ../sass/partials/_objects.scss */
 .table td {
   border-width: 0 0 1px 0;
 }
 
-/* line 243, ../sass/partials/_objects.scss */
+/* line 245, ../sass/partials/_objects.scss */
 .byline .field {
   display: inline-block;
   vertical-align: middle;
@@ -920,32 +925,32 @@ th {
   border-left: 1px solid #585754;
   padding: 0 .5em;
 }
-/* line 248, ../sass/partials/_objects.scss */
+/* line 250, ../sass/partials/_objects.scss */
 .byline .field:first-child {
   border-left: none;
   padding-left: 0;
 }
 
-/* line 254, ../sass/partials/_objects.scss */
+/* line 256, ../sass/partials/_objects.scss */
 .well, .well-dark {
   padding: .5em;
 }
 
-/* line 258, ../sass/partials/_objects.scss */
+/* line 260, ../sass/partials/_objects.scss */
 .well-dark {
   background-color: #000;
   color: #fff;
 }
-/* line 262, ../sass/partials/_objects.scss */
+/* line 264, ../sass/partials/_objects.scss */
 .well-dark h2, .well-dark a {
   color: #fff !important;
 }
-/* line 265, ../sass/partials/_objects.scss */
+/* line 267, ../sass/partials/_objects.scss */
 .well-dark h2 {
   border-color: #fff;
 }
 
-/* line 271, ../sass/partials/_objects.scss */
+/* line 273, ../sass/partials/_objects.scss */
 .view-mode-search_result {
   border-bottom: 1px solid #eeeeee;
   margin-bottom: 1em;

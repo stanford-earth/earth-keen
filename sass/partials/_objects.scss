@@ -165,20 +165,22 @@
   }
 }
 
-.social {
+ul.social {
+  margin: 0;
   li {
-      //TODO: Need to override #footer from Stanford Framework
-      margin: 0 !important;
-      padding: 0;
+    list-style: none;
+    //TODO: Need to override #footer from Stanford Framework
+    margin: 0 !important;
+    padding: 0;
   }  
   
-  .content a {
+  a {
     display: block;
-    float: left;
     background: transparent url(../images/socialicons.png) no-repeat 0 0;
-    width: 46px;
-    height: 46px;
-    margin: 5px;
+    border-bottom: 0;
+    float: left;
+    width: 48px;
+    height: 48px;
     // TODO: Figure out a better way to "out-specify" the ID selector from Stanford Framewok
     padding: 0 !important;
     opacity: .75;
@@ -192,39 +194,39 @@
   }
   
   a[href*="youtube.com"] {
-    background-position: -1px 0;
+    background-image: url("/sites/all/modules/stanford_bean_types/images/youtube.png");
   }
   
   a[href*="vimeo.com"] {
-    background-position: -46px 0;
+    background-image: url("/sites/all/modules/stanford_bean_types/images/vimeo.png");
   }
   
   a[href*="twitter.com"] {
-    background-position: -92px 0;
+    background-image: url("/sites/all/modules/stanford_bean_types/images/twitter.png");
   }
   
   a[href*="tumblr.com"] {
-    background-position: 0 -46px;
+    background-image: url("/sites/all/modules/stanford_bean_types/images/tumblr.png");
   }
   
   a[href*="pinterest.com"] {
-    background-position: -46px -46px;
+    background-image: url("/sites/all/modules/stanford_bean_types/images/pinterest.png");
   }
   
   a[href*="linkedin.com"] {
-    background-position: -92px -46px;
+    background-image: url("/sites/all/modules/stanford_bean_types/images/linkedin.png");
   }
   
   a[href*="google.com"] {
-    background-position: 0 -92px;
+    background-image: url("/sites/all/modules/stanford_bean_types/images/google.png");
   }
   
   a[href*="flickr.com"] {
-    background-position: -46px -92px;
+    background-image: url("/sites/all/modules/stanford_bean_types/images/flickr.png");
   }
   
   a[href*="facebook.com"] {
-    background-position: -92px -92px;
+    background-image: url("/sites/all/modules/stanford_bean_types/images/facebook.png");
   }
   
   a[href*="feeds"],
