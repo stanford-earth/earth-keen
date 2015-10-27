@@ -856,66 +856,67 @@ ul.social a {
   float: left;
   width: 48px;
   height: 48px;
+  margin-right: .25em;
   padding: 0 !important;
   opacity: .75;
   text-indent: -9999px;
 }
-/* line 188, ../sass/partials/_objects.scss */
+/* line 189, ../sass/partials/_objects.scss */
 ul.social a:hover {
   opacity: 1;
 }
-/* line 191, ../sass/partials/_objects.scss */
+/* line 192, ../sass/partials/_objects.scss */
 ul.social a:first-child {
   margin-left: 0;
 }
-/* line 196, ../sass/partials/_objects.scss */
+/* line 197, ../sass/partials/_objects.scss */
 ul.social a[href*="youtube.com"] {
   background-image: url("/sites/all/modules/stanford_bean_types/images/youtube.png");
 }
-/* line 200, ../sass/partials/_objects.scss */
+/* line 201, ../sass/partials/_objects.scss */
 ul.social a[href*="vimeo.com"] {
   background-image: url("/sites/all/modules/stanford_bean_types/images/vimeo.png");
 }
-/* line 204, ../sass/partials/_objects.scss */
+/* line 205, ../sass/partials/_objects.scss */
 ul.social a[href*="twitter.com"] {
   background-image: url("/sites/all/modules/stanford_bean_types/images/twitter.png");
 }
-/* line 208, ../sass/partials/_objects.scss */
+/* line 209, ../sass/partials/_objects.scss */
 ul.social a[href*="tumblr.com"] {
   background-image: url("/sites/all/modules/stanford_bean_types/images/tumblr.png");
 }
-/* line 212, ../sass/partials/_objects.scss */
+/* line 213, ../sass/partials/_objects.scss */
 ul.social a[href*="pinterest.com"] {
   background-image: url("/sites/all/modules/stanford_bean_types/images/pinterest.png");
 }
-/* line 216, ../sass/partials/_objects.scss */
+/* line 217, ../sass/partials/_objects.scss */
 ul.social a[href*="linkedin.com"] {
   background-image: url("/sites/all/modules/stanford_bean_types/images/linkedin.png");
 }
-/* line 220, ../sass/partials/_objects.scss */
+/* line 221, ../sass/partials/_objects.scss */
 ul.social a[href*="google.com"] {
   background-image: url("/sites/all/modules/stanford_bean_types/images/google.png");
 }
-/* line 224, ../sass/partials/_objects.scss */
+/* line 225, ../sass/partials/_objects.scss */
 ul.social a[href*="flickr.com"] {
   background-image: url("/sites/all/modules/stanford_bean_types/images/flickr.png");
 }
-/* line 228, ../sass/partials/_objects.scss */
+/* line 229, ../sass/partials/_objects.scss */
 ul.social a[href*="facebook.com"] {
   background-image: url("/sites/all/modules/stanford_bean_types/images/facebook.png");
 }
-/* line 232, ../sass/partials/_objects.scss */
+/* line 233, ../sass/partials/_objects.scss */
 ul.social a[href*="feeds"],
 ul.social a[href*=".rss"] {
   background-position: 0 -137px;
 }
 
-/* line 238, ../sass/partials/_objects.scss */
+/* line 239, ../sass/partials/_objects.scss */
 .table td {
   border-width: 0 0 1px 0;
 }
 
-/* line 245, ../sass/partials/_objects.scss */
+/* line 246, ../sass/partials/_objects.scss */
 .byline .field {
   display: inline-block;
   vertical-align: middle;
@@ -925,32 +926,32 @@ ul.social a[href*=".rss"] {
   border-left: 1px solid #585754;
   padding: 0 .5em;
 }
-/* line 250, ../sass/partials/_objects.scss */
+/* line 251, ../sass/partials/_objects.scss */
 .byline .field:first-child {
   border-left: none;
   padding-left: 0;
 }
 
-/* line 256, ../sass/partials/_objects.scss */
+/* line 257, ../sass/partials/_objects.scss */
 .well, .well-dark {
   padding: .5em;
 }
 
-/* line 260, ../sass/partials/_objects.scss */
+/* line 261, ../sass/partials/_objects.scss */
 .well-dark {
   background-color: #000;
   color: #fff;
 }
-/* line 264, ../sass/partials/_objects.scss */
+/* line 265, ../sass/partials/_objects.scss */
 .well-dark h2, .well-dark a {
   color: #fff !important;
 }
-/* line 267, ../sass/partials/_objects.scss */
+/* line 268, ../sass/partials/_objects.scss */
 .well-dark h2 {
   border-color: #fff;
 }
 
-/* line 273, ../sass/partials/_objects.scss */
+/* line 274, ../sass/partials/_objects.scss */
 .view-mode-search_result {
   border-bottom: 1px solid #eeeeee;
   margin-bottom: 1em;
