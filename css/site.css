@@ -1205,32 +1205,32 @@ ul.social a[href*=".rss"] {
   content: "\f04b";
 }
 
-/* line 3, ../sass/partials/se3-carousel.scss */
+/* line 4, ../sass/partials/_se3-carousel.scss */
 .se3-carousel .field-slideshow-image {
   position: relative;
   display: block;
   margin: 0 auto;
 }
-/* line 8, ../sass/partials/se3-carousel.scss */
+/* line 11, ../sass/partials/_se3-carousel.scss */
 .se3-carousel .field-slideshow-caption-text {
   display: block;
   margin: 1em 0;
 }
-/* line 12, ../sass/partials/se3-carousel.scss */
+/* line 17, ../sass/partials/_se3-carousel.scss */
 .se3-carousel .field-slideshow-controls {
   display: flex;
   flex-flow: row wrap;
   width: 50%;
   margin: 1em auto;
 }
-/* line 17, ../sass/partials/se3-carousel.scss */
+/* line 22, ../sass/partials/_se3-carousel.scss */
 .se3-carousel .field-slideshow-controls a,
 .se3-carousel .field-slideshow-controls a:focus {
   display: block;
   text-align: center;
   border: none;
 }
-/* line 22, ../sass/partials/se3-carousel.scss */
+/* line 27, ../sass/partials/_se3-carousel.scss */
 .se3-carousel .field-slideshow-controls a.prev, .se3-carousel .field-slideshow-controls a.next,
 .se3-carousel .field-slideshow-controls a:focus.prev,
 .se3-carousel .field-slideshow-controls a:focus.next {
@@ -1243,34 +1243,34 @@ ul.social a[href*=".rss"] {
   z-index: 50;
   padding: .5em;
 }
-/* line 33, ../sass/partials/se3-carousel.scss */
+/* line 38, ../sass/partials/_se3-carousel.scss */
 .se3-carousel .field-slideshow-controls a.prev,
 .se3-carousel .field-slideshow-controls a:focus.prev {
   left: 2em;
 }
-/* line 35, ../sass/partials/se3-carousel.scss */
+/* line 40, ../sass/partials/_se3-carousel.scss */
 .se3-carousel .field-slideshow-controls a.prev:before,
 .se3-carousel .field-slideshow-controls a:focus.prev:before {
   content: "< ";
 }
-/* line 39, ../sass/partials/se3-carousel.scss */
+/* line 44, ../sass/partials/_se3-carousel.scss */
 .se3-carousel .field-slideshow-controls a.next,
 .se3-carousel .field-slideshow-controls a:focus.next {
   right: 2em;
 }
-/* line 41, ../sass/partials/se3-carousel.scss */
+/* line 46, ../sass/partials/_se3-carousel.scss */
 .se3-carousel .field-slideshow-controls a.next:after,
 .se3-carousel .field-slideshow-controls a:focus.next:after {
   content: " >";
 }
-/* line 47, ../sass/partials/se3-carousel.scss */
-.se3-carousel .field-slideshow-pager {
+/* line 54, ../sass/partials/_se3-carousel.scss */
+.se3-carousel.numbered-pager .field-slideshow-pager {
   text-align: center;
   width: 40%;
   margin: 1em auto;
 }
-/* line 51, ../sass/partials/se3-carousel.scss */
-.se3-carousel .field-slideshow-pager a {
+/* line 58, ../sass/partials/_se3-carousel.scss */
+.se3-carousel.numbered-pager .field-slideshow-pager a {
   display: inline-block;
   width: 1em;
   margin: 0 .5em .5em 0;
@@ -1278,9 +1278,22 @@ ul.social a[href*=".rss"] {
   border-radius: 15px;
   text-indent: -9999px;
 }
-/* line 58, ../sass/partials/se3-carousel.scss */
-.se3-carousel .field-slideshow-pager a.activeSlide {
+/* line 65, ../sass/partials/_se3-carousel.scss */
+.se3-carousel.numbered-pager .field-slideshow-pager a.activeSlide {
   background-color: #8c1515;
+}
+/* line 74, ../sass/partials/_se3-carousel.scss */
+.se3-carousel.image-pager .field-slideshow-pager li {
+  list-style-type: none !important;
+  list-style-image: none !important;
+}
+/* line 77, ../sass/partials/_se3-carousel.scss */
+.se3-carousel.image-pager .field-slideshow-pager li img {
+  opacity: .5;
+}
+/* line 81, ../sass/partials/_se3-carousel.scss */
+.se3-carousel.image-pager .field-slideshow-pager li.activeSlide img {
+  opacity: 1;
 }
 
 /* line 2, ../sass/partials/_tables.scss */

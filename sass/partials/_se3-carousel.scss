@@ -50,8 +50,8 @@
     }
   }
 
-  // Pager
-  .field-slideshow-pager {
+  // Numbered Pager
+  &.numbered-pager .field-slideshow-pager {
     text-align: center;
     width: 40%;
     margin: 1em auto;
@@ -67,5 +67,19 @@
       }
     }
   }
-
+  
+  // Image Pager
+  // IDEA: Set default image to grey filter and color on :focus
+  &.image-pager .field-slideshow-pager {
+   li {
+    list-style-type: none !important;
+    list-style-image: none !important;
+    img {
+      opacity: .5;
+    }
+   } 
+   li.activeSlide img {
+     opacity: 1;
+   }
+  }
 }
