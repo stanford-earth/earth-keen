@@ -1236,9 +1236,9 @@ ul.social a[href*=".rss"] {
 .se3-carousel .field-slideshow-controls a:focus.next {
   position: absolute;
   bottom: 0;
-  background-color: #8c1515;
   border-radius: 5px;
   border: 2px solid #fbfbf9;
+  background-color: #8c1515;
   color: #fbfbf9;
   z-index: 50;
   padding: .5em;

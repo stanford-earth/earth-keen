@@ -28,9 +28,9 @@
      &.next {
        position: absolute;
        bottom: 0;
-       background-color: $cardinal;
        border-radius: 5px;
        border: 2px solid $white;
+       background-color: $cardinal;
        color: $white;
        z-index: 50;
        padding: .5em;
