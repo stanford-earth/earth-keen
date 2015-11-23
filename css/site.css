@@ -957,6 +957,17 @@ ul.social a[href*=".rss"] {
   margin-bottom: 1em;
 }
 
+/* line 280, ../sass/partials/_objects.scss */
+.dynbgimg {
+  position: relative;
+}
+/* line 282, ../sass/partials/_objects.scss */
+.dynbgimg .field-type-image {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
 /* line 1, ../sass/partials/_stanford_carousel.scss */
 .view.carousel {
   margin-bottom: 0;

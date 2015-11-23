@@ -275,3 +275,13 @@ ul.social {
   border-bottom: 1px solid $lightgrey;
   margin-bottom: 1em;
 }
+
+// Dynamic Carousel
+.dynbgimg {
+  position: relative;
+  .field-type-image {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+  }
+}
