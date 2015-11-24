@@ -959,9 +959,10 @@ ul.social a[href*=".rss"] {
 
 /* line 280, ../sass/partials/_objects.scss */
 .dynbgimg {
+  overflow: hidden;
   position: relative;
 }
-/* line 282, ../sass/partials/_objects.scss */
+/* line 283, ../sass/partials/_objects.scss */
 .dynbgimg .ds-text {
   position: absolute;
   bottom: 0;

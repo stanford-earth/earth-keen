@@ -278,6 +278,7 @@ ul.social {
 
 // Dynamic Carousel
 .dynbgimg {
+  overflow: hidden;
   position: relative;
   .ds-text {
     position: absolute;
