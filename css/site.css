@@ -957,21 +957,31 @@ ul.social a[href*=".rss"] {
   margin-bottom: 1em;
 }
 
-/* line 280, ../sass/partials/_objects.scss */
-.dynbgimg {
-  overflow: hidden;
-  position: relative;
+/* line 281, ../sass/partials/_objects.scss */
+.dynbgimg img {
+  max-width: 100%;
 }
-/* line 283, ../sass/partials/_objects.scss */
+/* line 284, ../sass/partials/_objects.scss */
 .dynbgimg .ds-text {
-  position: absolute;
-  bottom: 0;
-  z-index: 10;
-  background: rgba(0, 0, 0, 0.5);
+  background: #000;
   color: #fff;
   padding: .5em;
-  width: 75%;
-  margin: 1em;
+}
+@media screen and (min-width: 1100px) {
+  /* line 280, ../sass/partials/_objects.scss */
+  .dynbgimg {
+    position: relative;
+  }
+  /* line 291, ../sass/partials/_objects.scss */
+  .dynbgimg .ds-text {
+    background: rgba(0, 0, 0, 0.75);
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    width: 75%;
+    margin: 1em;
+    font-size: 120%;
+  }
 }
 
 /* line 1, ../sass/partials/_stanford_carousel.scss */
