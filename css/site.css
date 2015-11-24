@@ -962,9 +962,10 @@ ul.social a[href*=".rss"] {
   position: relative;
 }
 /* line 282, ../sass/partials/_objects.scss */
-.dynbgimg .field-type-text-long {
+.dynbgimg .ds-text {
   position: absolute;
   bottom: 0;
+  z-index: 10;
 }
 
 /* line 1, ../sass/partials/_stanford_carousel.scss */

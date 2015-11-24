@@ -279,8 +279,9 @@ ul.social {
 // Dynamic Carousel
 .dynbgimg {
   position: relative;
-  .field-type-text-long {
+  .ds-text {
     position: absolute;
     bottom: 0;
+    z-index: 10;
   }
 }
