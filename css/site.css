@@ -966,6 +966,11 @@ ul.social a[href*=".rss"] {
   position: absolute;
   bottom: 0;
   z-index: 10;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: .5em;
+  width: 75%;
+  margin: 1em;
 }
 
 /* line 1, ../sass/partials/_stanford_carousel.scss */
