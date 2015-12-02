@@ -140,7 +140,8 @@
 .banner-bottom-right {
   @extend .banner;
   @media screen and (min-width: 400px) {
-    .overlay {
+    .overlay,
+    .taxonomy-term-description {
       bottom: 1em;
       right: 1em;
     }
