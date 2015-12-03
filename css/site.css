@@ -803,7 +803,7 @@ th {
   margin-bottom: 0;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 600px) {
   /* line 131, ../sass/partials/_objects.scss */
   .banner, .banner-bottom-right, .earthmatters,
   #block-bean-earth-matters-banner {
