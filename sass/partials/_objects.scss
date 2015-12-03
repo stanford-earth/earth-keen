@@ -134,6 +134,10 @@
     .overlay,
     .taxonomy-term-description {
       position: absolute;  
+      color: $white;
+      padding: 1em;
+      font-size: 120%;
+      max-width: 70%;
     }
   }
 }
