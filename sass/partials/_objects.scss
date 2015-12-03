@@ -131,6 +131,7 @@
 .banner {
   @media screen and (min-width: 400px) {
     position: relative;
+    margin-bottom: 1em;
     .overlay,
     .taxonomy-term-description {
       position: absolute;  
