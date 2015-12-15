@@ -995,24 +995,23 @@ ul.social a[href*=".rss"] {
     width: 40%;
     font-size: 110%;
     padding: 2em;
-    padding-right: 0;
   }
-  /* line 310, ../sass/partials/_objects.scss */
+  /* line 309, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text h2 {
     color: #fbfbf9;
     text-transform: uppercase;
     font-size: 130%;
     margin-top: 0;
   }
-  /* line 316, ../sass/partials/_objects.scss */
+  /* line 315, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text li, .dynbgimg .ds-text a {
     color: #fbfbf9;
   }
-  /* line 319, ../sass/partials/_objects.scss */
+  /* line 318, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text a {
     border-bottom: none;
   }
-  /* line 322, ../sass/partials/_objects.scss */
+  /* line 321, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text li {
     list-style-image: none;
   }
