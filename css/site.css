@@ -974,8 +974,9 @@ ul.social a[href*=".rss"] {
 /* line 289, ../sass/partials/_objects.scss */
 .dynbgimg {
   overflow: hidden;
+  margin-bottom: 2em !important;
 }
-/* line 291, ../sass/partials/_objects.scss */
+/* line 292, ../sass/partials/_objects.scss */
 .dynbgimg img {
   max-width: 100%;
 }
@@ -984,7 +985,7 @@ ul.social a[href*=".rss"] {
   .dynbgimg {
     position: relative;
   }
-  /* line 299, ../sass/partials/_objects.scss */
+  /* line 300, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text {
     font-family: Crimson;
     background: rgba(0, 0, 0, 0.35);
@@ -996,24 +997,33 @@ ul.social a[href*=".rss"] {
     font-size: 110%;
     padding: 2em;
   }
-  /* line 309, ../sass/partials/_objects.scss */
+  /* line 310, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text h2 {
     color: #fbfbf9;
     text-transform: uppercase;
     font-size: 130%;
     margin-top: 0;
   }
-  /* line 315, ../sass/partials/_objects.scss */
+  /* line 316, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text li, .dynbgimg .ds-text a {
     color: #fbfbf9;
   }
-  /* line 318, ../sass/partials/_objects.scss */
+  /* line 319, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text a {
     border-bottom: none;
   }
-  /* line 321, ../sass/partials/_objects.scss */
+  /* line 322, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text li {
     list-style-image: none;
+  }
+  /* line 326, ../sass/partials/_objects.scss */
+  .dynbgimg .field-slideshow-controls {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+    background: #3F3C30;
+    color: #fbfbf9;
   }
 }
 

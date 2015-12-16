@@ -288,6 +288,7 @@ ul.social {
 // Dynamic Carousel
 .dynbgimg {
   overflow: hidden;
+  margin-bottom: 2em !important;
   img {
     max-width: 100%;
   }
@@ -321,6 +322,14 @@ ul.social {
     li {
       list-style-image: none;
     }
+  }
+  .field-slideshow-controls {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+    background: $black;
+    color: $white;
   }
 }
 }
