@@ -444,7 +444,7 @@ th {
 }
 /* line 118, ../sass/partials/_layout.scss */
 .grid .postcard-left > div:first-child img, .grid-2 .postcard-left > div:first-child img, .grid-3 .postcard-left > div:first-child img, .grid-4 .postcard-left > div:first-child img {
-  margin: 0;
+  margin: 0 !important;
 }
 /* line 122, ../sass/partials/_layout.scss */
 .grid div[class*="span"], .grid-2 div[class*="span"], .grid-3 div[class*="span"], .grid-4 div[class*="span"] {
