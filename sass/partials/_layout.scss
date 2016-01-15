@@ -12,7 +12,7 @@
   }
 }
 
-#header #logo.logo-mobile {
+#header.is-subsite #logo.logo-mobile {
   @media (max-width: 480px) {
     padding-bottom: 15px;
     border-bottom: 1px solid $black;
