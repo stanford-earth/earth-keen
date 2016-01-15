@@ -301,7 +301,7 @@ th {
 
 @media (max-width: 480px) {
   /* line 15, ../sass/partials/_layout.scss */
-  #header.is-subsite #logo.logo-mobile {
+  .sitesite-is-active #header #logo {
     padding-bottom: 15px;
     border-bottom: 1px solid #3F3C30;
   }
