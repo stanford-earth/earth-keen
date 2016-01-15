@@ -1295,8 +1295,8 @@ ul.social a[href*=".rss"] {
 
 /* line 75, ../sass/partials/_fontawesome.scss */
 .node-gallery .ds-image a:after {
-  /* files icon */
-  content: "\f0c5";
+  /* camera icon */
+  content: "\f030";
 }
 
 /* line 4, ../sass/partials/_se3-carousel.scss */
