@@ -12,6 +12,13 @@
   }
 }
 
+#header #logo.logo-mobile {
+  @media (max-width: 480px) {
+    padding-bottom: 15px;
+    border-bottom: 1px solid $black;
+  }
+}
+
 #header.is-mainsite,
 #header.is-subsite {
   margin: 0;
