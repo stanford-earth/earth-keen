@@ -1280,8 +1280,8 @@ ul.social a[href*=".rss"] {
 }
 /* line 65, ../sass/partials/_fontawesome.scss */
 .node-video .postcard-left .ds-image a:after {
-  right: -5px;
-  bottom: -5px;
+  right: 20px;
+  bottom: 20px;
 }
 
 /* line 4, ../sass/partials/_se3-carousel.scss */
