@@ -61,4 +61,9 @@
     /* play icon */
     content: "\f04b";
   }
+
+.postcard-left .ds-image a:after {
+  right: -5px;
+  bottom: -5px;
+}
 }  

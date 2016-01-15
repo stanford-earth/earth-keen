@@ -1278,6 +1278,11 @@ ul.social a[href*=".rss"] {
   /* play icon */
   content: "\f04b";
 }
+/* line 65, ../sass/partials/_fontawesome.scss */
+.node-video .postcard-left .ds-image a:after {
+  right: -5px;
+  bottom: -5px;
+}
 
 /* line 4, ../sass/partials/_se3-carousel.scss */
 .se3-carousel .field-slideshow-image {
