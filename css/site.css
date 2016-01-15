@@ -776,26 +776,30 @@ th {
   text-align: center;
 }
 
-/* line 104, ../sass/partials/_objects.scss */
-.node-gallery .field-type-image .field-item {
-  float: left;
-  margin: 0 1em 1em 0;
+/*
+.node-gallery {
+  .field-type-image {
+    .field-item {
+      float: left;
+      margin: 0 1em 1em 0;	
+    }
+  }
 }
-
-/* line 113, ../sass/partials/_objects.scss */
+*/
+/* line 115, ../sass/partials/_objects.scss */
 .promo .postcard-left, .promo-large .postcard-left,
 .promo p,
 .promo-large p {
   margin-bottom: 0;
 }
-/* line 117, ../sass/partials/_objects.scss */
+/* line 119, ../sass/partials/_objects.scss */
 .promo .ds-text, .promo-large .ds-text,
 .promo .ds-right,
 .promo-large .ds-right {
   padding: 1em;
 }
 
-/* line 123, ../sass/partials/_objects.scss */
+/* line 125, ../sass/partials/_objects.scss */
 .postcard-left,
 .postcard-left-wrap,
 .postcard-right,
@@ -804,13 +808,13 @@ th {
 }
 
 @media screen and (min-width: 700px) {
-  /* line 131, ../sass/partials/_objects.scss */
+  /* line 133, ../sass/partials/_objects.scss */
   .banner, .banner-bottom-right, .earthmatters,
   #block-bean-earth-matters-banner {
     position: relative;
     margin-bottom: 1em;
   }
-  /* line 135, ../sass/partials/_objects.scss */
+  /* line 137, ../sass/partials/_objects.scss */
   .banner .overlay, .banner-bottom-right .overlay, .earthmatters .overlay,
   #block-bean-earth-matters-banner .overlay,
   .banner .taxonomy-term-description,
@@ -828,7 +832,7 @@ th {
 }
 
 @media screen and (min-width: 400px) {
-  /* line 151, ../sass/partials/_objects.scss */
+  /* line 153, ../sass/partials/_objects.scss */
   .banner-bottom-right .overlay, .earthmatters .overlay,
   #block-bean-earth-matters-banner .overlay,
   .banner-bottom-right .taxonomy-term-description,
@@ -840,29 +844,29 @@ th {
 }
 
 @media screen and (min-width: 400px) {
-  /* line 164, ../sass/partials/_objects.scss */
+  /* line 166, ../sass/partials/_objects.scss */
   .earthmatters .overlay,
   #block-bean-earth-matters-banner .overlay {
     color: #0098dc;
   }
 }
 
-/* line 172, ../sass/partials/_objects.scss */
+/* line 174, ../sass/partials/_objects.scss */
 .article .figure, .article .media-left, .article .media-right {
   max-width: 480px;
 }
 
-/* line 177, ../sass/partials/_objects.scss */
+/* line 179, ../sass/partials/_objects.scss */
 ul.social {
   margin: 0;
 }
-/* line 179, ../sass/partials/_objects.scss */
+/* line 181, ../sass/partials/_objects.scss */
 ul.social li {
   list-style: none;
   margin: 0 !important;
   padding: 0;
 }
-/* line 186, ../sass/partials/_objects.scss */
+/* line 188, ../sass/partials/_objects.scss */
 ul.social a {
   display: block;
   background: transparent url(../images/socialicons.png) no-repeat 0 0;
@@ -875,62 +879,62 @@ ul.social a {
   opacity: .75;
   text-indent: -9999px;
 }
-/* line 198, ../sass/partials/_objects.scss */
+/* line 200, ../sass/partials/_objects.scss */
 ul.social a:hover {
   opacity: 1;
 }
-/* line 201, ../sass/partials/_objects.scss */
+/* line 203, ../sass/partials/_objects.scss */
 ul.social a:first-child {
   margin-left: 0;
 }
-/* line 206, ../sass/partials/_objects.scss */
+/* line 208, ../sass/partials/_objects.scss */
 ul.social a[href*="youtube.com"] {
   background-image: url("/sites/all/modules/stanford_bean_types/images/youtube.png");
 }
-/* line 210, ../sass/partials/_objects.scss */
+/* line 212, ../sass/partials/_objects.scss */
 ul.social a[href*="vimeo.com"] {
   background-image: url("/sites/all/modules/stanford_bean_types/images/vimeo.png");
 }
-/* line 214, ../sass/partials/_objects.scss */
+/* line 216, ../sass/partials/_objects.scss */
 ul.social a[href*="twitter.com"] {
   background-image: url("/sites/all/modules/stanford_bean_types/images/twitter.png");
 }
-/* line 218, ../sass/partials/_objects.scss */
+/* line 220, ../sass/partials/_objects.scss */
 ul.social a[href*="tumblr.com"] {
   background-image: url("/sites/all/modules/stanford_bean_types/images/tumblr.png");
 }
-/* line 222, ../sass/partials/_objects.scss */
+/* line 224, ../sass/partials/_objects.scss */
 ul.social a[href*="pinterest.com"] {
   background-image: url("/sites/all/modules/stanford_bean_types/images/pinterest.png");
 }
-/* line 226, ../sass/partials/_objects.scss */
+/* line 228, ../sass/partials/_objects.scss */
 ul.social a[href*="linkedin.com"] {
   background-image: url("/sites/all/modules/stanford_bean_types/images/linkedin.png");
 }
-/* line 230, ../sass/partials/_objects.scss */
+/* line 232, ../sass/partials/_objects.scss */
 ul.social a[href*="google.com"] {
   background-image: url("/sites/all/modules/stanford_bean_types/images/google.png");
 }
-/* line 234, ../sass/partials/_objects.scss */
+/* line 236, ../sass/partials/_objects.scss */
 ul.social a[href*="flickr.com"] {
   background-image: url("/sites/all/modules/stanford_bean_types/images/flickr.png");
 }
-/* line 238, ../sass/partials/_objects.scss */
+/* line 240, ../sass/partials/_objects.scss */
 ul.social a[href*="facebook.com"] {
   background-image: url("/sites/all/modules/stanford_bean_types/images/facebook.png");
 }
-/* line 242, ../sass/partials/_objects.scss */
+/* line 244, ../sass/partials/_objects.scss */
 ul.social a[href*="feeds"],
 ul.social a[href*=".rss"] {
   background-position: 0 -137px;
 }
 
-/* line 248, ../sass/partials/_objects.scss */
+/* line 250, ../sass/partials/_objects.scss */
 .table td {
   border-width: 0 0 1px 0;
 }
 
-/* line 255, ../sass/partials/_objects.scss */
+/* line 257, ../sass/partials/_objects.scss */
 .byline .field {
   display: inline-block;
   vertical-align: middle;
@@ -940,52 +944,52 @@ ul.social a[href*=".rss"] {
   border-left: 1px solid #585754;
   padding: 0 .5em;
 }
-/* line 260, ../sass/partials/_objects.scss */
+/* line 262, ../sass/partials/_objects.scss */
 .byline .field:first-child {
   border-left: none;
   padding-left: 0;
 }
 
-/* line 266, ../sass/partials/_objects.scss */
+/* line 268, ../sass/partials/_objects.scss */
 .well, .well-dark {
   padding: .5em;
 }
 
-/* line 270, ../sass/partials/_objects.scss */
+/* line 272, ../sass/partials/_objects.scss */
 .well-dark {
   background-color: #000;
   color: #fff;
 }
-/* line 274, ../sass/partials/_objects.scss */
+/* line 276, ../sass/partials/_objects.scss */
 .well-dark h2, .well-dark a {
   color: #fff !important;
 }
-/* line 277, ../sass/partials/_objects.scss */
+/* line 279, ../sass/partials/_objects.scss */
 .well-dark h2 {
   border-color: #fff;
 }
 
-/* line 283, ../sass/partials/_objects.scss */
+/* line 285, ../sass/partials/_objects.scss */
 .view-mode-search_result {
   border-bottom: 1px solid #eeeeee;
   margin-bottom: 1em;
 }
 
-/* line 289, ../sass/partials/_objects.scss */
+/* line 291, ../sass/partials/_objects.scss */
 .dynbgimg {
   overflow: hidden;
   margin-bottom: 2em !important;
 }
-/* line 292, ../sass/partials/_objects.scss */
+/* line 294, ../sass/partials/_objects.scss */
 .dynbgimg img {
   max-width: 100%;
 }
 @media screen and (min-width: 1100px) {
-  /* line 289, ../sass/partials/_objects.scss */
+  /* line 291, ../sass/partials/_objects.scss */
   .dynbgimg {
     position: relative;
   }
-  /* line 300, ../sass/partials/_objects.scss */
+  /* line 302, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text {
     font-family: Crimson;
     background: rgba(0, 0, 0, 0.35);
@@ -997,26 +1001,26 @@ ul.social a[href*=".rss"] {
     font-size: 110%;
     padding: 2em;
   }
-  /* line 310, ../sass/partials/_objects.scss */
+  /* line 312, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text h2 {
     color: #fbfbf9;
     text-transform: uppercase;
     font-size: 130%;
     margin-top: 0;
   }
-  /* line 316, ../sass/partials/_objects.scss */
+  /* line 318, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text li, .dynbgimg .ds-text a {
     color: #fbfbf9;
   }
-  /* line 319, ../sass/partials/_objects.scss */
+  /* line 321, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text a {
     border-bottom: none;
   }
-  /* line 322, ../sass/partials/_objects.scss */
+  /* line 324, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text li {
     list-style-image: none;
   }
-  /* line 326, ../sass/partials/_objects.scss */
+  /* line 328, ../sass/partials/_objects.scss */
   .dynbgimg .field-slideshow-controls {
     position: absolute;
     bottom: 0;
