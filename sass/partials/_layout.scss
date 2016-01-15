@@ -6,7 +6,9 @@
 #header {
   #logo img {
     max-width: inherit;
-    max-width: 100%;
+    @media (max-width:978px) {
+      max-width: 100%;
+    }
   }
 }
 
