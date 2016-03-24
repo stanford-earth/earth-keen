@@ -31,7 +31,7 @@
       <?php print $image; ?>
     </<?php print $image_wrapper; ?>>
 
-    <<?php print $text_wrapper; ?> class="ds-text<?php print $text_classes; ?>">
+    <<?php print $text_wrapper; ?> class="<?php print $text_classes; ?>">
       <?php print $text; ?>
     </<?php print $text_wrapper; ?>>
     </div>
