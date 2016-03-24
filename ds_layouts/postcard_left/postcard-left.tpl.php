@@ -27,7 +27,7 @@
   <?php endif; ?>
 
     <div class="postcard-left">
-    <<?php print $image_wrapper; ?> class="ds-image<?php print $image_classes; ?>">
+    <<?php print $image_wrapper; ?> class="float-left<?php print $image_classes; ?>">
       <?php print $image; ?>
     </<?php print $image_wrapper; ?>>
 
