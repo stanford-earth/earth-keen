@@ -990,8 +990,9 @@ ul.social a[href*=".rss"] {
 .dynbgimg {
   overflow: hidden;
   margin-bottom: 2em !important;
+  border-radius: 5px;
 }
-/* line 294, ../sass/partials/_objects.scss */
+/* line 295, ../sass/partials/_objects.scss */
 .dynbgimg img {
   max-width: 100%;
 }
@@ -1000,38 +1001,57 @@ ul.social a[href*=".rss"] {
   .dynbgimg {
     position: relative;
   }
-  /* line 302, ../sass/partials/_objects.scss */
+  /* line 303, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text {
     font-family: Crimson;
     background: rgba(0, 0, 0, 0.35);
+    border-radius: 5px;
     color: #fbfbf9;
     position: absolute;
     bottom: 0;
     z-index: 10;
-    width: 40%;
+    width: 50%;
     font-size: 110%;
     padding: 2em;
   }
-  /* line 312, ../sass/partials/_objects.scss */
+  /* line 314, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text h2 {
     color: #fbfbf9;
     text-transform: uppercase;
     font-size: 130%;
     margin-top: 0;
   }
-  /* line 318, ../sass/partials/_objects.scss */
+  /* line 320, ../sass/partials/_objects.scss */
+  .dynbgimg .ds-text ul {
+    margin-left: 0;
+  }
+  /* line 323, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text li, .dynbgimg .ds-text a {
     color: #fbfbf9;
   }
-  /* line 321, ../sass/partials/_objects.scss */
+  /* line 326, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text a {
     border-bottom: none;
+    display: inline;
+    width: 45%;
+    padding: .5em;
+    vertical-align: top;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.35);
+    margin-bottom: .25em;
+    border-radius: 5px;
+    font-size: 90%;
   }
-  /* line 324, ../sass/partials/_objects.scss */
+  /* line 338, ../sass/partials/_objects.scss */
+  .dynbgimg .ds-text a:hover {
+    background-color: rbga(0, 0, 0, 0.25);
+  }
+  /* line 341, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text li {
     list-style-image: none;
+    display: inline;
   }
-  /* line 328, ../sass/partials/_objects.scss */
+  /* line 346, ../sass/partials/_objects.scss */
   .dynbgimg .field-slideshow-controls {
     position: absolute;
     bottom: 0;
