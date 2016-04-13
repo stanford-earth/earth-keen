@@ -1032,26 +1032,27 @@ ul.social a[href*=".rss"] {
   /* line 326, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text a {
     border-bottom: none;
-    display: inline-block;
+    display: block;
+    float: left;
     width: 45%;
     padding: .5em;
     vertical-align: top;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.35);
-    margin-bottom: .25em;
+    margin: .25em;
     border-radius: 5px;
     font-size: 90%;
   }
-  /* line 337, ../sass/partials/_objects.scss */
+  /* line 338, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text a:hover {
     background-color: rgba(0, 0, 0, 0.25);
   }
-  /* line 341, ../sass/partials/_objects.scss */
+  /* line 342, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text li {
     list-style-image: none;
     display: inline;
   }
-  /* line 346, ../sass/partials/_objects.scss */
+  /* line 347, ../sass/partials/_objects.scss */
   .dynbgimg .field-slideshow-controls {
     position: absolute;
     bottom: 0;

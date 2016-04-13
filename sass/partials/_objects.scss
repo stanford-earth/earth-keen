@@ -325,13 +325,14 @@ ul.social {
     }
     a {
       border-bottom: none;
-      display: inline-block;
+      display: block;
+      float: left;
       width: 45%;
       padding: .5em;
       vertical-align: top;
       text-align: center;
       background-color: rgba(255,255,255,.35);
-      margin-bottom: .25em;
+      margin: .25em;
       border-radius: 5px;
       font-size: 90%;
       &:hover {
