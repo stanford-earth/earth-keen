@@ -1003,7 +1003,7 @@ ul.social a[href*=".rss"] {
   }
   /* line 303, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text {
-    font-family: Crimson;
+    font-family: Serif;
     background: rgba(0, 0, 0, 0.35);
     border-radius: 5px;
     color: #fbfbf9;
