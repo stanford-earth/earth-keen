@@ -1038,14 +1038,14 @@ ul.social a[href*=".rss"] {
     padding: .5em;
     vertical-align: top;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.35);
+    background-color: rgba(0, 0, 0, 0.25);
     margin: .25em;
     border-radius: 5px;
     font-size: 90%;
   }
   /* line 338, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text a:hover {
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.5);
   }
   /* line 342, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text li {
