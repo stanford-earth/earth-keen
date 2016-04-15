@@ -1031,7 +1031,9 @@ ul.social a[href*=".rss"] {
   }
   /* line 326, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text a {
+    border: 1px solid rgba(255, 255, 255, 0.25);
     border-bottom: none;
+    border-radius: 5px;
     display: block;
     float: left;
     width: 45%;
@@ -1040,19 +1042,18 @@ ul.social a[href*=".rss"] {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.25);
     margin: .25em;
-    border-radius: 5px;
     font-size: 90%;
   }
-  /* line 338, ../sass/partials/_objects.scss */
+  /* line 339, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text a:hover {
     background-color: rgba(0, 0, 0, 0.5);
   }
-  /* line 342, ../sass/partials/_objects.scss */
+  /* line 343, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text li {
     list-style-image: none;
     display: inline;
   }
-  /* line 347, ../sass/partials/_objects.scss */
+  /* line 348, ../sass/partials/_objects.scss */
   .dynbgimg .field-slideshow-controls {
     position: absolute;
     bottom: 0;
