@@ -327,7 +327,7 @@ table.views-table tbody td p {margin: 0px;}
 .postcard-right-wrap > div:first-child, .postcard-right > div:first-child, .postcard-left-wrap > div:first-child, .postcard-left > div:first-child {
 
   @media screen and (max-width: 400px) {
-    float: none;
+    /*float: none;*/
   }
   @media screen and (min-width: 400px) {
     max-width: 48%;
