@@ -27,11 +27,11 @@
   <?php endif; ?>
 
     <div class="postcard-left">
-    <<?php print $image_wrapper; ?> class="ds-image <?php print $image_classes; ?>">
+    <<?php print $image_wrapper; ?> class="<?php print $image_classes; ?>">
       <?php print $image; ?>
     </<?php print $image_wrapper; ?>>
 
-    <<?php print $text_wrapper; ?> class="ds-text <?php print $text_classes; ?>">
+    <<?php print $text_wrapper; ?> class="<?php print $text_classes; ?>">
       <?php print $text; ?>
     </<?php print $text_wrapper; ?>>
     </div>
