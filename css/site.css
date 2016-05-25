@@ -677,7 +677,7 @@ th {
 @media screen and (min-width: 400px) {
   /* line 327, ../sass/partials/_layout.scss */
   .postcard-right-wrap > div:first-child, .postcard-right > div:first-child, .postcard-left-wrap > div:first-child, .postcard-left > div:first-child {
-    max-width: 48%;
+    /*max-width: 48%;*/
   }
 }
 
