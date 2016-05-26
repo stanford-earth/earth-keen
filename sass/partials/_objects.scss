@@ -241,6 +241,10 @@ ul.social {
     background-image: url("/sites/all/modules/stanford_bean_types/images/facebook.png");
   }
   
+  a[href*="instagram.com"] {
+    background-image: url("/sites/all/modules/stanford_bean_types/images/instagram.png");
+  }
+  
   a[href*="feeds"],
   a[href*=".rss"] {
     background-position: 0 -137px;

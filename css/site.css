@@ -935,17 +935,21 @@ ul.social a[href*="facebook.com"] {
   background-image: url("/sites/all/modules/stanford_bean_types/images/facebook.png");
 }
 /* line 244, ../sass/partials/_objects.scss */
+ul.social a[href*="instagram.com"] {
+  background-image: url("/sites/all/modules/stanford_bean_types/images/instagram.png");
+}
+/* line 248, ../sass/partials/_objects.scss */
 ul.social a[href*="feeds"],
 ul.social a[href*=".rss"] {
   background-position: 0 -137px;
 }
 
-/* line 250, ../sass/partials/_objects.scss */
+/* line 254, ../sass/partials/_objects.scss */
 .table td {
   border-width: 0 0 1px 0;
 }
 
-/* line 257, ../sass/partials/_objects.scss */
+/* line 261, ../sass/partials/_objects.scss */
 .byline .field {
   display: inline-block;
   vertical-align: middle;
@@ -955,53 +959,53 @@ ul.social a[href*=".rss"] {
   border-left: 1px solid #585754;
   padding: 0 .5em;
 }
-/* line 262, ../sass/partials/_objects.scss */
+/* line 266, ../sass/partials/_objects.scss */
 .byline .field:first-child {
   border-left: none;
   padding-left: 0;
 }
 
-/* line 268, ../sass/partials/_objects.scss */
+/* line 272, ../sass/partials/_objects.scss */
 .well, .well-dark {
   padding: .5em;
 }
 
-/* line 272, ../sass/partials/_objects.scss */
+/* line 276, ../sass/partials/_objects.scss */
 .well-dark {
   background-color: #000;
   color: #fff;
 }
-/* line 276, ../sass/partials/_objects.scss */
+/* line 280, ../sass/partials/_objects.scss */
 .well-dark h2, .well-dark a {
   color: #fff !important;
 }
-/* line 279, ../sass/partials/_objects.scss */
+/* line 283, ../sass/partials/_objects.scss */
 .well-dark h2 {
   border-color: #fff;
 }
 
-/* line 285, ../sass/partials/_objects.scss */
+/* line 289, ../sass/partials/_objects.scss */
 .view-mode-search_result {
   border-bottom: 1px solid #eeeeee;
   margin-bottom: 1em;
 }
 
-/* line 291, ../sass/partials/_objects.scss */
+/* line 295, ../sass/partials/_objects.scss */
 .dynbgimg {
   overflow: hidden;
   margin-bottom: 2em !important;
   border-radius: 5px;
 }
-/* line 295, ../sass/partials/_objects.scss */
+/* line 299, ../sass/partials/_objects.scss */
 .dynbgimg img {
   max-width: 100%;
 }
 @media screen and (min-width: 1230px) {
-  /* line 291, ../sass/partials/_objects.scss */
+  /* line 295, ../sass/partials/_objects.scss */
   .dynbgimg {
     position: relative;
   }
-  /* line 303, ../sass/partials/_objects.scss */
+  /* line 307, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text {
     background: rgba(0, 0, 0, 0.35);
     border-radius: 5px;
@@ -1013,22 +1017,22 @@ ul.social a[href*=".rss"] {
     font-size: 110%;
     padding: 2em;
   }
-  /* line 313, ../sass/partials/_objects.scss */
+  /* line 317, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text h2 {
     color: #fbfbf9;
     text-transform: uppercase;
     font-size: 130%;
     margin-top: 0;
   }
-  /* line 319, ../sass/partials/_objects.scss */
+  /* line 323, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text ul {
     margin-left: 0;
   }
-  /* line 322, ../sass/partials/_objects.scss */
+  /* line 326, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text li, .dynbgimg .ds-text a {
     color: #fbfbf9;
   }
-  /* line 325, ../sass/partials/_objects.scss */
+  /* line 329, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text a {
     border: 1px solid rgba(255, 255, 255, 0.25);
     border-bottom: none;
@@ -1043,16 +1047,16 @@ ul.social a[href*=".rss"] {
     margin: .25em;
     font-size: 90%;
   }
-  /* line 338, ../sass/partials/_objects.scss */
+  /* line 342, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text a:hover {
     background-color: rgba(0, 0, 0, 0.5);
   }
-  /* line 342, ../sass/partials/_objects.scss */
+  /* line 346, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text li {
     list-style-image: none;
     display: inline;
   }
-  /* line 347, ../sass/partials/_objects.scss */
+  /* line 351, ../sass/partials/_objects.scss */
   .dynbgimg .field-slideshow-controls {
     position: absolute;
     bottom: 0;
