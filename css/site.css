@@ -1291,17 +1291,13 @@ ul.social a[href*=".rss"] {
   /* http://stackoverflow.com/a/14736642/903277 */
 }
 /* line 43, ../sass/partials/_fontawesome.scss */
-.node-video .postcard-left div:first-of-type a,
 .node-video .ds-image a,
-.node-gallery .postcard-left div:first-of-type a,
 .node-gallery .ds-image a {
   display: block;
   position: relative;
 }
-/* line 51, ../sass/partials/_fontawesome.scss */
-.node-video .postcard-left div:first-of-type a:after,
+/* line 50, ../sass/partials/_fontawesome.scss */
 .node-video .ds-image a:after,
-.node-gallery .postcard-left div:first-of-type a:after,
 .node-gallery .ds-image a:after {
   display: block;
   position: absolute;
@@ -1315,22 +1311,20 @@ ul.social a[href*=".rss"] {
   border: 1px solid #fbfbf9;
   border-radius: 5px;
 }
-/* line 66, ../sass/partials/_fontawesome.scss */
+/* line 64, ../sass/partials/_fontawesome.scss */
 .node-video .postcard-left .ds-image a:after,
 .node-gallery .postcard-left .ds-image a:after {
   right: 20px;
   bottom: 20px;
 }
 
-/* line 72, ../sass/partials/_fontawesome.scss */
-.node-video .postcard-left div:first-of-type a:after,
+/* line 70, ../sass/partials/_fontawesome.scss */
 .node-video .ds-image a:after {
   /* play icon */
   content: "\f04b";
 }
 
-/* line 78, ../sass/partials/_fontawesome.scss */
-.node-gallery .postcard-left div:first-of-type a:after,
+/* line 75, ../sass/partials/_fontawesome.scss */
 .node-gallery .ds-image a:after {
   /* camera icon */
   content: "\f030";
