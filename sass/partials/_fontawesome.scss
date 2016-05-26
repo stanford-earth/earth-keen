@@ -40,6 +40,7 @@
 .node-video,
 .node-gallery {
   
+  .postcard-left div:first-of-type a,
   .ds-image a {
         display: block;
         position: relative;
@@ -47,6 +48,7 @@
   
   /* http://stackoverflow.com/a/14736642/903277 */
   
+  .postcard-left div:first-of-type a:after,
   .ds-image a:after {
     display: block;
     position: absolute;
@@ -67,11 +69,13 @@
   }  
 }
 
+.node-video .postcard-left div:first-of-type a:after,
 .node-video .ds-image a:after {
   /* play icon */
   content: "\f04b";
 }
 
+.node-gallery .postcard-left div:first-of-type a:after,
 .node-gallery .ds-image a:after {
   /* camera icon */
   content: "\f030";
