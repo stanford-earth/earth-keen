@@ -1291,14 +1291,14 @@ ul.social a[href*=".rss"] {
   /* http://stackoverflow.com/a/14736642/903277 */
 }
 /* line 43, ../sass/partials/_fontawesome.scss */
-.node-video .ds-image a,
-.node-gallery .ds-image a {
+.node-video div:first-of-type,
+.node-gallery div:first-of-type {
   display: block;
   position: relative;
 }
 /* line 50, ../sass/partials/_fontawesome.scss */
-.node-video .ds-image a:after,
-.node-gallery .ds-image a:after {
+.node-video div:first-of-type:after,
+.node-gallery div:first-of-type:after {
   display: block;
   position: absolute;
   right: 10px;
@@ -1311,21 +1311,15 @@ ul.social a[href*=".rss"] {
   border: 1px solid #fbfbf9;
   border-radius: 5px;
 }
-/* line 64, ../sass/partials/_fontawesome.scss */
-.node-video .postcard-left .ds-image a:after,
-.node-gallery .postcard-left .ds-image a:after {
-  right: 20px;
-  bottom: 20px;
-}
 
-/* line 70, ../sass/partials/_fontawesome.scss */
-.node-video .ds-image a:after {
+/* line 66, ../sass/partials/_fontawesome.scss */
+.node-video div:first-of-type:after {
   /* play icon */
   content: "\f04b";
 }
 
-/* line 75, ../sass/partials/_fontawesome.scss */
-.node-gallery .ds-image a:after {
+/* line 71, ../sass/partials/_fontawesome.scss */
+.node-gallery div:first-of-type:after {
   /* camera icon */
   content: "\f030";
 }

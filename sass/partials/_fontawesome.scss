@@ -36,18 +36,18 @@
   background-color: #ffb878;
 }
 
-//Overlay for news:video images
+//Overlay for media icons
 .node-video,
 .node-gallery {
   
-  .ds-image a {
+  div:first-of-type {
         display: block;
         position: relative;
   }
   
   /* http://stackoverflow.com/a/14736642/903277 */
   
-  .ds-image a:after {
+  div:first-of-type:after {
     display: block;
     position: absolute;
     right: 10px;
@@ -60,19 +60,15 @@
     border: 1px solid $white;
     border-radius: 5px;
   }
-
-  .postcard-left .ds-image a:after {
-    right: 20px;
-    bottom: 20px;
-  }  
+ 
 }
 
-.node-video .ds-image a:after {
+.node-video div:first-of-type:after {
   /* play icon */
   content: "\f04b";
 }
 
-.node-gallery .ds-image a:after {
+.node-gallery div:first-of-type:after {
   /* camera icon */
   content: "\f030";
 }
