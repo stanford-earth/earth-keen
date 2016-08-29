@@ -1016,28 +1016,29 @@ ul.social a[href*=".rss"] {
     border-radius: 5px;
     color: #fbfbf9;
     position: absolute;
-    bottom: 0;
+    bottom: 1em;
+    left: 1em;
     z-index: 10;
     width: 50%;
     font-size: 110%;
     padding: 2em;
   }
-  /* line 317, ../sass/partials/_objects.scss */
+  /* line 318, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text h2 {
     color: #fbfbf9;
     text-transform: uppercase;
     font-size: 130%;
     margin-top: 0;
   }
-  /* line 323, ../sass/partials/_objects.scss */
+  /* line 324, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text ul {
     margin-left: 0;
   }
-  /* line 326, ../sass/partials/_objects.scss */
+  /* line 327, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text li, .dynbgimg .ds-text a {
     color: #fbfbf9;
   }
-  /* line 329, ../sass/partials/_objects.scss */
+  /* line 330, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text a {
     border: 1px solid rgba(255, 255, 255, 0.25);
     border-bottom: none;
@@ -1052,16 +1053,16 @@ ul.social a[href*=".rss"] {
     margin: .25em;
     font-size: 90%;
   }
-  /* line 342, ../sass/partials/_objects.scss */
+  /* line 343, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text a:hover {
     background-color: rgba(0, 0, 0, 0.5);
   }
-  /* line 346, ../sass/partials/_objects.scss */
+  /* line 347, ../sass/partials/_objects.scss */
   .dynbgimg .ds-text li {
     list-style-image: none;
     display: inline;
   }
-  /* line 351, ../sass/partials/_objects.scss */
+  /* line 352, ../sass/partials/_objects.scss */
   .dynbgimg .field-slideshow-controls {
     position: absolute;
     bottom: 0;
