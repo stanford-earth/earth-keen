@@ -206,7 +206,9 @@
 // Columns
 
 .col-2 {
-  @include column-count(2);
+  @media (min-width: 766px) {
+    @include column-count(2);
+  }
 }
 
 
