@@ -203,6 +203,12 @@
   }
 }
 
+// Columns
+
+.col-2 {
+  @include column-count(2);
+}
+
 
 .sectioned-items {
   .view-content > h3 {

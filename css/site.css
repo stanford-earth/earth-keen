@@ -501,39 +501,46 @@ th {
 }
 
 /* line 208, ../sass/partials/_layout.scss */
+.col-2 {
+  -moz-column-count: 2;
+  -webkit-column-count: 2;
+  column-count: 2;
+}
+
+/* line 214, ../sass/partials/_layout.scss */
 .sectioned-items .view-content > h3 {
   float: left;
   width: 25%;
 }
-/* line 212, ../sass/partials/_layout.scss */
+/* line 218, ../sass/partials/_layout.scss */
 .sectioned-items .article {
   clear: none;
   margin: 0 0 1em 25%;
 }
 
-/* line 218, ../sass/partials/_layout.scss */
+/* line 224, ../sass/partials/_layout.scss */
 #main-menu {
   background-color: #f2f1eb;
   box-shadow: 1px 1px 5px #f2f1eb;
 }
 
-/* line 224, ../sass/partials/_layout.scss */
+/* line 230, ../sass/partials/_layout.scss */
 .sidebar .nav {
   margin-bottom: 0;
 }
-/* line 228, ../sass/partials/_layout.scss */
+/* line 234, ../sass/partials/_layout.scss */
 .sidebar .menu li:last-child a {
   border-bottom: 0;
 }
 
-/* line 234, ../sass/partials/_layout.scss */
+/* line 240, ../sass/partials/_layout.scss */
 .navbar {
   margin: 0;
   padding: 5px 0;
 }
 
 @media (min-width: 767px) {
-  /* line 239, ../sass/partials/_layout.scss */
+  /* line 245, ../sass/partials/_layout.scss */
   #block-search-form {
     position: relative;
     top: 65px;
@@ -543,47 +550,47 @@ th {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 249, ../sass/partials/_layout.scss */
+  /* line 255, ../sass/partials/_layout.scss */
   #main-menu {
     margin-bottom: 0;
   }
 
-  /* line 253, ../sass/partials/_layout.scss */
+  /* line 259, ../sass/partials/_layout.scss */
   #block-search-form {
     float: none;
   }
 
-  /* line 257, ../sass/partials/_layout.scss */
+  /* line 263, ../sass/partials/_layout.scss */
   .navbar {
     border-bottom: none;
   }
 }
-/* line 264, ../sass/partials/_layout.scss */
+/* line 270, ../sass/partials/_layout.scss */
 .front .region-content,
 .subsite-front .region-content {
   margin-bottom: 0;
 }
 
 @media (max-width: 640px) {
-  /* line 270, ../sass/partials/_layout.scss */
+  /* line 276, ../sass/partials/_layout.scss */
   #block-search-form {
     position: static;
   }
 
-  /* line 274, ../sass/partials/_layout.scss */
+  /* line 280, ../sass/partials/_layout.scss */
   #block-search-form form {
     position: relative;
   }
 
   /* Views Table */
-  /* line 279, ../sass/partials/_layout.scss */
+  /* line 285, ../sass/partials/_layout.scss */
   table.views-table, table.sticky-header {
     display: block;
     position: relative;
     width: 100%;
   }
 
-  /* line 281, ../sass/partials/_layout.scss */
+  /* line 287, ../sass/partials/_layout.scss */
   table.views-table thead, table.sticky-header thead {
     display: block;
     position: absolute;
@@ -592,12 +599,12 @@ th {
     border-radius: 5px;
   }
 
-  /* line 283, ../sass/partials/_layout.scss */
+  /* line 289, ../sass/partials/_layout.scss */
   table.views-table thead tr, table.sticky-header thead tr {
     display: block;
   }
 
-  /* line 284, ../sass/partials/_layout.scss */
+  /* line 290, ../sass/partials/_layout.scss */
   table.views-table thead th, table.sticky-header thead th {
     display: block;
     padding: 5px;
@@ -605,7 +612,7 @@ th {
     text-transform: none;
   }
 
-  /* line 286, ../sass/partials/_layout.scss */
+  /* line 292, ../sass/partials/_layout.scss */
   table.views-table tbody {
     display: block;
     width: auto;
@@ -613,7 +620,7 @@ th {
     margin: 0 0 0 28%;
   }
 
-  /* line 288, ../sass/partials/_layout.scss */
+  /* line 294, ../sass/partials/_layout.scss */
   table.views-table tbody tr {
     display: block;
     vertical-align: top;
@@ -622,41 +629,41 @@ th {
     border-radius: 5px;
   }
 
-  /* line 290, ../sass/partials/_layout.scss */
+  /* line 296, ../sass/partials/_layout.scss */
   table.views-table tbody tr.odd {
     background: #f2f1eb;
   }
 
-  /* line 291, ../sass/partials/_layout.scss */
+  /* line 297, ../sass/partials/_layout.scss */
   table.views-table tbody tr.even {
     background: #f2f1eb;
   }
 
-  /* line 292, ../sass/partials/_layout.scss */
+  /* line 298, ../sass/partials/_layout.scss */
   table.views-table tbody td {
     display: block;
     padding: 5px;
   }
 
-  /* line 293, ../sass/partials/_layout.scss */
+  /* line 299, ../sass/partials/_layout.scss */
   table.views-table tbody td p {
     margin: 0px;
   }
 }
 @media (min-width: 768px) {
-  /* line 298, ../sass/partials/_layout.scss */
+  /* line 304, ../sass/partials/_layout.scss */
   .degree-programs .box-highlight {
     min-height: 170px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 298, ../sass/partials/_layout.scss */
+  /* line 304, ../sass/partials/_layout.scss */
   .degree-programs .box-highlight {
     min-height: 120px;
   }
 }
 
-/* line 311, ../sass/partials/_layout.scss */
+/* line 317, ../sass/partials/_layout.scss */
 .fullwidth .file-video {
   position: relative;
   padding-bottom: 56.25%;
@@ -664,7 +671,7 @@ th {
   padding-top: 25px;
   height: 0;
 }
-/* line 316, ../sass/partials/_layout.scss */
+/* line 322, ../sass/partials/_layout.scss */
 .fullwidth .file-video iframe {
   position: absolute;
   top: 0;
@@ -674,13 +681,13 @@ th {
 }
 
 @media screen and (max-width: 400px) {
-  /* line 327, ../sass/partials/_layout.scss */
+  /* line 333, ../sass/partials/_layout.scss */
   .postcard-right-wrap > div:first-child, .postcard-right > div:first-child, .postcard-left-wrap > div:first-child, .postcard-left > div:first-child {
     /*float: none;*/
   }
 }
 @media screen and (min-width: 400px) {
-  /* line 327, ../sass/partials/_layout.scss */
+  /* line 333, ../sass/partials/_layout.scss */
   .postcard-right-wrap > div:first-child, .postcard-right > div:first-child, .postcard-left-wrap > div:first-child, .postcard-left > div:first-child {
     /*max-width: 48%;*/
   }
