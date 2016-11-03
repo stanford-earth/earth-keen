@@ -289,6 +289,11 @@ th {
   font-style: italic;
 }
 
+/* line 264, ../sass/partials/_typography.scss */
+.banner-overlay h1 {
+  color: inherit;
+}
+
 /* line 1, ../sass/partials/_layout.scss */
 #global-header a {
   font-size: 13px;
