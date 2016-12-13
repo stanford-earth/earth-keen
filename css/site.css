@@ -210,50 +210,55 @@ a {
 /* ---- Headers ---- */
 /* ---- Lists ---- */
 /* line 167, ../sass/partials/_typography.scss */
+.li {
+  margin-bottom: .5em;
+}
+
+/* line 171, ../sass/partials/_typography.scss */
 .byline {
   border: 1px solid #f2f1eb;
   border-width: 1px 0;
   padding: .25em 0;
   margin: 1em 0;
 }
-/* line 172, ../sass/partials/_typography.scss */
+/* line 176, ../sass/partials/_typography.scss */
 .byline .se-label,
 .byline .author,
 .byline .date {
   margin-right: .25em;
   font-weight: bold;
 }
-/* line 178, ../sass/partials/_typography.scss */
+/* line 182, ../sass/partials/_typography.scss */
 .byline .se-label {
   text-transform: none;
   background-color: none;
 }
-/* line 182, ../sass/partials/_typography.scss */
+/* line 186, ../sass/partials/_typography.scss */
 .byline .author {
   margin-right: 2em;
 }
-/* line 185, ../sass/partials/_typography.scss */
+/* line 189, ../sass/partials/_typography.scss */
 .byline .date {
   font-weight: normal;
 }
 
-/* line 190, ../sass/partials/_typography.scss */
+/* line 194, ../sass/partials/_typography.scss */
 .inline a {
   display: inline-block;
 }
 
-/* line 195, ../sass/partials/_typography.scss */
+/* line 199, ../sass/partials/_typography.scss */
 .stacked a {
   display: block;
   margin-bottom: 1em;
   text-align: left;
 }
-/* line 205, ../sass/partials/_typography.scss */
+/* line 209, ../sass/partials/_typography.scss */
 .stacked li {
   display: inline;
 }
 
-/* line 210, ../sass/partials/_typography.scss */
+/* line 214, ../sass/partials/_typography.scss */
 .stacked-center a {
   text-align: center;
   font-size: 115%;
@@ -261,35 +266,35 @@ a {
   padding: 10px 0 !important;
 }
 
-/* line 219, ../sass/partials/_typography.scss */
+/* line 223, ../sass/partials/_typography.scss */
 .sidebar .menu li a {
   background-color: transparent;
   border-bottom: 1px solid #f2f1eb;
   white-space: wrap;
 }
 
-/* line 237, ../sass/partials/_typography.scss */
+/* line 241, ../sass/partials/_typography.scss */
 .horizontal-tabs ul.horizontal-tabs-list li {
   list-style: none;
 }
 
-/* line 244, ../sass/partials/_typography.scss */
+/* line 248, ../sass/partials/_typography.scss */
 legend {
   color: #8c1515;
 }
 
-/* line 251, ../sass/partials/_typography.scss */
+/* line 255, ../sass/partials/_typography.scss */
 th {
   vertical-align: top;
 }
 
-/* line 256, ../sass/partials/_typography.scss */
+/* line 260, ../sass/partials/_typography.scss */
 .tags a {
   color: #8c1515;
   font-style: italic;
 }
 
-/* line 264, ../sass/partials/_typography.scss */
+/* line 268, ../sass/partials/_typography.scss */
 .banner-overlay h1 {
   color: inherit;
 }
