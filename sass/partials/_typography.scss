@@ -268,3 +268,14 @@ th {
 .banner-overlay h1 {
   color: inherit;
 }
+
+
+// Blockquote
+blockquote {
+  font-size: 16px;
+  font-weight: 300;
+  p {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+}
