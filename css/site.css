@@ -310,6 +310,11 @@ blockquote p {
   font-weight: normal;
 }
 
+/* line 284, ../sass/partials/_typography.scss */
+.view-mode-user_card .field {
+  margin-bottom: 0;
+}
+
 /* line 1, ../sass/partials/_layout.scss */
 #global-header a {
   font-size: 13px;
