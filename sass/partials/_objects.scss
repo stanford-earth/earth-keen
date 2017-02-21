@@ -49,6 +49,15 @@
   }
 }
 
+.box-card {
+  @extend .box;
+
+  .views-row {
+    box-shadow: 0 0 3px #666;
+    text-align: center; 
+  }
+}
+
 // Figure box
 
 .figure {
