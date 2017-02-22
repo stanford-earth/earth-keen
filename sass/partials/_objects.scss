@@ -51,8 +51,9 @@
 
 .box-card {
   @extend .box;
-  box-shadow: 0 0 3px #666;
+  box-shadow: 0 0 3px #CCC;
   text-align: center; 
+  border-radius: 5px;
 }
 
 // Figure box
