@@ -779,7 +779,7 @@ blockquote p {
 
 /* line 52, ../sass/partials/_objects.scss */
 .box-card {
-  box-shadow: 0 0 3px #CCC;
+  box-shadow: 0 0 3px #666;
   text-align: center;
   border-radius: 5px;
 }
