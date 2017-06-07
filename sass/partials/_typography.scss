@@ -281,6 +281,7 @@ blockquote {
 }
 
 // User Card
-.content-body .view-mode-user_card .field {
+.content-body .view-mode-user_card .field,
+.content-body .view-mode-user_card_no_photo_ .field {
   margin-bottom: 0;
 }
