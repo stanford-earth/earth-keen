@@ -483,7 +483,7 @@ blockquote p {
 }
 /* line 119, ../sass/partials/_layout.scss */
 .grid .views-row, .grid-2 .views-row, .grid-3 .views-row, .grid-4 .views-row {
-  min-width: 320px;
+  /*min-width: 320px;*/
 }
 /* line 123, ../sass/partials/_layout.scss */
 .grid .pager, .grid-2 .pager, .grid-3 .pager, .grid-4 .pager {
